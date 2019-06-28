@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="demo_suite1">
+    <listeners>
+        <listener class-name="com.platfrom.test001.TestCase.BossTestListener" />
+    </listeners>
+    <test name="test">
+        <classes>
+            <class name="com.platfrom.test001.TestCase.TestProduct"></class>
+            <class name="com.platfrom.test001.TestCase.TestStudent"></class>
+            <class name="com.platfrom.test001.TestCase.TestCustomer"></class>
+            <class name="com.platfrom.test001.TestCase.TestCont"></class>
+            <class name="com.platfrom.test001.TestCase.TestOnetoOneClasses"></class>
+
+        </classes>
+    </test>
+</suite>
