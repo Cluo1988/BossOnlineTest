@@ -40,7 +40,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <!--<testFailureIgnore>true</testFailureIgnore>-->
-                    <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <argLine>-Dfile.encoding=utf-8</argLine>
                     <suiteXmlFiles>
                         <suiteXmlFile>testng_demo001.xml</suiteXmlFile>
                     </suiteXmlFiles>
