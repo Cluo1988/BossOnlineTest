@@ -20,6 +20,10 @@ public class Student {
     @FindBy(xpath = "/html[1]/body[1]/div[6]/div[1]/section[2]/div[2]/div[1]/div[3]/div[3]/div[1]/table[1]/tbody[1]/tr[2]/td[1]")
     public static WebElement student_List;
 
+    //学员-学员列表-名字输入框
+    @FindBy(xpath = "//input[@id='name']")
+    public static WebElement studentName;
+
     //学员-学员列表-查询按钮
     @FindBy(xpath = "//button[@id='searchbtn']")
     public static WebElement student_search;
@@ -73,6 +77,10 @@ public class Student {
     @FindBy(id ="appointmentDateSubmit")
     public static WebElement student_save;
 
+    //学员-学员列表-编辑页面-保存-继续保存按钮
+    @FindBy(xpath ="//button[@id='submitBtn']")
+    public static WebElement studentSaveAgain;
+
 
 
 
@@ -90,12 +98,17 @@ public class Student {
      * driver.findElement(By.id("latestCustomerContact")).sendKeys("13411164100");
      * driver.findElement(By.id("appointmentDateSubmit")).click();
      */
-    public void modificationStudent(String studentname, String studentphone, String studentgrade, String studentstatus, String studentcustomerphone) {
+    public void modificationStudent(String StudentName,String studentname, String studentphone, String studentgrade, String studentstatus, String studentcustomerphone) {
+        ClassAll.sleep(5000);
+        studentName.sendKeys(StudentName);
+        ClassAll.sleep(5000);
+        student_search.click();
         ClassAll.sleep(5000);
         student_edit.click();
         ClassAll.sleep(5000);
         student_name.clear();
         student_name.sendKeys(studentname);
+        ClassAll.sleep(5000);
         student_phone.clear();
         student_phone.sendKeys(studentphone);
         student_grade.sendKeys(studentgrade);
@@ -103,6 +116,9 @@ public class Student {
         student_customerphone.clear();
         student_customerphone.sendKeys(studentcustomerphone);
         student_save.click();
+        ClassAll.sleep(5000);
+        studentSaveAgain.click();
+
     }
 
     /*封装方法

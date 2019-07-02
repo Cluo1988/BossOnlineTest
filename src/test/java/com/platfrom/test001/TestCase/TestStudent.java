@@ -45,7 +45,7 @@ public class TestStudent {
         ClassAll.sleep(5000);
         //修改学员信息
         Student student = new Student(driver);
-        student.modificationStudent("test619001","13411164100","二年级","上课中","13411164100");
+        student.modificationStudent("test624001","test624001","13411164100","二年级","上课中","13411164100");
         System.out.println("学员修改完成");
         ClassAll.sleep(5000);
         //查询学员
@@ -53,8 +53,10 @@ public class TestStudent {
         System.out.println("学员查询完成");
         ClassAll.sleep(10000);
         //删除学员
-        student.deleteStudent("测试");
-        System.out.println("学员删除完成");
+        //student.deleteStudent("测试");
+        //System.out.println("学员删除完成");
+        //ClassAll.sleep(5000);
+
         driver.close();
 
     }

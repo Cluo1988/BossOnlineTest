@@ -43,7 +43,7 @@ public class TestCont {
         ClassAll.sleep(5000);
         Cont cont = new Cont(driver);
         //新增合同页面
-        cont.addCont("伯纳乌","1903080011","13411164100","六年级","伯纳乌","短息","地推电话","自动化","伯纳乌","10000","22231");
+        cont.addCont("伯纳乌","test624001","13411164100","六年级","伯纳乌","短息","地推电话","自动化","伯纳乌","10000","22231");
         System.out.println("合同新增完成");
         driver.close();
     }
