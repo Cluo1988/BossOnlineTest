@@ -42,44 +42,22 @@ public class TestClass {
         ClassAll.sleep(5000);
         Class Class = new Class(driver);
         //新增班课（新增了班级并且排了一节6月24号的课）
-        //Class.addClass("自动化","50");
-        //System.out.println("新增班完成");
-        //ClassAll.sleep(5000);
+        Class.addClass("自动化","50");
+        System.out.println("新增班完成");
+        ClassAll.sleep(5000);
         //学员进班
-        //Class.addClassStudent("test619001");
+        Class.addClassStudent("test619001");
         ClassAll.sleep(5000);
-
-        //班课管理查询缩小范围，校区和班课名称搜索
-        driver.findElement(By.xpath("//select[@id='blCampusEl']//option[contains(text(),'伯纳乌')]")).click();
-        driver.findElement(By.id("search-mini-class-name")).clear();
-        driver.findElement(By.id("search-mini-class-name")).sendKeys("自动化");
-        ClassAll.sleep(5000);
-        driver.findElement(By.id("searchbtn")).click();
-        ClassAll.sleep(5000);
-        //点击考勤按钮
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='报名'])[2]/following::button[1]")).click();
-        ClassAll.sleep(5000);
-        //点击未考勤页面元素，触发考勤弹框
-        driver.findElement(By.xpath("//td[contains(text(),'未考勤')]")).click();
-        //点击考勤按钮
-        driver.findElement(By.id("miniClassAttendanceBtn")).click();
-        ClassAll.sleep(5000);
-        //勾选班课排课
-        driver.findElement(By.xpath("//input[@id='cb_jqgrid-attd']")).click();
-        //点击班主任扣费按钮
-        driver.findElement(By.id("minicourse-submit-charge")).click();
-        ClassAll.sleep(5000);
-        //点击扣费确认按钮
-        driver.findElement(By.id("confirm-yes")).click();
-        System.out.println("班课排课完成");
+        //班课管理页面的班课考勤扣费
+        Class.classConsume("自动化");
+        System.out.println("班课考勤扣费完成");
         ClassAll.sleep(5000);
         //跳出iframe框
         driver.switchTo().defaultContent();
         ClassAll.sleep(5000);
-        //关闭班课切页
+        //关闭班课管理切页
         driver.findElement(By.xpath("//a[contains(@class,'tabs-close fa fa-remove')]")).click();
         ClassAll.sleep(5000);
-        //取消班课考勤
         //点击教务按钮
         homePage.education.click();
         ClassAll.sleep(5000);
@@ -89,38 +67,45 @@ public class TestClass {
         WebElement iframe1 = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
         driver.switchTo().frame(iframe1);
         ClassAll.sleep(5000);
-        //点击日期框
-        driver.findElement(By.id("date_range")).click();
-        //去掉日期范围
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[1]/following::input[1]")).click();
-        //输入班课名称确认范围
-        driver.findElement(By.id("miniClassName")).sendKeys("自动化");
-        //点击查询按钮
-        driver.findElement(By.id("searchBtn")).click();
+        //取消班课考勤扣费
+        Class.cancelClass("自动化");
+        System.out.println("取消班课考勤扣费完成");
         ClassAll.sleep(5000);
-        //选择课程扣费切页
-        driver.findElement(By.id("classTeacherDeduction")).click();
+        //跳出iframe框
+        driver.switchTo().defaultContent();
+        //关闭班课考勤切页
+        driver.findElement(By.xpath("//a[contains(@class,'tabs-close fa fa-remove')]")).click();
         ClassAll.sleep(5000);
-        //勾选已扣费勾选框
-        driver.findElement(By.id("showChargedMcCourses")).click();
-        //去掉待扣费勾选框
-        driver.findElement(By.id("showUnchargedMcCourses")).click();
+        //点击教务按钮
+        homePage.education.click();
         ClassAll.sleep(5000);
-        //点击取消扣费按钮
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='无'])[1]/following::button[1]")).click();
+        //点击教务-班课管理按钮
+        homePage.classes.click();
         ClassAll.sleep(5000);
-        //选择已扣费课程
-        driver.findElement(By.xpath("//input[@id='cb_jqgrid-attd']")).click();
-        //点击取消扣费按钮
-        driver.findElement(By.id("minicourse-submit-roll")).click();
+        //iframe页面跳转
+        WebElement iframe2 = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
+        driver.switchTo().frame(iframe2);
         ClassAll.sleep(5000);
-        //取消扣费确认按钮
-        driver.findElement(By.id("confirm-yes")).click();
-        //关闭取消扣费弹框
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[1]/following::button[1]")).click();
+        //班课管理页面学员退班
+        Class.studentQuitClass("自动化");
+        System.out.println("学员退班成功");
+        ClassAll.sleep(5000);
+        //删除班课
+        //点击详情按钮
+        Class.classParticular.click();
+        ClassAll.sleep(5000);
+        //跳出iframe框
+        driver.switchTo().defaultContent();
+        ClassAll.sleep(5000);
+        //跳转进入班课详情切页
+        //iframe页面跳转
+        WebElement iframe3 = driver.findElement(By.xpath("//div[3]//div[1]//iframe[1]"));
+        driver.switchTo().frame(iframe3);
+        ClassAll.sleep(5000);
+        Class.deleteClass();
+        System.out.println("班课删除成功");
+        driver.close();
 
-
-        //重置班课考勤
 
     }
 }

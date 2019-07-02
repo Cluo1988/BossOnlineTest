@@ -64,6 +64,8 @@ public  class HomePage {
 	@FindBy(xpath="//a[contains(text(),'班课考勤')]")
 	public static WebElement classAttendClass;
 
+
+
 	//首页-设置按钮
 	@FindBy(xpath="//a[@title='设置']")
 	public static WebElement options;

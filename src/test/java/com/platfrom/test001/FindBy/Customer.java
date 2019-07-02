@@ -111,11 +111,7 @@ public class Customer {
 
    /* 封装方法
     修改客户
-    @param customer_name
-    @param phone
-    @param Source_type
-    @param Source*/
-   /*driver.findElement(By.xpath("/html[1]/body[1]/div[6]/section[2]/div[2]/div[1]/div[3]/div[3]/div[1]/table[1]/tbody[1]/tr[2]/td[32]/a[1]")).click();
+    driver.findElement(By.xpath("/html[1]/body[1]/div[6]/section[2]/div[2]/div[1]/div[3]/div[3]/div[1]/table[1]/tbody[1]/tr[2]/td[32]/a[1]")).click();
      driver.findElement(By.linkText("编辑")).click();
      driver.findElement(By.name("name")).clear();
      driver.findElement(By.name("name")).sendKeys("test1");

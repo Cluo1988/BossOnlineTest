@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -17,26 +18,36 @@ public class Class {
         PageFactory.initElements(driver, this);
     }
 
-    //前台-教务-班课管理-新建班课
+    //班课管理搜索范围-输入校区
+    @FindBy(xpath = "//select[@id='blCampusEl']//option[contains(text(),'伯纳乌')]")
+    public static WebElement classSchool;
+    //班课管理搜索范围-班课名称
+    @FindBy(id = "search-mini-class-name")
+    public static WebElement className;
+    //教务-班课管理-查询按钮
+    @FindBy(id = "searchbtn")
+    public static WebElement classSearch;
+
+    //教务-班课管理-新建班课
     @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='报名'])[1]/following::button[1]")
     public static WebElement newClass;
 
-    //前台-教务-班课管理-新建班课-手动开班
+    //教务-班课管理-新建班课-手动开班
     @FindBy(linkText = "手动开班")
     public static WebElement newClassHand;
 
-    //前台-教务-班课管理-新建班课-手动开班-选择校区
+    //教务-班课管理-新建班课-手动开班-选择校区
     @FindBy(xpath = "//select[@id='campusEl']//option[contains(text(),'伯纳乌')]")
     public static WebElement newClassSchool;
-    //前台-教务-班课管理-新建班课-手动开班-选择校区-确认
+    //教务-班课管理-新建班课-手动开班-选择校区-确认
     @FindBy(xpath = "//button[@class='btn btn-primary submit']")
     public static WebElement newClassSchoolSave;
 
-    //前台-教务-班课管理-新建班课-选择课程按钮
+    //教务-班课管理-新建班课-选择课程按钮
     @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='+ 新建课程'])[1]/following::div[2]")
     public static WebElement newClassbtn;
 
-    //前台-教务-班课管理-新建班课-选择课程-选择班课产品
+    //教务-班课管理-新建班课-选择课程-选择班课产品
     //搜索框输入
     @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='选择关联的班课产品'])[1]/following::input[1]")
     public static WebElement newClassProductSearch;
@@ -44,7 +55,7 @@ public class Class {
     @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='冬季'])[4]/following::a[1]")
     public static WebElement newClassProductSelect;
 
-    //前台-教务-班课管理-新建班课-班课基本信息
+    //教务-班课管理-新建班课-班课基本信息
     //选择班课档期（2019年）
     @FindBy(xpath = "//select[@id='miniClassSchedule']//option[contains(text(),'2019年暑假')]")
     public static WebElement newClassSchedule;
@@ -98,54 +109,142 @@ public class Class {
     //点击上课时间选择框-分钟
     @FindBy(xpath = "//div[@class='clockpicker-tick'][contains(text(),'05')]")
     public static WebElement newClassOpenTimeMinute;
-    //前台-教务-班课管理-新建班课-保存
+    //教务-班课管理-新建班课-保存
     @FindBy(id = "appointmentDateSubmit")
     public static WebElement newClassSave;
 
 
     //学员进班
-    //前台-教务-班课管理-点击第一行数据的更多
+    //教务-班课管理-点击第一行数据的更多
     @FindBy(xpath = "//tr[@id='1']//button[@id='showMoreOption']")
     public static WebElement newClassMore;
-    //前台-教务-班课管理-更多-成员
+    //教务-班课管理-更多-成员
     @FindBy(linkText = "成员")
     public static WebElement newClassMoreStudent;
 
-    //前台-教务-班课管理-更多-成员-输入搜索学员名字
+    //教务-班课管理-更多-成员-输入搜索学员名字
     @FindBy(id = "studentName")
     public static WebElement newClassMoreStudentName;
 
-    //前台-教务-班课管理-更多-成员-点击查询
+    //教务-班课管理-更多-成员-点击查询
     @FindBy(id = "searchBtn")
     public static WebElement newClassMoreStudentSearchBtn;
 
-    //前台-教务-班课管理-更多-成员-点击报班按钮
+    //教务-班课管理-更多-成员-点击报班按钮
     @FindBy(xpath = "//tr[@id='1']//a[@class='link addStudent enableRes'][contains(text(),'报班')]")
     public static WebElement newClassMoreStudentInto;
 
-    //前台-教务-班课管理-更多-成员-点击报班-点击第一次上课时间
+    //教务-班课管理-更多-成员-点击报班-点击第一次上课时间
     @FindBy(id = "firstSchoolTime")
     public static WebElement newClassMoreStudentFirstTimeClick;
-    //前台-教务-班课管理-更多-成员-点击报班-第一次上课时间-年2019
+    //教务-班课管理-更多-成员-点击报班-第一次上课时间-年2019
     @FindBy(xpath = "//select[contains(@class,'ui-datepicker-year')]//option[contains(text(),'2019')]")
     public static WebElement newClassMoreStudentFirstTimeClickYear;
-    //前台-教务-班课管理-更多-成员-点击报班-第一次上课时间-月6
+    //教务-班课管理-更多-成员-点击报班-第一次上课时间-月6
     @FindBy(xpath = "//select[contains(@class,'ui-datepicker-month')]//option[contains(text(),'六')]")
     public static WebElement newClassMoreStudentFirstTimeClickMonth;
-    //前台-教务-班课管理-更多-成员-点击报班-第一次上课时间-日24
+    //教务-班课管理-更多-成员-点击报班-第一次上课时间-日24
     @FindBy(xpath = "//div[@id='ui-datepicker-div']//tr[5]//td[1]")
     public static WebElement newClassMoreStudentFirstTimeClickDay;
 
-    //前台-教务-班课管理-更多-成员-点击报班-第一次上课时间-保存
+    //教务-班课管理-更多-成员-点击报班-第一次上课时间-保存
     @FindBy(xpath = "//button[@class='btn btn-primary submit']")
     public static WebElement newClassMoreStudentFirstTimeSave;
 
 
 
-/*//学员进班
 
-        driver.findElement(By.xpath("//button[@class='btn btn-primary submit']")).click();*/
+    //教务-班课管理-更多-成员-退班按钮
+    @FindBy(linkText = "退班")
+    public static WebElement newClassMoreStudentQuitClass;
+    //教务-班课管理-更多-成员-退班-确认按钮
+    @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='取消'])[3]/following::button[1]")
+    public static WebElement newClassMoreStudentQuitClassSave;
+    //教务-班课管理-更多-成员页面-关闭页面
+    @FindBy(xpath = "//div[@id='remoteModalminiClassStudentSignupModal']//button[@class='close'][contains(text(),'×')]")
+    public static WebElement newClassMoreStudentClose;
 
+
+
+    //教务-班课管理-班课考勤扣费
+    //教务-班课管理-第一个考勤按钮
+    @FindBy(xpath = "//tr[@id='1']//button[@class='btn btn-xs btn-default miniClassAttendance enableRes'][contains(text(),'考勤')]")
+    public static WebElement classKaoqin;
+
+    //教务-班课管理-考勤-点击未考勤页面元素，触发考勤弹框
+    @FindBy(xpath = "//td[contains(text(),'未考勤')]")
+    public static WebElement classKaoqintRigger;
+    //教务-班课管理-考勤-点击未考勤页面元素，触发考勤弹框
+    @FindBy(id = "miniClassAttendanceBtn")
+    public static WebElement classClickKaoqin;
+
+    //教务-班课管理-考勤考勤扣费页面-班课全选按钮
+    @FindBy(xpath = "//input[@id='cb_jqgrid-attd']")
+    public static WebElement classKaoqinPageAllSelect;
+    //教务-班课管理-考勤考勤扣费页面-班主任扣费按钮
+    @FindBy(id = "minicourse-submit-charge")
+    public static WebElement classKaoqinPageConsumebtn;
+    //教务-班课管理-考勤考勤扣费页面-班主任扣费-确认按钮
+    @FindBy(id = "confirm-yes")
+    public static WebElement classKaoqinPageSave;
+
+
+    //删除班课
+    //教务-班课管理-详情按钮
+    @FindBy(xpath = "//tr[@id='1']//button[@class='btn btn-xs btn-default miniClassDetailModal enableRes'][contains(text(),'详情')]")
+    public static WebElement classParticular;
+
+    //教务-班课管理-详情-删除此班按钮
+    @FindBy(linkText = "删除此班")
+    public static WebElement classParticularQuitClass;
+    //教务-班课管理-详情-删除此班-确认删除按钮
+    @FindBy(id = "confirm-yes")
+    public static WebElement classParticularQuitClassSave;
+
+
+
+    //教务-班课考勤-取消班课考勤扣费
+    //教务-班课考勤-查询-日期输入框
+    @FindBy(id = "date_range")
+    public static WebElement classData;
+    //教务-班课考勤-查询-日期清空按钮
+    @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[1]/following::input[1]")
+    public static WebElement classDataClear;
+    //教务-班课考勤-查询-班课名称
+    @FindBy(id = "miniClassName")
+    public static WebElement className1;
+    //教务-班课考勤-查询-查询按钮
+    @FindBy(id = "searchBtn")
+    public static WebElement classSearchBtn;
+
+    //教务-班课考勤-课程扣费切页
+    @FindBy(id = "classTeacherDeduction")
+    public static WebElement classTeacherDeduction;
+
+    //教务-班课考勤-已扣费勾选框
+    @FindBy(id = "showChargedMcCourses")
+    public static WebElement classShowChargedMcCourses;
+
+    //教务-班课考勤-待扣费勾选框
+    @FindBy(id = "showUnchargedMcCourses")
+    public static WebElement classShowUnchargedMcCourses;
+
+    //教务-班课考勤-取消扣费按钮
+    @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='无'])[1]/following::button[1]")
+    public static WebElement classCancel;
+
+    //教务-班课考勤-取消扣费切页-全选按钮
+    @FindBy(xpath = "//input[@id='cb_jqgrid-attd']")
+    public static WebElement classCancelAllSelect;
+    //教务-班课考勤-取消扣费切页-取消扣费按钮
+    @FindBy(id = "minicourse-submit-roll")
+    public static WebElement classCancelBtn;
+    //教务-班课考勤-取消扣费切页-取消扣费确认按钮
+    @FindBy(id = "confirm-yes")
+    public static WebElement classCancelSaveBtn;
+    //教务-班课考勤-取消扣费切页-关闭取消扣费切页按钮
+    @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[1]/following::button[1]")
+    public static WebElement classCancelCloseBtn;
 
 
     /*//新建班课
@@ -227,6 +326,7 @@ public class Class {
         newClassOpenDatabtn.click();
         newClassOpenDataBegin.click();
         newClassOpenDataEnd.click();
+        ClassAll.sleep(5000);
         newClassOpenTimebtn.click();
         ClassAll.sleep(5000);
         newClassOpenTimeHour.click();
@@ -268,6 +368,147 @@ public class Class {
         newClassMoreStudentFirstTimeClickDay.click();
         ClassAll.sleep(5000);
         newClassMoreStudentFirstTimeSave.click();
+        ClassAll.sleep(5000);
+        newClassMoreStudentClose.click();
+
 
     }
+
+
+    /*//班课管理查询缩小范围，校区和班课名称搜索
+        driver.findElement(By.xpath("//select[@id='blCampusEl']//option[contains(text(),'伯纳乌')]")).click();
+        driver.findElement(By.id("search-mini-class-name")).clear();
+        driver.findElement(By.id("search-mini-class-name")).sendKeys("自动化");
+        ClassAll.sleep(5000);
+        driver.findElement(By.id("searchbtn")).click();
+        ClassAll.sleep(5000);
+        //点击考勤按钮
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='报名'])[2]/following::button[1]")).click();
+        ClassAll.sleep(5000);
+        //点击未考勤页面元素，触发考勤弹框
+        driver.findElement(By.xpath("//td[contains(text(),'未考勤')]")).click();
+        //点击考勤按钮
+        driver.findElement(By.id("miniClassAttendanceBtn")).click();
+        ClassAll.sleep(5000);
+        //勾选班课排课
+        driver.findElement(By.xpath("//input[@id='cb_jqgrid-attd']")).click();
+        //点击班主任扣费按钮
+        driver.findElement(By.id("minicourse-submit-charge")).click();
+        ClassAll.sleep(5000);
+        //点击扣费确认按钮
+        driver.findElement(By.id("confirm-yes")).click();*/
+    //班课管理页面的班课考勤扣费
+    public void classConsume(String ClassName){
+        classSchool.click();
+        className.clear();
+        className.sendKeys(ClassName);
+        ClassAll.sleep(5000);
+        classSearch.click();
+        ClassAll.sleep(5000);
+        classKaoqin.click();
+        ClassAll.sleep(5000);
+        classKaoqintRigger.click();
+        classClickKaoqin.click();
+        ClassAll.sleep(5000);
+        classKaoqinPageAllSelect.click();
+        classKaoqinPageConsumebtn.click();
+        ClassAll.sleep(5000);
+        classKaoqinPageSave.click();
+
+    }
+
+
+    /*//取消班课考勤扣费
+        //点击日期框
+        driver.findElement(By.id("date_range")).click();
+        //去掉日期范围
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[1]/following::input[1]")).click();
+        //输入班课名称确认范围
+        driver.findElement(By.id("miniClassName")).sendKeys("自动化");
+        //点击查询按钮
+        driver.findElement(By.id("searchBtn")).click();
+        ClassAll.sleep(5000);
+        //选择课程扣费切页
+        driver.findElement(By.id("classTeacherDeduction")).click();
+        ClassAll.sleep(5000);
+        //勾选已扣费勾选框
+        driver.findElement(By.id("showChargedMcCourses")).click();
+        //去掉待扣费勾选框
+        driver.findElement(By.id("showUnchargedMcCourses")).click();
+        ClassAll.sleep(5000);
+        //点击取消扣费按钮
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='无'])[1]/following::button[1]")).click();
+        ClassAll.sleep(5000);
+        //选择已扣费课程
+        driver.findElement(By.xpath("//input[@id='cb_jqgrid-attd']")).click();
+        //点击取消扣费按钮
+        driver.findElement(By.id("minicourse-submit-roll")).click();
+        ClassAll.sleep(5000);
+        //取消扣费确认按钮
+        driver.findElement(By.id("confirm-yes")).click();
+        //关闭取消扣费弹框
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[1]/following::button[1]")).click();*/
+    public void cancelClass(String ClassName1){
+        classData.click();
+        classDataClear.click();
+        className1.sendKeys(ClassName1);
+        classSearchBtn.click();
+        ClassAll.sleep(5000);
+        classTeacherDeduction.click();
+        ClassAll.sleep(5000);
+        classShowChargedMcCourses.click();
+        ClassAll.sleep(5000);
+        classShowUnchargedMcCourses.click();
+        ClassAll.sleep(5000);
+        classCancel.click();
+        ClassAll.sleep(5000);
+        classCancelAllSelect.click();
+        classCancelBtn.click();
+        ClassAll.sleep(5000);
+        classCancelSaveBtn.click();
+        ClassAll.sleep(5000);
+        classCancelCloseBtn.click();
+
+    }
+
+
+    /*//班课管理页面学员退班
+        driver.findElement(By.id("search-mini-class-name")).sendKeys("自动化");
+        driver.findElement(By.id("searchbtn")).click();
+        ClassAll.sleep(5000);
+        driver.findElement(By.linkText("成员")).click();
+        ClassAll.sleep(5000);
+        driver.findElement(By.linkText("退班")).click();
+        ClassAll.sleep(5000);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='取消'])[3]/following::button[1]")).click();
+        ClassAll.sleep(5000);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[2]/following::button[1]")).click();*/
+    public void studentQuitClass(String ClassName){
+        className.sendKeys(ClassName);
+        classSearch.click();
+        ClassAll.sleep(5000);
+        newClassMore.click();
+        ClassAll.sleep(5000);
+        newClassMoreStudent.click();
+        ClassAll.sleep(5000);
+        newClassMoreStudentQuitClass.click();
+        ClassAll.sleep(5000);
+        newClassMoreStudentQuitClassSave.click();
+        ClassAll.sleep(5000);
+        newClassMoreStudentClose.click();
+
+    }
+
+
+    //删除班课
+    /*ClassAll.sleep(5000);
+      driver.findElement(By.linkText("删除此班")).click();
+      ClassAll.sleep(5000);
+      driver.findElement(By.id("confirm-yes")).click();*/
+    public void deleteClass(){
+        classParticularQuitClass.click();
+        ClassAll.sleep(5000);
+        classParticularQuitClassSave.click();
+    }
+
 }

@@ -150,6 +150,20 @@ public class Cont {
      *         ClassAll.sleep(5000);
      *         driver.findElement(By.xpath("//button[@class='close']")).click();
      */
+    /**
+     *
+     * @param Selectcampus
+     * @param Studentname
+     * @param Phone
+     * @param StudentClass
+     * @param Campus
+     * @param CusOrg
+     * @param CusType
+     * @param productClik
+     * @param Receiptampus
+     * @param Receiptamount
+     * @param Receiptnumber
+     */
     public void addCont(String Selectcampus, String Studentname, String Phone, String StudentClass, String Campus, String CusOrg, String CusType,String productClik, String Receiptampus, String Receiptamount, String Receiptnumber) {
         ClassAll.sleep(5000);
         selectcampus.sendKeys(Selectcampus);
