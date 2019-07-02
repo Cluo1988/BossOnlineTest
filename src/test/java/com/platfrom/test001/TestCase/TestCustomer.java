@@ -41,13 +41,13 @@ public class TestCustomer {
         ClassAll.sleep(5000);
         //点击招生-客户管理-登记客户按钮
         Customer customer = new Customer(driver);
-        Customer.customer_add.click();
+        customer.customer_add.click();
         //输入登记客户页面必填项参数，并且点击保存
-        customer.addCustomer("test619001", "13411164100", "短息", "来电咨询");
+        customer.addCustomer("test601001", "13411164100", "短息", "来电咨询");
         System.out.println("客户新增完成");
         ClassAll.sleep(5000);
         //修改客户信息
-        customer.modificationCustomer("test619002","13411164111","学生转介绍","地推电话");
+        customer.modificationCustomer("test601002","13411164111","学生转介绍","地推电话");
         System.out.println("客户修改完成");
         ClassAll.sleep(5000);
         //查询客户列表

@@ -102,7 +102,9 @@ public class Customer {
     public void addCustomer(String cusname, String cuscontact, String Soutype, String source) {
 
         customer_name.sendKeys(cusname);
+        ClassAll.sleep(5000);
         customer_contact.sendKeys(cuscontact);
+        ClassAll.sleep(5000);
         Source_type.sendKeys(Soutype);
         sources.sendKeys(source);
         submitCustomerBtn.click();

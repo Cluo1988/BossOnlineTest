@@ -42,7 +42,7 @@ public class TestOnetoOneClasses {
         ClassAll.sleep(5000);
         OnetoOneClasses onetooneClasses = new OnetoOneClasses(driver);
         //新增一对一排课
-        onetooneClasses.addonetoOneClasses("伯纳乌","test619001","英语","1","5");
+        onetooneClasses.addonetoOneClasses("伯纳乌","test601001","英语","1","5");
         System.out.println("一对一排课完成");
         //跳出iframe框
         driver.switchTo().defaultContent();

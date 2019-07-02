@@ -33,29 +33,37 @@ public class OnetoOneClasses {
     @FindBy(xpath = "/html[1]/body[1]/ul[1]/li[1]")
     public static WebElement oneClassesSlectstuName;
 
+    //教务-一对一排课-学员选择学管师
+    @FindBy(xpath = "//option[contains(text(),'二狗子')]")
+    public static WebElement oneClassesTeather;
+
+    //教务-一对一排课-学员选择学管师-确认按钮
+    @FindBy(xpath = "//button[@class='btn btn-primary submit']")
+    public static WebElement oneClassesTeatherSave;
+
     //教务-一对一排课-选择科目
     @FindBy(xpath = "//select[@name='subject']")
     public static WebElement oneClassesSubject;
 
     //教务-一对一排课-点击激活日期控件
-    //日期选择框,日期选择框是两个矩阵，本月定位永远是month1，下月定位永远是month2，再通过tr（X轴），td（Y轴）来定位具体日，目前选择的是6月24日
+    //日期选择框,日期选择框是两个矩阵，本月定位永远是month1，下月定位永远是month2，再通过tr（X轴），td（Y轴）来定位具体日，目前选择的是本月1日
     @FindBy(xpath = "//span[@class='form-control date_range_input date_range curcor-pointer']")
     public static WebElement oneClassesDate;
 
     //教务-一对一排课-选择日期开始时间
-    @FindBy(xpath = "//table[contains(@class,'month1')]//tr[5]//td[1]")
+    @FindBy(xpath = "//table[contains(@class,'month1')]//tr[1]//td[1]")
     public static WebElement oneClassesDateBegin;
 
     //教务-一对一排课-选择日期结束时间
-    @FindBy(xpath = "//table[contains(@class,'month1')]//tr[5]//td[1]")
+    @FindBy(xpath = "//table[contains(@class,'month1')]//tr[1]//td[1]")
     public static WebElement oneClassesDateEnd;
 
-    //教务-一对一排课-选择上课星期，要根据你选的时间段来修改结果，例如你日期段选择的是6月24到6月25，但是你这里勾选星期四，则会报错，24和25号是星期一和星期二
+    //教务-一对一排课-选择上课星期，选择第一个数据
     //点击激活星期控件
     @FindBy(xpath = "//b[contains(@class,'caret')]")
     public static WebElement oneClassesWeek;
     //选择具体星期几
-    @FindBy(xpath = "//label[contains(text(),'星期一')]")
+    @FindBy(xpath = "/html[1]/body[1]/div[6]/div[1]/div[2]/div[2]/div[2]/table[1]/tbody[1]/tr[1]/td[6]/div[1]/div[1]/ul[1]/li[7]/a[1]/label[1]/input[1]")
     public static WebElement oneClassesWeekNumber;
 
     //教务-一对一排课-点击选择老师按钮，弹出选择老师页面
@@ -105,10 +113,10 @@ public class OnetoOneClasses {
     @FindBy(id = "date_range")
     public static WebElement oneClassesUseData;
     //选择开始时间
-    @FindBy(xpath = "//table[contains(@class,'month1')]//tr[5]//td[1]")
+    @FindBy(xpath = "//table[contains(@class,'month1')]//tr[1]//td[1]")
     public static WebElement oneClassesUseDataBegin;
     //选择结束时间
-    @FindBy(xpath = "//table[contains(@class,'month1')]//tr[5]//td[1]")
+    @FindBy(xpath = "//table[contains(@class,'month1')]//tr[1]//td[1]")
     public static WebElement oneClassesUseDataEnd;
 
     //一对一考勤-查询按钮
@@ -329,6 +337,10 @@ public class OnetoOneClasses {
         oneClassessave.click();
         oneClassesstuName.sendKeys(oneClassesstuname);
         oneClassesSlectstuName.click();
+        ClassAll.sleep(5000);
+        oneClassesTeather.click();
+        oneClassesTeatherSave.click();
+        ClassAll.sleep(5000);
         oneClassesSubject.sendKeys(oneClassessubject);
         oneClassesDate.click();
         oneClassesDateBegin.click();

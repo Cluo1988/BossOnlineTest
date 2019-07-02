@@ -46,7 +46,7 @@ public class TestClass {
         System.out.println("新增班完成");
         ClassAll.sleep(5000);
         //学员进班
-        Class.addClassStudent("test619001");
+        Class.addClassStudent("test601001");
         ClassAll.sleep(5000);
         //班课管理页面的班课考勤扣费
         Class.classConsume("自动化");
