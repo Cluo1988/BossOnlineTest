@@ -64,6 +64,10 @@ public  class HomePage {
 	@FindBy(xpath="//a[contains(text(),'班课考勤')]")
 	public static WebElement classAttendClass;
 
+	//首页-教务-1对N排课按钮
+	@FindBy(xpath="//a[contains(text(),'1对N小组')]")
+	public static WebElement onetoNClasses;
+
 
 
 	//首页-设置按钮
