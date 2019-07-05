@@ -33,7 +33,7 @@ public class TestOnetoNClass {
         HomePage homePage = new HomePage(driver);
         homePage.education.click();
         ClassAll.sleep(5000);
-        //点击教务-1对1排课按钮
+        //点击教务-1对N小组按钮
         homePage.onetoNClasses.click();
         //iframe页面跳转
         WebElement iframe = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
@@ -44,29 +44,35 @@ public class TestOnetoNClass {
         onetoNClass.addOneToNClassStudent("自动化","test601003");
         ClassAll.sleep(5000);
         //1对N排课
-        driver.findElement(By.id("courseTimeEl")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[7]/following::div[8]")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[7]/following::div[8]")).click();
-        driver.findElement(By.id("teacherEl")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='测试老师'])[4]/following::td[1]")).click();
-        driver.findElement(By.id("choosePlanHours")).click();
-        driver.findElement(By.id("choosePlanHours")).clear();
-        driver.findElement(By.id("choosePlanHours")).sendKeys("1");
-        driver.findElement(By.id("chooseTimeLong")).click();
-        driver.findElement(By.id("chooseTimeLong")).clear();
-        driver.findElement(By.id("chooseTimeLong")).sendKeys("5");
-        driver.findElement(By.id("chooseSave")).click();
-        driver.findElement(By.id("dateRange")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='今年'])[7]/following::th[2]")).click();
-        driver.findElement(By.id("dateRange")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[6]/following::h4[1]")).click();
-        driver.findElement(By.id("teacherEl")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[7]/following::button[1]")).click();
-        driver.findElement(By.id("dateRange")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下半年'])[7]/following::label[1]")).click();
-        driver.findElement(By.id("dateRange")).click();
-        driver.findElement(By.id("courseDateLayout")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='日'])[14]/following::div[3]")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='添加标签/备注'])[1]/following::button[1]")).click();
+        onetoNClass.addOneToNClass("自动化","1","5");
+        ClassAll.sleep(5000);
+        //1对N考勤
+        onetoNClass.oneToNClassConsume();
+        ClassAll.sleep(5000);
+        //1对N取消考勤
+        onetoNClass.oneToNClassCancelConsume();
+        ClassAll.sleep(5000);
+        //1对N学员退班
+        onetoNClass.oneToNClassCancelStudent();
+        ClassAll.sleep(5000);
+        //跳出iframe框
+        driver.switchTo().defaultContent();
+        ClassAll.sleep(5000);
+        //关闭1对N小组切页
+        driver.findElement(By.xpath("//a[contains(@class,'tabs-close fa fa-remove')]")).click();
+        ClassAll.sleep(5000);
+        //点击教务按钮
+        homePage.education.click();
+        ClassAll.sleep(5000);
+        //点击教务-1对N课程按钮
+        homePage.onetoNClass.click();
+        //iframe页面跳转
+        WebElement iframe1 = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
+        driver.switchTo().frame(iframe1);
+        ClassAll.sleep(5000);
+        //删除1对N排课
+        onetoNClass.oneToNClassCancelClass("自动化");
+        driver.close();
+
     }
 }

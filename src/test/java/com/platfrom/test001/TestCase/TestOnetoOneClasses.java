@@ -61,7 +61,7 @@ public class TestOnetoOneClasses {
         driver.switchTo().frame(iframe1);
         ClassAll.sleep(5000);
         //一对一课程考勤
-        onetooneClasses.useonetoOneClasses();
+        onetooneClasses.useonetoOneClasses("test601001");
         System.out.println("一对一考勤完成");
         ClassAll.sleep(5000);
         //一对一重置考勤

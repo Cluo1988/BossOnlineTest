@@ -11,6 +11,7 @@
             <class name="com.platfrom.test001.TestCase.TestCont"></class>
             <class name="com.platfrom.test001.TestCase.TestOnetoOneClasses"></class>
             <class name="com.platfrom.test001.TestCase.TestClass"></class>
+            <class name="com.platfrom.test001.TestCase.TestOnetoNClass"></class>
             <class name="com.platfrom.test001.TestCase.TestStudent"></class>
             <class name="com.platfrom.test001.TestCase.TestCustomer"></class>
         </classes>

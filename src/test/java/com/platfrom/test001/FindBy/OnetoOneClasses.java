@@ -119,6 +119,10 @@ public class OnetoOneClasses {
     @FindBy(xpath = "//table[contains(@class,'month1')]//tr[1]//td[1]")
     public static WebElement oneClassesUseDataEnd;
 
+    //搜索的学生名字
+    @FindBy(xpath = "//input[@id='studentName']")
+    public static WebElement oneClassesStudent;
+
     //一对一考勤-查询按钮
     @FindBy(id = "searchbtn")
     public static WebElement oneClassesUseQuery;
@@ -216,10 +220,11 @@ public class OnetoOneClasses {
      *         //ClassAll.sleep(5000);
      *
      */
-    public void useonetoOneClasses(){
+    public void useonetoOneClasses(String OneClassesStudent){
         oneClassesUseData.click();
         oneClassesUseDataBegin.click();
         oneClassesUseDataEnd.click();
+        oneClassesStudent.sendKeys(OneClassesStudent);
         oneClassesUseQuery.click();
         ClassAll.sleep(5000);
         oneClassesUseFirst.click();
