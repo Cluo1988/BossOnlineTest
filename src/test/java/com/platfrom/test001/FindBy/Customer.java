@@ -145,6 +145,7 @@ public class Customer {
         ClassAll.sleep(10000);
         CustomerList.click();
         multiDelete.click();
+        ClassAll.sleep(10000);
         confirm_yes.click();
     }
 
