@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  * Created by Administrator on 2019/7/3 0003.
  */
 public class TestOnetoNClass {
-    @Test
+    @Test(alwaysRun=true)
     public static void testOnetoNClass() {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -41,19 +41,24 @@ public class TestOnetoNClass {
         ClassAll.sleep(5000);
         OnetoNClass onetoNClass = new OnetoNClass(driver);
         //1对N学员进班
-        onetoNClass.addOneToNClassStudent("自动化","test601003");
+        onetoNClass.addOneToNClassStudent("自动化","test601001");
+        System.out.println("1对N学员进班完成");
         ClassAll.sleep(5000);
         //1对N排课
         onetoNClass.addOneToNClass("自动化","1","5");
+        System.out.println("1对N排课完成");
         ClassAll.sleep(5000);
         //1对N考勤
         onetoNClass.oneToNClassConsume();
+        System.out.println("1对N考勤完成");
         ClassAll.sleep(5000);
         //1对N取消考勤
         onetoNClass.oneToNClassCancelConsume();
+        System.out.println("1对N取消考勤完成");
         ClassAll.sleep(5000);
         //1对N学员退班
         onetoNClass.oneToNClassCancelStudent();
+        System.out.println("1对N学员退班完成");
         ClassAll.sleep(5000);
         //跳出iframe框
         driver.switchTo().defaultContent();
@@ -72,6 +77,7 @@ public class TestOnetoNClass {
         ClassAll.sleep(5000);
         //删除1对N排课
         onetoNClass.oneToNClassCancelClass("自动化");
+        System.out.println("1对N删除排课完成");
         driver.close();
 
     }

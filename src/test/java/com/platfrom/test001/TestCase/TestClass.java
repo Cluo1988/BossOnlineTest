@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class TestClass {
     public static  WebDriver driver;
-    @Test
+    @Test(alwaysRun=true)
     public static void Class() {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();

@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 public class TestCustomer {
-    @Test
+    @Test(alwaysRun=true)
     public static void testcustome() {
         WebDriver  driver = new ChromeDriver();
         driver.manage().window().maximize();

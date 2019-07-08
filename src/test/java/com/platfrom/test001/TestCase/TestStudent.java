@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
  * Created by Administrator on 2019/6/12 0012.
  */
 public class TestStudent {
-    @Test
+    @Test(alwaysRun=true)
     public static void testStudent() {
         // TODO Auto-generated method stub
         WebDriver driver = new ChromeDriver();
