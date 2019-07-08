@@ -116,8 +116,8 @@ public class Student {
         student_customerphone.clear();
         student_customerphone.sendKeys(studentcustomerphone);
         student_save.click();
-        ClassAll.sleep(5000);
-        studentSaveAgain.click();
+        //ClassAll.sleep(5000);
+        //studentSaveAgain.click();
 
     }
 
