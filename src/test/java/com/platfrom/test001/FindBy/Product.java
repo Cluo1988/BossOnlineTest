@@ -112,6 +112,10 @@ public class Product {
     //设置-课程设置-新增班课产品-选择课程名称
     @FindBy(id = "productName")
     public static WebElement classProductName;
+    //设置-课程设置-新增班课产品-收费模式选择按课时
+    @FindBy(xpath = "//select[@id='fundsTypeSelect']//option[contains(text(),'按课时')]")
+    public static WebElement classProductChargeModa;
+
     //设置-课程设置-新增班课产品-选择课程总价
     @FindBy(id = "paymentEl")
     public static WebElement classProductPrice;
@@ -134,7 +138,7 @@ public class Product {
 
     //一对N产品新增
     //设置-课程设置-新增1对N产品-点击1对N切页
-    @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='按期'])[2]/following::li[1]")
+    @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='新增课程'])[1]/following::li[4]")
     public static WebElement oneToNProductPage;
     //设置-课程设置-新增1对N产品-点击校区
     @FindBy(xpath = "//select[@id='organization']//option[contains(text(),'伯纳乌')]")
@@ -166,11 +170,11 @@ public class Product {
 
 
     //设置-课程设置-第一个产品修改
-    @FindBy(xpath = "/html[1]/body[1]/div[6]/section[1]/div[2]/div[1]/div[3]/div[3]/div[1]/table[1]/tbody[1]/tr[2]/td[24]/a[1]")
+    @FindBy(xpath = "/html[1]/body[1]/div[6]/section[1]/div[2]/div[1]/div[3]/div[3]/div[1]/table[1]/tbody[1]/tr[2]/td[last()]/a[1]")
     public static WebElement productmodification;
 
     //设置-课程设置-第一个产品删除按钮
-    @FindBy(xpath = "/html[1]/body[1]/div[6]/section[1]/div[2]/div[1]/div[3]/div[3]/div[1]/table[1]/tbody[1]/tr[2]/td[24]/a[2]")
+    @FindBy(xpath = "/html[1]/body[1]/div[6]/section[1]/div[2]/div[1]/div[3]/div[3]/div[1]/table[1]/tbody[1]/tr[2]/td[last()]/a[2]")
     public static WebElement productdelete;
 
     //设置-课程设置-第一个产品删除-确认
@@ -285,6 +289,7 @@ public class Product {
         classProductGrade.sendKeys(ClassProductGrade);
         classProductName.clear();
         classProductName.sendKeys(ClassProductName);
+        classProductChargeModa.click();
         classProductPrice.sendKeys(ClassProductPrice);
         classProductHour.sendKeys(ClassProductHour);
         classProductTime.sendKeys(ClassProductTime);
