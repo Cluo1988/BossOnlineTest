@@ -193,7 +193,7 @@ public class Class {
     public static WebElement classParticular;
 
     //教务-班课管理-详情-删除此班按钮
-    @FindBy(linkText = "删除此班")
+    @FindBy(xpath = "//button[contains(text(),'删除此班')]")
     public static WebElement classParticularQuitClass;
     //教务-班课管理-详情-删除此班-确认删除按钮
     @FindBy(id = "confirm-yes")
