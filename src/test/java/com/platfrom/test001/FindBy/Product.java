@@ -204,7 +204,7 @@ public class Product {
         driver.findElement(By.id("appointmentDateSubmit")).click();*/
     public void addoneToOneProduct(String Productyear, String Productgrade, String Productname, String Producthours, String Productprice, String ProductclassTime) {
         addproduct.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         producttype.click();
         productschool.click();
         productyear.sendKeys(Productyear);
@@ -241,13 +241,13 @@ public class Product {
     public void modificationoneToOneProduct(String Productname1,String Producthours1,String Productprice1,String ProductclassTime1){
         affiliationSchool.click();
         useSchool.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         schoolType.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         querySchool.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         productmodification.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         productname1.clear();
         productname1.sendKeys(Productname1);
         producthours1.clear();
@@ -263,9 +263,9 @@ public class Product {
     //封装方法
     //新增班课产品
     //driver.findElement(By.id("addProduct")).click();
-    //ClassAll.sleep(5000);
+    //ClassAll.sleep(10000);
     //driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='新增课程'])[1]/following::li[2]")).click();
-    //ClassAll.sleep(5000);
+    //ClassAll.sleep(10000);
     //driver.findElement(By.xpath("//select[@id='organization']//option[contains(text(),'伯纳乌')]")).click();
     //driver.findElement(By.id("productVersion")).sendKeys("2019");
     //driver.findElement(By.id("productQuarter")).sendKeys("冬季");
@@ -280,9 +280,9 @@ public class Product {
     //driver.findElement(By.id("appointmentDateSubmit")).click();
     public void addClassProduct(String ClassProductYear,String ClassProductQuarter,String ClassProductGrade,String ClassProductName,String ClassProductPrice,String ClassProductHour,String ClassProductTime,String ClassProductOneHour){
         addproduct.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classProductPage.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classProductSchool.click();
         classProductYear.sendKeys(ClassProductYear);
         classProductQuarter.sendKeys(ClassProductQuarter);
@@ -302,9 +302,9 @@ public class Product {
     //封装方法
     //新增一对N产品
     //driver.findElement(By.id("addProduct")).click();
-    //ClassAll.sleep(5000);
+    //ClassAll.sleep(10000);
     //driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='按期'])[2]/following::li[1]")).click();
-    //ClassAll.sleep(5000);
+    //ClassAll.sleep(10000);
     //driver.findElement(By.xpath("//select[@id='organization']//option[contains(text(),'伯纳乌')]")).click();
     //driver.findElement(By.id("productVersion")).sendKeys("2019");
     //driver.findElement(By.id("grade")).sendKeys("一年级");
@@ -318,9 +318,9 @@ public class Product {
     //driver.findElement(By.id("appointmentDateSubmit")).click();
     public void addoneToNProduct(String OneToNProductYear,String OneToNProductGrade,String OneToNProductName,String OneToNProductHour,String OneToNProductPrice,String OneToNProductTime){
         addproduct.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneToNProductPage.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneToNProductSchool.click();
         oneToNProductYear.sendKeys(OneToNProductYear);
         oneToNProductGrade.sendKeys(OneToNProductGrade);
@@ -341,10 +341,10 @@ public class Product {
     public  void deleteProduct(String ProductName){
         productName.sendKeys(ProductName);
         querySchool.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         productdelete.click();
         productdeleteyes.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         productresetbth.click();
 
     }

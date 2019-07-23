@@ -102,9 +102,9 @@ public class Customer {
     public void addCustomer(String cusname, String cuscontact, String Soutype, String source) {
 
         customer_name.sendKeys(cusname);
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         customer_contact.sendKeys(cuscontact);
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         Source_type.sendKeys(Soutype);
         sources.sendKeys(source);
         submitCustomerBtn.click();
@@ -122,11 +122,11 @@ public class Customer {
      driver.findElement(By.id("cusOrg")).sendKeys("学生转介绍");
      driver.findElement(By.xpath("//div[@id='cusTypeContainer']//div//select[@name='cusType']")).sendKeys("地推电话");
      driver.findElement(By.linkText("保存")).click();
-     ClassAll.sleep(5000);
+     ClassAll.sleep(10000);
      driver.findElement(By.xpath("//button[@class='close']")).click();*/
     public void modificationCustomer(String customer_name,String phone,String Source_type,String Source){
         particulars.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         edit.click();
         customer_name1.clear();
         customer_name1.sendKeys(customer_name);
@@ -135,7 +135,7 @@ public class Customer {
         Source_type1.sendKeys(Source_type);
         Source1.sendKeys(Source);
         save.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         close.click();
     }
 

@@ -113,13 +113,13 @@ public class Cont {
      * 封装方法
      * 新增合同
      * //新增合同页面
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *         driver.findElement(By.xpath("//select[@id='campusEl']")).sendKeys("伯纳乌");
      *         driver.findElement(By.xpath("//button[@class='btn btn-primary submit']")).click();
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *     //选择校区
      *         driver.findElement(By.id("showAddStudentLayoutEl")).click();
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *     //新增学员页面数据填写
      *         driver.findElement(By.xpath("//div[@class='col-md-8']//input[@name='name']")).sendKeys("1903080011");
      *         driver.findElement(By.name("contact")).sendKeys("13411164100");
@@ -128,16 +128,16 @@ public class Cont {
      *         driver.findElement(By.id("cusType")).sendKeys("地推电话");
      *         driver.findElement(By.id("campusId")).sendKeys("伯纳乌");
      *         driver.findElement(By.id("submitBtn")).click();
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *     //相同学生页面的保存
      *     //driver.findElement(By.xpath("//div[@id='showMiniClassStudentModal']//div[@class='modal-footer']//button[contains(text(),'继续保存')]")).click();
      *     //选择课程
      *         driver.findElement(By.xpath("//div[@id='productFilterPanelInputContainer']")).click();
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *         driver.findElement(By.xpath("//div[@class='items col-md-12 no-padding border-top productItems']//div[1]//div[3]//button[1]")).click();
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *         driver.findElement(By.xpath("//a[@class='btn btn-primary']")).click();
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *     //
      *         driver.findElement(By.id("chargeBtn")).click();
      *         driver.findElement(By.xpath("//div[@id='campusInfo']//div//select[@id='blCampusId']")).sendKeys("伯纳乌");
@@ -145,9 +145,9 @@ public class Cont {
      *         driver.findElement(By.name("posid")).sendKeys("22231");
      *         driver.findElement(By.id("submitBtn")).click();
      *
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *         driver.findElement(By.xpath("//div[@id='afterTransaction']//button[@class='close'][contains(text(),'×')]")).click();
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *         driver.findElement(By.xpath("//button[@class='close']")).click();
      */
     /**
@@ -165,12 +165,12 @@ public class Cont {
      * @param Receiptnumber
      */
     public void addCont(String Selectcampus, String Studentname, String Phone, String StudentClass, String Campus, String CusOrg, String CusType,String productClik, String Receiptampus, String Receiptamount, String Receiptnumber) {
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         selectcampus.sendKeys(Selectcampus);
         selectsave.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newstudentbtn.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         studentname.sendKeys(Studentname);
         phone.sendKeys(Phone);
         studentclass.sendKeys(StudentClass);
@@ -178,28 +178,28 @@ public class Cont {
         cusOrg.sendKeys(CusOrg);
         cusType.sendKeys(CusType);
         submitBtn.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         productclik.click();
         productclik.sendKeys(productClik);
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         //这里为了配合之后新增三种类型的排课新增了三种类型的产品
         productfirst.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         productSecond.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         productThird.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         contsave.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         receipt.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         receiptampus.sendKeys(Receiptampus);
         receiptamount.sendKeys(Receiptamount);
         receiptnumber.sendKeys(Receiptnumber);
         receiptsave.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         receiptclose.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         contsaveclose.click();
 
     }

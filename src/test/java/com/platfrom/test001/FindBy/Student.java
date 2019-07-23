@@ -99,16 +99,16 @@ public class Student {
      * driver.findElement(By.id("appointmentDateSubmit")).click();
      */
     public void modificationStudent(String StudentName,String studentname, String studentphone, String studentgrade, String studentstatus, String studentcustomerphone) {
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         studentName.sendKeys(StudentName);
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         student_search.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         student_edit.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         student_name.clear();
         student_name.sendKeys(studentname);
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         student_phone.clear();
         student_phone.sendKeys(studentphone);
         student_grade.sendKeys(studentgrade);
@@ -116,7 +116,7 @@ public class Student {
         student_customerphone.clear();
         student_customerphone.sendKeys(studentcustomerphone);
         student_save.click();
-        //ClassAll.sleep(5000);
+        //ClassAll.sleep(10000);
         //studentSaveAgain.click();
 
     }
@@ -130,7 +130,7 @@ public class Student {
        student_deleteall.click();
        student_deleteallyes.click();
        student_deleteallyes_reason.sendKeys(reason);
-       ClassAll.sleep(5000);
+       ClassAll.sleep(10000);
        student_deleteallyes_reason_save.click();
     }
 

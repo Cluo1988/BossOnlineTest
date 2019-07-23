@@ -30,17 +30,17 @@ public class TestCont {
         LogIn logIn = new LogIn(driver);
         logIn.login("13411164100", "123456789");
         //等待5秒
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         //点击招生按钮
         HomePage homePage = new HomePage(driver);
         homePage.reception.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         //点击新生报名按钮
         homePage.cont.click();
         //iframe页面跳转
         WebElement iframe = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
         driver.switchTo().frame(iframe);
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         Cont cont = new Cont(driver);
         //新增合同页面
         cont.addCont("伯纳乌","test601001","13411164100","六年级","伯纳乌","短息","地推电话","自动化","伯纳乌","10000","22231");

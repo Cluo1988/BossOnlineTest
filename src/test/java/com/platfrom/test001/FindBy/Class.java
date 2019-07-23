@@ -248,20 +248,20 @@ public class Class {
     /*//新建班课
             driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='报名'])[1]/following::button[1]")).click();
             driver.findElement(By.linkText("手动开班")).click();
-            ClassAll.sleep(5000);
+            ClassAll.sleep(10000);
             driver.findElement(By.xpath("//select[@id='campusEl']//option[contains(text(),'伯纳乌')]")).click();
         //校区确定按钮
             driver.findElement(By.xpath("//button[@class='btn btn-primary submit']")).click();
-            ClassAll.sleep(5000);
+            ClassAll.sleep(10000);
         //新建课程按钮
             driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='+ 新建课程'])[1]/following::div[2]")).click();
-            ClassAll.sleep(5000);
+            ClassAll.sleep(10000);
         //选择班课产品（筛选自动化名字的班课然后选择第一个）
             driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='选择关联的班课产品'])[1]/following::input[1]")).sendKeys("自动化");
             driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='选择关联的班课产品'])[1]/following::input[1]")).sendKeys(Keys.ENTER);
-            ClassAll.sleep(5000);
+            ClassAll.sleep(10000);
             driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='冬季'])[4]/following::a[1]")).click();
-            ClassAll.sleep(5000);
+            ClassAll.sleep(10000);
         //选择班课档期（2019年）
             driver.findElement(By.xpath("//select[@id='miniClassSchedule']//option[contains(text(),'2019年暑假')]")).click();
         //选择开课时间
@@ -281,34 +281,34 @@ public class Class {
             driver.findElement(By.xpath("//div[@class='col-md-8']//option[contains(text(),'物理')]")).click();
         //选择授课老师
             driver.findElement(By.id("showTeacherModalBtn")).click();
-            ClassAll.sleep(5000);
+            ClassAll.sleep(10000);
             driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='（周日）'])[1]/following::td[18]")).click();
-            ClassAll.sleep(5000);
+            ClassAll.sleep(10000);
         //上课日期（24号）
             driver.findElement(By.id("courseDate_range")).click();
             driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='日'])[5]/following::div[29]")).click();
             driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='日'])[5]/following::div[29]")).click();
         //上课时间
             driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='操作'])[2]/following::input[1]")).click();
-            ClassAll.sleep(5000);
+            ClassAll.sleep(10000);
             driver.findElement(By.xpath("//div[@class='clockpicker-dial clockpicker-hours']//div[9]")).click();
             driver.findElement(By.xpath("//div[@class='clockpicker-tick'][contains(text(),'05')]")).click();
-            ClassAll.sleep(5000);
+            ClassAll.sleep(10000);
             driver.findElement(By.id("appointmentDateSubmit")).click();*/
     public void addClass(String NewClassProductSearch,String NewClassPeople) {
         newClass.click();
         newClassHand.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassSchool.click();
         newClassSchoolSave.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassbtn.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassProductSearch.sendKeys(NewClassProductSearch);
         newClassProductSearch.sendKeys(Keys.ENTER);
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassProductSelect.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassSchedule.click();
         newClassData.click();
         newClassYear.click();
@@ -318,18 +318,18 @@ public class Class {
         newClassDirector.click();
         newClassSubject.click();
         newClassTeacherbtn.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassTeacher.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassOpenDatabtn.click();
         newClassOpenDataBegin.click();
         newClassOpenDataEnd.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassOpenTimebtn.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassOpenTimeHour.click();
         newClassOpenTimeMinute.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassSave.click();
 
 
@@ -340,33 +340,33 @@ public class Class {
     /*//学员进班
         driver.findElement(By.id("showMoreOption")).click();
         driver.findElement(By.linkText("成员")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         driver.findElement(By.id("studentName")).sendKeys("test619001");
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         driver.findElement(By.id("searchBtn")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         driver.findElement(By.linkText("报班")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         driver.findElement(By.id("firstSchoolTime")).click();
         driver.findElement(By.linkText("24")).click();
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='取消'])[3]/following::button[1]")).click();*/
     public void addClassStudent(String NewClassMoreStudentName ) {
         newClassMore.click();
         newClassMoreStudent.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassMoreStudentName.sendKeys(NewClassMoreStudentName);
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassMoreStudentSearchBtn.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassMoreStudentInto.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassMoreStudentFirstTimeClick.click();
         newClassMoreStudentFirstTimeClickYear.click();
         newClassMoreStudentFirstTimeClickMonth.click();
         newClassMoreStudentFirstTimeClickDay.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassMoreStudentFirstTimeSave.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassMoreStudentClose.click();
 
 
@@ -377,22 +377,22 @@ public class Class {
         driver.findElement(By.xpath("//select[@id='blCampusEl']//option[contains(text(),'伯纳乌')]")).click();
         driver.findElement(By.id("search-mini-class-name")).clear();
         driver.findElement(By.id("search-mini-class-name")).sendKeys("自动化");
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         driver.findElement(By.id("searchbtn")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         //点击考勤按钮
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='报名'])[2]/following::button[1]")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         //点击未考勤页面元素，触发考勤弹框
         driver.findElement(By.xpath("//td[contains(text(),'未考勤')]")).click();
         //点击考勤按钮
         driver.findElement(By.id("miniClassAttendanceBtn")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         //勾选班课排课
         driver.findElement(By.xpath("//input[@id='cb_jqgrid-attd']")).click();
         //点击班主任扣费按钮
         driver.findElement(By.id("minicourse-submit-charge")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         //点击扣费确认按钮
         driver.findElement(By.id("confirm-yes")).click();*/
     //班课管理页面的班课考勤扣费
@@ -400,17 +400,17 @@ public class Class {
         classSchool.click();
         className.clear();
         className.sendKeys(ClassName);
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classSearch.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classKaoqin.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classKaoqintRigger.click();
         classClickKaoqin.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classKaoqinPageAllSelect.click();
         classKaoqinPageConsumebtn.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classKaoqinPageSave.click();
 
     }
@@ -425,23 +425,23 @@ public class Class {
         driver.findElement(By.id("miniClassName")).sendKeys("自动化");
         //点击查询按钮
         driver.findElement(By.id("searchBtn")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         //选择课程扣费切页
         driver.findElement(By.id("classTeacherDeduction")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         //勾选已扣费勾选框
         driver.findElement(By.id("showChargedMcCourses")).click();
         //去掉待扣费勾选框
         driver.findElement(By.id("showUnchargedMcCourses")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         //点击取消扣费按钮
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='无'])[1]/following::button[1]")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         //选择已扣费课程
         driver.findElement(By.xpath("//input[@id='cb_jqgrid-attd']")).click();
         //点击取消扣费按钮
         driver.findElement(By.id("minicourse-submit-roll")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         //取消扣费确认按钮
         driver.findElement(By.id("confirm-yes")).click();
         //关闭取消扣费弹框
@@ -451,20 +451,20 @@ public class Class {
         classDataClear.click();
         className1.sendKeys(ClassName1);
         classSearchBtn.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classTeacherDeduction.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classShowChargedMcCourses.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classShowUnchargedMcCourses.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classCancel.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classCancelAllSelect.click();
         classCancelBtn.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classCancelSaveBtn.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classCancelCloseBtn.click();
 
     }
@@ -473,39 +473,39 @@ public class Class {
     /*//班课管理页面学员退班
         driver.findElement(By.id("search-mini-class-name")).sendKeys("自动化");
         driver.findElement(By.id("searchbtn")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         driver.findElement(By.linkText("成员")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         driver.findElement(By.linkText("退班")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='取消'])[3]/following::button[1]")).click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[2]/following::button[1]")).click();*/
     public void studentQuitClass(String ClassName){
         className.sendKeys(ClassName);
         classSearch.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassMore.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassMoreStudent.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassMoreStudentQuitClass.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassMoreStudentQuitClassSave.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         newClassMoreStudentClose.click();
 
     }
 
 
     //删除班课
-    /*ClassAll.sleep(5000);
+    /*ClassAll.sleep(10000);
       driver.findElement(By.linkText("删除此班")).click();
-      ClassAll.sleep(5000);
+      ClassAll.sleep(10000);
       driver.findElement(By.id("confirm-yes")).click();*/
     public void deleteClass(){
         classParticularQuitClass.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         classParticularQuitClassSave.click();
     }
 

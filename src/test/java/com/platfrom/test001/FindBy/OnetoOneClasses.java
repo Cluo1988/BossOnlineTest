@@ -194,30 +194,30 @@ public class OnetoOneClasses {
      *         //driver.findElement(By.xpath("//table[contains(@class,'month1')]//tr[5]//td[1]")).click();
      *         //点击查询按钮
      *         //driver.findElement(By.id("searchbtn")).click();
-     *        // ClassAll.sleep(5000);
+     *        // ClassAll.sleep(10000);
      *         //勾选第一条数据
      *        // driver.findElement(By.id("jqg_jqgrid_1")).click();
      *         //点击考勤按钮
      *        // driver.findElement(By.xpath("//tr[@id='1']//button[contains(@class,'btn attendBtn')][contains(text(),'考勤')]")).click();
-     *        // ClassAll.sleep(5000);
+     *        // ClassAll.sleep(10000);
      *         //点击课程考勤切页
      *        // driver.findElement(By.id("studyManegerVerifyHref")).click();
-     *        // ClassAll.sleep(5000);
+     *        // ClassAll.sleep(10000);
      *         //勾选第一条数据
      *        // driver.findElement(By.id("jqg_jqgrid_1")).click();
      *         //点击考勤按钮
      *        // driver.findElement(By.xpath("//tr[@id='1']//button[contains(@class,'btn attendBtn')][contains(text(),'考勤')]")).click();
-     *        // ClassAll.sleep(5000);
+     *        // ClassAll.sleep(10000);
      *         //点击课程扣费切页
      *        // driver.findElement(By.id("classTeacherDeductionHref")).click();
-     *        // ClassAll.sleep(5000);
+     *        // ClassAll.sleep(10000);
      *         //勾选第一条数据
      *        // driver.findElement(By.id("jqg_jqgrid_1")).click();
      *         //点击扣费按钮
      *        // driver.findElement(By.xpath("//tr[@id='1']//button[contains(@class,'btn chargeRecordBtn')][contains(text(),'扣费')]")).click();
      *         //点击扣费确认按钮
      *        // driver.findElement(By.id("confirm-yes")).click();
-     *         //ClassAll.sleep(5000);
+     *         //ClassAll.sleep(10000);
      *
      */
     public void useonetoOneClasses(String OneClassesStudent){
@@ -226,16 +226,16 @@ public class OnetoOneClasses {
         oneClassesUseDataEnd.click();
         oneClassesStudent.sendKeys(OneClassesStudent);
         oneClassesUseQuery.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesUseFirst.click();
         oneClassesUseFirstkaoqin.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesUseSecondkaoqinPage.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesUseSecondkaoqin.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesUseThirdPage.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesUseThirdPagekoufei.click();
         oneClassesUseThirdPagekoufeiSave.click();
     }
@@ -245,24 +245,24 @@ public class OnetoOneClasses {
      * 重置考勤
      *点击取消（查看未扣费课程勾选框）
      *         //driver.findElement(By.xpath("//input[@id='showUnchargedCourses']")).click();
-     *         //ClassAll.sleep(5000);
+     *         //ClassAll.sleep(10000);
      *         //点击勾选（查看已扣费课程勾选框）
      *         //driver.findElement(By.xpath("//input[@id='showChargedCourses']")).click();
-     *         //ClassAll.sleep(5000);
+     *         //ClassAll.sleep(10000);
      *         //点击第一条数据的重置按钮
      *         //driver.findElement(By.xpath("//tr[@id='2']//button[@class='btn rollbackChargeRecord'][contains(text(),'重置')]")).click();
-     *        // ClassAll.sleep(5000);
+     *        // ClassAll.sleep(10000);
      *         //点击重置按钮-确认按钮
      *         //driver.findElement(By.xpath("//button[@id='confirm-yes']")).click();
-     *        // ClassAll.sleep(5000);
+     *        // ClassAll.sleep(10000);
      */
     public void cancelonetoOneClasses(){
         oneClassesUseNotkoufei.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesUseFiniskoufei.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesUseReset.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesUseResetSave.click();
     }
 
@@ -271,23 +271,23 @@ public class OnetoOneClasses {
      * 一对一考勤页面-删除排课
      *点击勾选（查看未扣费课程勾选框）
      *         //driver.findElement(By.xpath("//input[@id='showUnchargedCourses']")).click();
-     *         //ClassAll.sleep(5000);
+     *         //ClassAll.sleep(10000);
      *         //选择第一条数据的修改
      *         //driver.findElement(By.xpath("//tr[@id='1']//button[@class='btn changeBtn'][contains(text(),'修改')]")).click();
-     *         //ClassAll.sleep(5000);
+     *         //ClassAll.sleep(10000);
      *         //修改页面选择删除
      *        //driver.findElement(By.xpath("//button[@id='deleteBtn']")).click();
-     *         //ClassAll.sleep(5000);
+     *         //ClassAll.sleep(10000);
      *         //修改页面选择删除-确认按钮
      *         //driver.findElement(By.xpath("//button[@id='confirm-yes']")).click();
      */
     public void deleteonetoOneClasses(){
         oneClassesUseNotkoufei.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesUseThirdChange.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesUseThirdChangeDelete.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesUseThirdChangeDeleteSave.click();
 
 
@@ -315,16 +315,16 @@ public class OnetoOneClasses {
      *         driver.findElement(By.xpath("//table[contains(@class,'month1')]//tr[5]//td[1]")).click();
      *         这里是选择上课星期，要根据你选的时间段来修改结果，例如你日期段选择的是6月24到6月25，但是你这里勾选星期四，则会报错，24和25号是星期一和星期二
      *         driver.findElement(By.xpath("//b[contains(@class,'caret')]")).click();
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *         driver.findElement(By.xpath("//label[contains(text(),'星期一')]")).click();
      *         点击选择老师按钮
      *         driver.findElement(By.linkText("选择老师")).click();
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *         选择第二个老师
      *         driver.findElement(By.xpath("//table[@id='dayChooseTable']//tbody//tr[2]")).click();
      *         点击上课时间日期控件(14:05分)
      *         driver.findElement(By.id("chooseCourseTime")).click();
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *         driver.findElement(By.xpath("//div[contains(@class,'clockpicker-tick')][contains(text(),'14')]")).click();
      *         driver.findElement(By.xpath("//div[contains(text(),'05')]")).click();
      *         课时数
@@ -334,7 +334,7 @@ public class OnetoOneClasses {
      *         driver.findElement(By.xpath("//input[@id='chooseTimeLong']")).clear();
      *         driver.findElement(By.xpath("//input[@id='chooseTimeLong']")).sendKeys("5");
      *         driver.findElement(By.id("chooseSave")).click();
-     *         ClassAll.sleep(5000);
+     *         ClassAll.sleep(10000);
      *         driver.findElement(By.linkText("保存")).click();
      */
     public void addonetoOneClasses(String oneclassescampus,String oneClassesstuname,String oneClassessubject,String oneClassesplanhours,String oneClassestimelong){
@@ -342,22 +342,22 @@ public class OnetoOneClasses {
         oneClassessave.click();
         oneClassesstuName.sendKeys(oneClassesstuname);
         oneClassesSlectstuName.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesTeather.click();
         oneClassesTeatherSave.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesSubject.sendKeys(oneClassessubject);
         oneClassesDate.click();
         oneClassesDateBegin.click();
         oneClassesDateEnd.click();
         oneClassesWeek.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesWeekNumber.click();
         oneClassesTeacher.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesTwoTeacher.click();
         oneClassesTime.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesHourTime.click();
         oneClassesMinuteTime.click();
         oneClassesPlanHours.clear();
@@ -365,7 +365,7 @@ public class OnetoOneClasses {
         oneClassesTimeLong.clear();
         oneClassesTimeLong.sendKeys(oneClassestimelong);
         chooseSave.click();
-        ClassAll.sleep(5000);
+        ClassAll.sleep(10000);
         oneClassesSave.click();
 
     }
