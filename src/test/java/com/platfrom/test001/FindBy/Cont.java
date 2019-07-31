@@ -191,7 +191,6 @@ public class Cont {
         ClassAll.sleep(10000);
         contsave.click();
         ClassAll.sleep(10000);
-        ClassAll.sleep(10000);
         receipt.click();
         ClassAll.sleep(10000);
         receiptampus.sendKeys(Receiptampus);
