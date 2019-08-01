@@ -5,6 +5,7 @@ import com.platfrom.test001.FindBy.Cont;
 import com.platfrom.test001.FindBy.HomePage;
 import com.platfrom.test001.FindBy.LogIn;
 import com.platfrom.test001.TestOne.ClassAll;
+import com.platfrom.test001.Utils.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,19 +17,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by Administrator on 2019/6/19 0019.
  */
-public class TestCont {
+public class TestCont extends BaseTest {
     @Test(alwaysRun=true)
     public static void testCont() {
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        //全局隐式等待10秒
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //调用谷歌浏览器
-        driver.get("https://www.xuebangsoft.net/eduboss/login.jsp");
-        //LogIn LogIn = PageFactory.initElements(driver, LogIn.class);
-        //登陆
-        LogIn logIn = new LogIn(driver);
-        logIn.login("13411164100", "123456789");
         //等待5秒
         ClassAll.sleep(10000);
         //点击招生按钮
@@ -45,6 +36,6 @@ public class TestCont {
         //新增合同页面
         cont.addCont("伯纳乌","test601001","13411164100","六年级","伯纳乌","短息","地推电话","自动化","伯纳乌","10000","22231");
         System.out.println("合同新增完成");
-        driver.close();
+
     }
 }

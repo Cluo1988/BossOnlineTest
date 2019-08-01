@@ -6,6 +6,7 @@ import com.platfrom.test001.FindBy.Customer;
 import com.platfrom.test001.FindBy.HomePage;
 import com.platfrom.test001.FindBy.LogIn;
 import com.platfrom.test001.TestOne.ClassAll;
+import com.platfrom.test001.Utils.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,19 +15,9 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestCustomer {
+public class TestCustomer extends BaseTest {
     @Test(alwaysRun=true)
     public static void testcustome() {
-        WebDriver  driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        //全局隐式等待10秒
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //调用谷歌浏览器
-        driver.get("https://www.xuebangsoft.net/eduboss/login.jsp");
-        //LogIn LogIn = PageFactory.initElements(driver, LogIn.class);
-        //登陆
-        LogIn logIn = new LogIn(driver);
-        logIn.login("13411164100","123456789");
         //等待5秒
         ClassAll.sleep(10000);
         //点击招生按钮
@@ -57,6 +48,6 @@ public class TestCustomer {
         //删除列表第一个客户
         customer.deleteCustomer();
         System.out.println("客户删除完成");
-        driver.close();
+
     }
 }

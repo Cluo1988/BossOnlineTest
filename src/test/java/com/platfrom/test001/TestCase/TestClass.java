@@ -4,6 +4,7 @@ import com.platfrom.test001.FindBy.Class;
 import com.platfrom.test001.FindBy.HomePage;
 import com.platfrom.test001.FindBy.LogIn;
 import com.platfrom.test001.TestOne.ClassAll;
+import com.platfrom.test001.Utils.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,24 +17,15 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by Administrator on 2019/6/26 0026.
  */
-public class TestClass {
-    public static  WebDriver driver;
+public class TestClass extends BaseTest {
     @Test(alwaysRun=true)
     public static void Class() {
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        //全局隐式等待10秒
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //调用谷歌浏览器
-        driver.get("https://www.xuebangsoft.net/eduboss/login.jsp");
-        //登陆
-        LogIn logIn = new LogIn(driver);
-        logIn.login("13411164100", "123456789");
         //等待5秒
         ClassAll.sleep(10000);
         //点击教务按钮
         HomePage homePage = new HomePage(driver);
-        homePage.education.click();
+        HomePage.education.click();
+        //homePage.education.click();
         ClassAll.sleep(10000);
         //点击教务-班课管理按钮
         homePage.classes.click();
@@ -105,7 +97,7 @@ public class TestClass {
         ClassAll.sleep(10000);
         Class.deleteClass();
         System.out.println("班课删除成功");
-        driver.close();
+
 
 
     }

@@ -4,6 +4,7 @@ import com.platfrom.test001.FindBy.HomePage;
 import com.platfrom.test001.FindBy.LogIn;
 import com.platfrom.test001.FindBy.OnetoOneClasses;
 import com.platfrom.test001.TestOne.ClassAll;
+import com.platfrom.test001.Utils.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,19 +16,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by Administrator on 2019/6/19 0019.
  */
-public class TestOnetoOneClasses {
+public class TestOnetoOneClasses extends BaseTest {
     @Test(alwaysRun=true)
     public static void testOnetoOneClasses() {
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        //全局隐式等待10秒
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //调用谷歌浏览器
-        driver.get("https://www.xuebangsoft.net/eduboss/login.jsp");
-        //LogIn LogIn = PageFactory.initElements(driver, LogIn.class);
-        //登陆
-        LogIn logIn = new LogIn(driver);
-        logIn.login("13411164100", "123456789");
         //等待5秒
         ClassAll.sleep(10000);
         //点击教务按钮
@@ -71,14 +62,6 @@ public class TestOnetoOneClasses {
         //一对一考勤页面-删除排课
         onetooneClasses.deleteonetoOneClasses();
         System.out.println("一对一排课删除完成");
-        driver.close();
-
-        //一对一排课页面-删除一对一排课
-        //onetooneClasses.onetoOneClassesClear();
-        //ClassAll.sleep(10000);
-
-
-
 
     }
 }

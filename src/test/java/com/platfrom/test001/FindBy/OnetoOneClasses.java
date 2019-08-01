@@ -50,20 +50,16 @@ public class OnetoOneClasses {
     @FindBy(xpath = "//span[@class='form-control date_range_input date_range curcor-pointer']")
     public static WebElement oneClassesDate;
 
-    //教务-一对一排课-选择日期开始时间
-    @FindBy(xpath = "//table[contains(@class,'month1')]//tr[1]//td[1]")
+    //教务-一对一排课-选择日期为今天
+    @FindBy(xpath = "//div[contains(@class,'date-picker-wrapper no-shortcuts no-gap two-months')]//label[1]")
     public static WebElement oneClassesDateBegin;
-
-    //教务-一对一排课-选择日期结束时间
-    @FindBy(xpath = "//table[contains(@class,'month1')]//tr[1]//td[1]")
-    public static WebElement oneClassesDateEnd;
 
     //教务-一对一排课-选择上课星期，选择第一个数据
     //点击激活星期控件
     @FindBy(xpath = "//b[contains(@class,'caret')]")
     public static WebElement oneClassesWeek;
     //选择具体星期几
-    @FindBy(xpath = "/html[1]/body[1]/div[6]/div[1]/div[2]/div[2]/div[2]/table[1]/tbody[1]/tr[1]/td[6]/div[1]/div[1]/ul[1]/li[7]/a[1]/label[1]/input[1]")
+    @FindBy(xpath = "//li[4]//a[1]//label[1]//input[1]")
     public static WebElement oneClassesWeekNumber;
 
     //教务-一对一排课-点击选择老师按钮，弹出选择老师页面
@@ -75,7 +71,7 @@ public class OnetoOneClasses {
     //选择老师页面-点击激活上课时间控件
     @FindBy(id = "chooseCourseTime")
     public static WebElement oneClassesTime;
-    //选择老师页面-选择上课时间控件 时（14点）
+    //选择老师页面-选择上课时间控件 时（6点）
     @FindBy(xpath = "//div[contains(@class,'clockpicker-tick')][contains(text(),'6')]")
     public static WebElement oneClassesHourTime;
     //选择老师页面-选择上课时间控件 分钟（05分）
@@ -112,12 +108,10 @@ public class OnetoOneClasses {
     //点击日期控件选择上面新增排课的同一天
     @FindBy(id = "date_range")
     public static WebElement oneClassesUseData;
-    //选择开始时间
-    @FindBy(xpath = "//table[contains(@class,'month1')]//tr[1]//td[1]")
+    //清空时间控件
+    @FindBy(xpath = "//input[contains(@class,'clear-btn')]")
     public static WebElement oneClassesUseDataBegin;
-    //选择结束时间
-    @FindBy(xpath = "//table[contains(@class,'month1')]//tr[1]//td[1]")
-    public static WebElement oneClassesUseDataEnd;
+
 
     //搜索的学生名字
     @FindBy(xpath = "//input[@id='studentName']")
@@ -174,7 +168,7 @@ public class OnetoOneClasses {
 
     //考勤页面的删除排课
     //一对一考勤-第三切页-点击第一条数据修改按钮
-    @FindBy(xpath = "//tr[@id='1']//button[@class='btn changeBtn'][contains(text(),'修改')]")
+    @FindBy(xpath = "//tr[@id='1']//button[@class='btn changeBtn enableRes'][contains(text(),'修改')]")
     public static WebElement oneClassesUseThirdChange;
 
     //一对一考勤-第三切页-第一条数据修改-删除按钮
@@ -223,7 +217,6 @@ public class OnetoOneClasses {
     public void useonetoOneClasses(String OneClassesStudent){
         oneClassesUseData.click();
         oneClassesUseDataBegin.click();
-        oneClassesUseDataEnd.click();
         oneClassesStudent.sendKeys(OneClassesStudent);
         oneClassesUseQuery.click();
         ClassAll.sleep(10000);
@@ -349,7 +342,6 @@ public class OnetoOneClasses {
         oneClassesSubject.sendKeys(oneClassessubject);
         oneClassesDate.click();
         oneClassesDateBegin.click();
-        oneClassesDateEnd.click();
         oneClassesWeek.click();
         ClassAll.sleep(10000);
         oneClassesWeekNumber.click();

@@ -5,10 +5,9 @@ import com.platfrom.test001.FindBy.HomePage;
 import com.platfrom.test001.FindBy.LogIn;
 import com.platfrom.test001.FindBy.Product;
 import com.platfrom.test001.TestOne.ClassAll;
+import com.platfrom.test001.Utils.BaseTest;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -16,22 +15,11 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by Administrator on 2019/6/12 0012.
  */
-public class TestProduct {
+public class TestProduct extends BaseTest {
     @Test(alwaysRun=true)
     public static void testProduct() {
-        // TODO Auto-generated method stub
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        //全局隐式等待10秒
-        /*driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);*/
-        driver.manage().timeouts().implicitlyWait(20L, TimeUnit.SECONDS);
-        //调用谷歌浏览器
-        driver.get("https://www.xuebangsoft.net/eduboss/login.jsp");
-        //LogIn LogIn = PageFactory.initElements(driver, LogIn.class);
-        //登陆
-        LogIn logIn = new LogIn(driver);
-        logIn.login("13411164100", "123456789");
-        //等待5秒
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //等待10秒
         ClassAll.sleep(10000);
         //点击设置按钮
         HomePage homePage = new HomePage(driver);
@@ -72,7 +60,7 @@ public class TestProduct {
         //查询产品
         product.searchProduct();
         System.out.println("产品查询完成");
-        driver.close();
+
 
 
 
