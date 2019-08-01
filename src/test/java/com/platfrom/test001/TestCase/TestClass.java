@@ -24,8 +24,7 @@ public class TestClass extends BaseTest {
         ClassAll.sleep(10000);
         //点击教务按钮
         HomePage homePage = new HomePage(driver);
-        HomePage.education.click();
-        //homePage.education.click();
+        homePage.education.click();
         ClassAll.sleep(10000);
         //点击教务-班课管理按钮
         homePage.classes.click();
