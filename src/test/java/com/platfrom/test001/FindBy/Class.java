@@ -317,6 +317,7 @@ public class Class {
         newClassPeople.sendKeys(NewClassPeople);
         newClassDirector.click();
         newClassSubject.click();
+        ClassAll.sleep(10000);
         newClassTeacherbtn.click();
         ClassAll.sleep(10000);
         newClassTeacher.click();
