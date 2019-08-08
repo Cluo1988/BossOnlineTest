@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="502dc8fc-666d-4fb8-948c-bdf3bf1a2a69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/FindBy/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/FindBy/Class.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,18 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoOneClasses.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoNClass.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,6 +73,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="320" column="8" selection-start-line="320" selection-start-column="8" selection-end-line="320" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Product.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Cont.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
@@ -197,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/testX.html" />
         <option value="$PROJECT_DIR$/src/main/java/testX2.html" />
-        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Class.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Customer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/OnetoNClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Student.java" />
@@ -219,6 +218,7 @@
         <option value="$PROJECT_DIR$/009911" />
         <option value="$PROJECT_DIR$/009911.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Class.java" />
       </list>
     </option>
   </component>
@@ -246,9 +246,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="118" />
-    <option name="y" value="204" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="309" />
+    <option name="y" value="184" />
     <option name="width" value="1311" />
     <option name="height" value="817" />
   </component>
@@ -363,8 +363,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\自动化\BossOnlineTest\driver" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001\Data" />
+      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001\Utils" />
+      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001\FindBy" />
+      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.platfrom.test001.TestCase" />
@@ -373,11 +376,8 @@
       <recent name="com.platfrom.test001.TestOne" />
       <recent name="com.platfrom.test001" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001\Data" />
-      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001\Utils" />
-      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001\FindBy" />
-      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\自动化\BossOnlineTest\driver" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -392,7 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/自动化/BossOnlineTest/testng_demo001.xml">
+  <component name="RunManager" selected="TestNG.TestClass">
     <configuration name="D:/自动化/BossOnlineTest/testng_demo001.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testwanwan1" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_demo001.xml" />
@@ -473,10 +473,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestClass" />
         <item itemvalue="TestNG.D:/自动化/BossOnlineTest/testng_demo001.xml" />
         <item itemvalue="TestNG.TestCont" />
         <item itemvalue="TestNG.TestProduct" />
-        <item itemvalue="TestNG.TestClass" />
         <item itemvalue="TestNG.TestOnetoOneClasses" />
       </list>
     </recent_temporary>
@@ -575,7 +575,7 @@
       <workItem from="1564975800310" duration="785000" />
       <workItem from="1565082201753" duration="9537000" />
       <workItem from="1565160116003" duration="3492000" />
-      <workItem from="1565233424862" duration="3435000" />
+      <workItem from="1565233424862" duration="6462000" />
     </task>
     <task id="LOCAL-00001" summary="666">
       <created>1561733758772</created>
@@ -808,16 +808,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565236091828</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="666">
+      <created>1565245190466</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1565245190466</updated>
+    </task>
+    <task id="LOCAL-00035" summary="666">
+      <created>1565253727298</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1565253727298</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestClass - 2019.08.01 at 20h 45m 35s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestProduct - 2019.08.04 at 14h 37m 50s.xml">
-      <configuration name="TestProduct" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestProduct - 2019.08.04 at 14h 38m 15s.xml">
       <configuration name="TestProduct" configurationId="TestNG" />
     </history-entry>
@@ -842,9 +850,15 @@
     <history-entry file="D__自动化_BossOnlineTest_testng_demo001_xml - 2019.08.08 at 12h 10m 52s.xml">
       <configuration name="D:/自动化/BossOnlineTest/testng_demo001.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="D__自动化_BossOnlineTest_testng_demo001_xml - 2019.08.08 at 16h 24m 15s.xml">
+      <configuration name="D:/自动化/BossOnlineTest/testng_demo001.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.08.08 at 16h 40m 50s.xml">
+      <configuration name="TestClass" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="456606000" />
+    <option name="totallyTimeSpent" value="459633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,9 +870,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="204" width="1311" height="817" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2946357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19637139" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -868,7 +883,7 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.39143732" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49876544" weight="0.2522936" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49876544" visible="true" weight="0.4143337" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -885,7 +900,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32924226" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.11128903" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.07417289" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -1068,15 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1205,13 +1211,6 @@
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng_demo001.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
@@ -1250,6 +1249,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng_demo001.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="320" column="8" selection-start-line="320" selection-start-column="8" selection-end-line="320" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
