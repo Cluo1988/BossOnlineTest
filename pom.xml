@@ -8,14 +8,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.9.1</version>
         </dependency>
-
-
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -37,7 +34,6 @@
             <artifactId>jacob</artifactId>
             <version>1.18</version>
         </dependency>
-
     </dependencies>
     <build>
         <plugins>

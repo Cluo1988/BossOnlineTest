@@ -2,9 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="demo_suite1">
-    <listeners>
-        <listener class-name="com.platfrom.test001.TestCase.BossTestListener" />
-    </listeners>
     <test name="test">
         <classes>
             <class name="com.platfrom.test001.TestCase.TestProduct"></class>
