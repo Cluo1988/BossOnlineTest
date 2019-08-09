@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502dc8fc-666d-4fb8-948c-bdf3bf1a2a69" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/TestCase/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/TestCase/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/TestCase/TestCont.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/TestCase/TestCont.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/TestCase/TestCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/TestCase/TestCustomer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/TestCase/TestOnetoOneClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/TestCase/TestOnetoOneClasses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/TestCase/TestProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/TestCase/TestProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/TestCase/TestStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/TestCase/TestStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/Utils/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/platfrom/test001/Utils/BaseTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/RemoteLogWebDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -372,7 +377,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New 新建Scratch文件..." value="XML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test001" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -602,7 +607,7 @@
       <workItem from="1565160116003" duration="3492000" />
       <workItem from="1565233424862" duration="7734000" />
       <workItem from="1565278039726" duration="1514000" />
-      <workItem from="1565333746275" duration="6870000" />
+      <workItem from="1565333746275" duration="7197000" />
     </task>
     <task id="LOCAL-00001" summary="666">
       <created>1561733758772</created>
@@ -898,7 +903,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565345805458</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="666">
+      <created>1565346163860</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1565346163860</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -934,7 +946,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469289000" />
+    <option name="totallyTimeSpent" value="469616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -959,7 +971,7 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.39143732" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49876544" visible="true" weight="0.411315" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49876544" weight="0.411315" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1324,7 +1336,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/RemoteLogWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
