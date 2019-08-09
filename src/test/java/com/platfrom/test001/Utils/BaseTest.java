@@ -28,7 +28,7 @@ public class BaseTest {
             e.printStackTrace();
         }
 
-        //driver =  new RemoteLogWebDriver(service.getUrl(),DesiredCapabilities.chrome(),BaseTest.class);
+        driver =  new RemoteLogWebDriver(service.getUrl(),DesiredCapabilities.chrome(),BaseTest.class);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.xuebangsoft.net/eduboss/login.jsp");
         //LogIn LogIn = PageFactory.initElements(driver, LogIn.class);
