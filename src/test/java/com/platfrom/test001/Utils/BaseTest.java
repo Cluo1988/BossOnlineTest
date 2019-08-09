@@ -15,8 +15,6 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-    //	public static  WebDriver driver;
-//	public static PageManage pageManage;
     public static ChromeDriverService service;
     public static WebDriver driver;
 
@@ -33,9 +31,7 @@ public class BaseTest {
             e.printStackTrace();
         }
 
-        driver = new RemoteWebDriver(service.getUrl(),
-                DesiredCapabilities.chrome());
-
+        driver =  new RemoteLogWebDriver(service.getUrl(),DesiredCapabilities.chrome(),BaseTest.class);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.xuebangsoft.net/eduboss/login.jsp");
         //LogIn LogIn = PageFactory.initElements(driver, LogIn.class);
@@ -46,6 +42,7 @@ public class BaseTest {
 
 
     }
+
 
 
     @AfterMethod
