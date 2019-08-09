@@ -2,7 +2,6 @@ package com.platfrom.test001.TestCase;
 
 
 import com.platfrom.test001.FindBy.HomePage;
-import com.platfrom.test001.FindBy.LogIn;
 import com.platfrom.test001.FindBy.Product;
 import com.platfrom.test001.TestOne.ClassAll;
 import com.platfrom.test001.Utils.BaseTest;

@@ -1,13 +1,10 @@
 package com.platfrom.test001.Utils;
 
 
-import com.platfrom.test001.Data.ConfigReader;
 import com.platfrom.test001.FindBy.LogIn;
-import com.platfrom.test001.FindBy.PageManage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
 
 import java.io.File;

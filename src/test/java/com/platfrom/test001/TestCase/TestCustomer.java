@@ -1,19 +1,13 @@
 package com.platfrom.test001.TestCase;
 
 
-
 import com.platfrom.test001.FindBy.Customer;
 import com.platfrom.test001.FindBy.HomePage;
-import com.platfrom.test001.FindBy.LogIn;
 import com.platfrom.test001.TestOne.ClassAll;
 import com.platfrom.test001.Utils.BaseTest;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
 
 public class TestCustomer extends BaseTest {
     @Test(alwaysRun=true)
