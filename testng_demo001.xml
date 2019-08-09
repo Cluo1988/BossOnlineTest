@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
 
 <suite name="demo_suite1">
     <test name="test">
@@ -8,7 +9,7 @@
             <class name="com.platfrom.test001.TestCase.TestCont"></class>
             <class name="com.platfrom.test001.TestCase.TestOnetoOneClasses"></class>
             <class name="com.platfrom.test001.TestCase.TestClass"></class>
-            <class name="com.platfrom.test001.TestCase.TestOnetoNClass"></class>
+<!--            <class name="com.platfrom.test001.TestCase.TestOnetoNClass"></class>-->
             <class name="com.platfrom.test001.TestCase.TestStudent"></class>
             <class name="com.platfrom.test001.TestCase.TestCustomer"></class>
         </classes>
