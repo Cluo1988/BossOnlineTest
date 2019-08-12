@@ -46,5 +46,14 @@
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.12.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.12.0" level="project" />
     <orderEntry type="library" name="Maven: com.hynnet:jacob:1.18" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: AutoItX4Java.jar:AutoItX4Java.jar:1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/AutoItX4Java.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

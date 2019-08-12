@@ -24,7 +24,7 @@ public class ReadDatabaseUtils {
 	public static Object[][] getDataFromDB(String url, String username, String password, String tableName) {
 		Object[][] objs = null;
 		/*
-		 * try { Class.forName(className); } catch (ClassNotFoundException e) {
+		 * try { ClassGrade.forName(className); } catch (ClassNotFoundException e) {
 		 * // TODO 自动生成的 catch 块 e.printStackTrace(); }
 		 */
 		Connection conn = null;

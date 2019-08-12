@@ -20,26 +20,26 @@ public class TestStudent extends BaseTest {
         //等待5秒
         ClassAll.sleep(10000);
         //点击学员按钮
-        HomePage homePage = new HomePage(driver);
-        homePage.student.click();
+        //HomePage homePage = new HomePage(driver);
+        pm.getHomePage().student.click();
         ClassAll.sleep(10000);
         //点击学员列表按钮
-        HomePage.student_management.click();
+        pm.getHomePage().student_management.click();
         //iframe页面跳转
         WebElement iframe = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
         driver.switchTo().frame(iframe);
         ClassAll.sleep(10000);
         //修改学员信息
-        Student student = new Student(driver);
-        student.modificationStudent("test601001","test601001","13411164100","二年级","上课中","13411164100");
+        //Student student = new Student(driver);
+        pm.getStudent().modificationStudent("test601001","test601001","13411164100","二年级","上课中","13411164100");
         System.out.println("学员修改完成");
         ClassAll.sleep(10000);
         //查询学员
-        student.searchStudent();
+        pm.getStudent().searchStudent();
         System.out.println("学员查询完成");
         ClassAll.sleep(10000);
         //删除学员
-        student.deleteStudent("测试");
+        pm.getStudent().deleteStudent("测试");
         System.out.println("学员删除完成");
         ClassAll.sleep(10000);
 

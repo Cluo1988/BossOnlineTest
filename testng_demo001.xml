@@ -3,13 +3,18 @@
 
 
 <suite name="demo_suite1">
+    <listeners>
+<!--        <listener class-name="com.platfrom.test001.Utils.ReRunListener"></listener>-->
+        <listener class-name="com.platfrom.test001.Utils.TestListener"></listener>
+
+    </listeners>
     <test name="test">
         <classes>
             <class name="com.platfrom.test001.TestCase.TestProduct"></class>
             <class name="com.platfrom.test001.TestCase.TestCont"></class>
             <class name="com.platfrom.test001.TestCase.TestOnetoOneClasses"></class>
-            <class name="com.platfrom.test001.TestCase.TestClass"></class>
-<!--            <class name="com.platfrom.test001.TestCase.TestOnetoNClass"></class>-->
+            <class name="com.platfrom.test001.TestCase.TestClassGrade"></class>
+            <class name="com.platfrom.test001.TestCase.TestOnetoNClassGrade"></class>
             <class name="com.platfrom.test001.TestCase.TestStudent"></class>
             <class name="com.platfrom.test001.TestCase.TestCustomer"></class>
         </classes>

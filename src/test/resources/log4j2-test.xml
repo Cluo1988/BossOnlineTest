@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<properties>
+		<property name="LOG_HOME">logs</property>
+		<property name="FILE_NAME">testlog</property>
+	</properties>
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+<!-- 		append="false"是否追加日志，false是不追加，清空日志，重新记录 -->
+		<RollingRandomAccessFile name="MyFile" append="false"
+			fileName="${LOG_HOME}/${FILE_NAME}.log"
+			filePattern="${LOG_HOME}/$${date:yyyy-MM}/${FILE_NAME}-%d{yyyy-MM-dd}-%i.log">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<Policies>
+				<!-- <TimeBasedTriggeringPolicy interval="1" /> -->
+				<SizeBasedTriggeringPolicy size="10 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingRandomAccessFile>
+	</Appenders>
+	<Loggers>
+		<!-- 配置日志区别 -->
+		<Root level="TRACE">
+			<!-- 引用日志模板 -->
+			<AppenderRef ref="MyFile" />
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>

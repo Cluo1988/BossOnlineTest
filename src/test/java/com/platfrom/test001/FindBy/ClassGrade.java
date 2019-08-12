@@ -10,9 +10,9 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by Administrator on 2019/6/26 0026.
  */
-public class Class {
+public class ClassGrade {
     //构造本页面
-    public Class(WebDriver driver) {
+    public ClassGrade(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
