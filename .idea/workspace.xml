@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="502dc8fc-666d-4fb8-948c-bdf3bf1a2a69" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/logs/testlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/testlog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/OnetoOneClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/OnetoOneClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -593,7 +592,7 @@
       <workItem from="1565361091232" duration="2583000" />
       <workItem from="1565427350232" duration="927000" />
       <workItem from="1565492300309" duration="3639000" />
-      <workItem from="1565594164264" duration="14276000" />
+      <workItem from="1565594164264" duration="14590000" />
     </task>
     <task id="LOCAL-00001" summary="666">
       <created>1561733758772</created>
@@ -924,7 +923,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565602763256</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="666">
+      <created>1565610759313</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1565610759313</updated>
+    </task>
+    <task id="LOCAL-00049" summary="666">
+      <created>1565610816916</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1565610816916</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -960,7 +973,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="494404000" />
+    <option name="totallyTimeSpent" value="494718000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -972,10 +985,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19316968" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19316968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -985,7 +997,7 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.39081746" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49876544" visible="true" weight="0.5397536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49876544" visible="true" weight="0.5397536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
