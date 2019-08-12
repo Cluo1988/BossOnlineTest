@@ -46,9 +46,13 @@ public class OnetoOneClasses {
     public static WebElement oneClassesSubject;
 
     //教务-一对一排课-点击激活日期控件
-    //日期选择框,日期选择框是两个矩阵，本月定位永远是month1，下月定位永远是month2，再通过tr（X轴），td（Y轴）来定位具体日，目前选择的是本月1日
+    //日期选择框
     @FindBy(xpath = "//span[@class='form-control date_range_input date_range curcor-pointer']")
     public static WebElement oneClassesDate;
+
+    //教务-一对一排课-选择日期为昨天
+    @FindBy(xpath = "//div[contains(@class,'date-picker-wrapper no-shortcuts no-gap two-months')]//label[2]")
+    public static WebElement oneClassesDateBegin1;
 
     //教务-一对一排课-选择日期为今天
     @FindBy(xpath = "//div[contains(@class,'date-picker-wrapper no-shortcuts no-gap two-months')]//label[1]")
@@ -56,10 +60,10 @@ public class OnetoOneClasses {
 
     //教务-一对一排课-选择上课星期，选择第一个数据
     //点击激活星期控件
-    @FindBy(xpath = "//b[contains(@class,'caret')]")
+    @FindBy(xpath = "//table[@id='courseSummaryTable']//td[6]")
     public static WebElement oneClassesWeek;
     //选择具体星期几
-    @FindBy(xpath = "//li[4]//a[1]//label[1]//input[1]")
+    @FindBy(xpath = "//div[@id='bodyDiv']//li[@class='']")
     public static WebElement oneClassesWeekNumber;
 
     //教务-一对一排课-点击选择老师按钮，弹出选择老师页面
@@ -340,6 +344,9 @@ public class OnetoOneClasses {
         oneClassesTeatherSave.click();
         ClassAll.sleep(10000);
         oneClassesSubject.sendKeys(oneClassessubject);
+        oneClassesDate.click();
+        oneClassesDateBegin1.click();
+        ClassAll.sleep(10000);
         oneClassesDate.click();
         oneClassesDateBegin.click();
         oneClassesWeek.click();
