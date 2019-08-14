@@ -1,4 +1,4 @@
-package com.platfrom.test001.TestCase;
+package com.platfrom.test001.demo;
 
 import com.platfrom.test001.Utils.BaseTest;
 import org.testng.Assert;

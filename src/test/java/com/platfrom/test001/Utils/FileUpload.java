@@ -21,7 +21,8 @@ public class FileUpload {
 
         x.winActivate(title);
         x.winWaitActive(title);
-        x.controlSend(title,"",classNameNN,filePath);
+        //x.controlSend(title,"",classNameNN,filePath);
+        x.ControlSetText(title,"",classNameNN,filePath);
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {

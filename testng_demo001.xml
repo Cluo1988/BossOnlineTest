@@ -6,9 +6,12 @@
     <listeners>
 <!--        <listener class-name="com.platfrom.test001.Utils.ReRunListener"></listener>-->
         <listener class-name="com.platfrom.test001.Utils.TestListener"></listener>
-
+        <listener class-name="com.platfrom.test001.Utils.ExtentTestNGIReportListener"></listener>
     </listeners>
     <test name="test">
+        <packages>
+            <package name="com.platfrom.test001.TestCase"></package>
+        </packages>
         <classes>
             <class name="com.platfrom.test001.TestCase.TestProduct"></class>
             <class name="com.platfrom.test001.TestCase.TestCont"></class>
