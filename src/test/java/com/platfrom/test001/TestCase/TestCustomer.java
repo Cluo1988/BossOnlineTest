@@ -3,10 +3,13 @@ package com.platfrom.test001.TestCase;
 
 import com.platfrom.test001.TestOne.ClassAll;
 import com.platfrom.test001.Utils.BaseTest;
+import com.platfrom.test001.Utils.TestListener;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners({TestListener.class})
 public class TestCustomer extends BaseTest {
     @Test(alwaysRun=true)
     public static void testcustome() {

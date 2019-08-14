@@ -5,13 +5,16 @@ import com.platfrom.test001.FindBy.Cont;
 import com.platfrom.test001.FindBy.HomePage;
 import com.platfrom.test001.TestOne.ClassAll;
 import com.platfrom.test001.Utils.BaseTest;
+import com.platfrom.test001.Utils.TestListener;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 /**
  * Created by Administrator on 2019/6/19 0019.
  */
+@Listeners({TestListener.class})
 public class TestCont extends BaseTest {
     @Test(alwaysRun=true)
     public static void testCont() {
