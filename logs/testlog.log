@@ -1,4 +1,54 @@
-2019-08-14 10:35:04.217 [main] INFO  com.platfrom.test001.Utils.BaseTest - j_username_face定位已找到元素
-2019-08-14 10:35:04.406 [main] INFO  com.platfrom.test001.Utils.BaseTest - j_password定位已找到元素
-2019-08-14 10:35:04.553 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@type='submit']定位已找到元素
-2019-08-14 10:35:15.572 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[@title='设置']定位已找到元素
+2019-08-29 19:11:02.195 [main] INFO  com.platfrom.test001.Utils.BaseTest - j_username_face定位已找到元素
+2019-08-29 19:11:02.571 [main] INFO  com.platfrom.test001.Utils.BaseTest - j_password定位已找到元素
+2019-08-29 19:11:02.765 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@type='submit']定位已找到元素
+2019-08-29 19:11:14.240 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[@title='教务']定位已找到元素
+2019-08-29 19:11:24.380 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[contains(text(),'1对1排课')]定位已找到元素
+2019-08-29 19:11:24.911 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]定位已找到元素
+2019-08-29 19:11:35.003 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[@id='campusEl']定位已找到元素
+2019-08-29 19:11:35.079 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@class='btn btn-primary submit']定位已找到元素
+2019-08-29 19:11:35.234 [main] INFO  com.platfrom.test001.Utils.BaseTest - findStudentAutoComplate定位已找到元素
+2019-08-29 19:11:35.910 [main] INFO  com.platfrom.test001.Utils.BaseTest - /html[1]/body[1]/ul[1]/li[1]定位已找到元素
+2019-08-29 19:11:46.034 [main] INFO  com.platfrom.test001.Utils.BaseTest - //option[contains(text(),'二狗子')]定位已找到元素
+2019-08-29 19:11:46.145 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@class='btn btn-primary submit']定位已找到元素
+2019-08-29 19:11:56.295 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[@name='subject']定位已找到元素
+2019-08-29 19:11:56.385 [main] INFO  com.platfrom.test001.Utils.BaseTest - //span[@class='form-control date_range_input date_range curcor-pointer']定位已找到元素
+2019-08-29 19:11:56.626 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[contains(@class,'date-picker-wrapper no-shortcuts no-gap two-months')]//label[2]定位已找到元素
+2019-08-29 19:12:06.878 [main] INFO  com.platfrom.test001.Utils.BaseTest - //span[@class='form-control date_range_input date_range curcor-pointer']定位已找到元素
+2019-08-29 19:12:07.105 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[contains(@class,'date-picker-wrapper no-shortcuts no-gap two-months')]//label[1]定位已找到元素
+2019-08-29 19:12:07.281 [main] INFO  com.platfrom.test001.Utils.BaseTest - //span[contains(@class,'multiselect-selected-text')]定位已找到元素
+2019-08-29 19:12:17.436 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@id='bodyDiv']//li[@class='']定位已找到元素
+2019-08-29 19:12:17.587 [main] INFO  com.platfrom.test001.Utils.BaseTest - 选择老师定位已找到元素
+2019-08-29 19:12:27.796 [main] INFO  com.platfrom.test001.Utils.BaseTest - //table[@id='dayChooseTable']//tbody//tr[2]定位已找到元素
+2019-08-29 19:12:27.918 [main] INFO  com.platfrom.test001.Utils.BaseTest - chooseCourseTime定位已找到元素
+2019-08-29 19:12:38.081 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[contains(@class,'clockpicker-tick')][contains(text(),'6')]定位已找到元素
+2019-08-29 19:12:38.232 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[contains(text(),'05')]定位已找到元素
+2019-08-29 19:12:38.355 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='choosePlanHours']定位已找到元素
+2019-08-29 19:12:38.431 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='choosePlanHours']定位已找到元素
+2019-08-29 19:12:38.519 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='chooseTimeLong']定位已找到元素
+2019-08-29 19:12:38.625 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='chooseTimeLong']定位已找到元素
+2019-08-29 19:12:38.693 [main] INFO  com.platfrom.test001.Utils.BaseTest - chooseSave定位已找到元素
+2019-08-29 19:12:48.879 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[@id='saveScheduleCourseInfo']定位已找到元素
+2019-08-29 19:12:49.517 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@id='confirm-yes']定位已找到元素
+2019-08-29 19:12:59.688 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[contains(@class,'tabs-close fa fa-remove')]定位已找到元素
+2019-08-29 19:13:09.853 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[@title='教务']定位已找到元素
+2019-08-29 19:13:19.968 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[contains(text(),'1对1考勤')]定位已找到元素
+2019-08-29 19:13:21.009 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]定位已找到元素
+2019-08-29 19:13:31.096 [main] INFO  com.platfrom.test001.Utils.BaseTest - date_range定位已找到元素
+2019-08-29 19:13:31.345 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[contains(@class,'clear-btn')]定位已找到元素
+2019-08-29 19:13:31.539 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='studentName']定位已找到元素
+2019-08-29 19:13:31.704 [main] INFO  com.platfrom.test001.Utils.BaseTest - searchbtn定位已找到元素
+2019-08-29 19:13:41.904 [main] INFO  com.platfrom.test001.Utils.BaseTest - jqg_jqgrid_1定位已找到元素
+2019-08-29 19:13:42.045 [main] INFO  com.platfrom.test001.Utils.BaseTest - //tr[@id='1']//button[contains(@class,'btn attendBtn')][contains(text(),'考勤')]定位已找到元素
+2019-08-29 19:13:52.172 [main] INFO  com.platfrom.test001.Utils.BaseTest - studyManegerVerifyHref定位已找到元素
+2019-08-29 19:14:02.339 [main] INFO  com.platfrom.test001.Utils.BaseTest - //tr[@id='1']//button[contains(@class,'btn attendBtn')][contains(text(),'考勤')]定位已找到元素
+2019-08-29 19:14:12.493 [main] INFO  com.platfrom.test001.Utils.BaseTest - classTeacherDeductionHref定位已找到元素
+2019-08-29 19:14:22.673 [main] INFO  com.platfrom.test001.Utils.BaseTest - //tr[@id='1']//button[contains(@class,'btn chargeRecordBtn')][contains(text(),'扣费')]定位已找到元素
+2019-08-29 19:14:22.791 [main] INFO  com.platfrom.test001.Utils.BaseTest - confirm-yes定位已找到元素
+2019-08-29 19:14:32.963 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='showUnchargedCourses']定位已找到元素
+2019-08-29 19:14:43.117 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='showChargedCourses']定位已找到元素
+2019-08-29 19:14:53.260 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@class='btn rollbackChargeRecord']定位已找到元素
+2019-08-29 19:15:03.415 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@id='confirm-yes']定位已找到元素
+2019-08-29 19:15:13.535 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='showUnchargedCourses']定位已找到元素
+2019-08-29 19:15:23.678 [main] INFO  com.platfrom.test001.Utils.BaseTest - //tr[@id='1']//button[@class='btn changeBtn enableRes'][contains(text(),'修改')]定位已找到元素
+2019-08-29 19:15:33.914 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@id='deleteBtn']定位已找到元素
+2019-08-29 19:15:44.052 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@id='confirm-yes']定位已找到元素

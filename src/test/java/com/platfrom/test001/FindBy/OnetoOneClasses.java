@@ -60,7 +60,7 @@ public class OnetoOneClasses {
 
     //教务-一对一排课-选择上课星期，选择第一个数据
     //点击激活星期控件
-    @FindBy(xpath = "//table[@id='courseSummaryTable']//td[6]")
+    @FindBy(xpath = "//span[contains(@class,'multiselect-selected-text')]")
     public static WebElement oneClassesWeek;
     //选择具体星期几
     @FindBy(xpath = "//div[@id='bodyDiv']//li[@class='']")
@@ -95,8 +95,13 @@ public class OnetoOneClasses {
     public static WebElement chooseSave;
 
     //教务-一对一排课-保存排课
-    @FindBy(linkText = "保存")
+    @FindBy(xpath = "//a[@id='saveScheduleCourseInfo']")
     public static WebElement oneClassesSave;
+
+    //教务-一对一排课-保存排课-继续保存
+    @FindBy(xpath = "//button[@id='confirm-yes']")
+    public static WebElement oneClassesSave1;
+
 
     //一对一排课页面-删除一对一排课
     //教务-一对一排课-删除一对一排课
@@ -335,37 +340,66 @@ public class OnetoOneClasses {
      *         driver.findElement(By.linkText("保存")).click();
      */
     public void addonetoOneClasses(String oneclassescampus,String oneClassesstuname,String oneClassessubject,String oneClassesplanhours,String oneClassestimelong){
+        //教务-一对一排课-校区选择框
         oneClassescampus.sendKeys(oneclassescampus);
+        //教务-一对一排课-校区选择框-确认按钮
         oneClassessave.click();
+        //教务-一对一排课-学员姓名框塞值
         oneClassesstuName.sendKeys(oneClassesstuname);
+        //教务-一对一排课-学员姓名框选择学生
         oneClassesSlectstuName.click();
         ClassAll.sleep(10000);
+        //教务-一对一排课-学员选择学管师
         oneClassesTeather.click();
+        //教务-一对一排课-学员选择学管师-确认按钮
         oneClassesTeatherSave.click();
         ClassAll.sleep(10000);
+        //教务-一对一排课-选择科目
         oneClassesSubject.sendKeys(oneClassessubject);
+        //教务-一对一排课-点击激活日期控件
+        //日期选择框
         oneClassesDate.click();
+        //教务-一对一排课-选择日期为昨天
         oneClassesDateBegin1.click();
         ClassAll.sleep(10000);
+        //教务-一对一排课-点击激活日期控件
+        //日期选择框
         oneClassesDate.click();
+        //教务-一对一排课-选择日期为今天
         oneClassesDateBegin.click();
+        //教务-一对一排课-选择上课星期，选择第一个数据
+        //点击激活星期控件
         oneClassesWeek.click();
         ClassAll.sleep(10000);
+        //选择具体星期几
         oneClassesWeekNumber.click();
+        //教务-一对一排课-点击选择老师按钮，弹出选择老师页面
         oneClassesTeacher.click();
         ClassAll.sleep(10000);
+        //选择老师页面-选择第二个老师
         oneClassesTwoTeacher.click();
+        //选择老师页面-点击激活上课时间控件
         oneClassesTime.click();
         ClassAll.sleep(10000);
+        //选择老师页面-选择上课时间控件 时（6点）
         oneClassesHourTime.click();
+        //选择老师页面-选择上课时间控件 分钟（05分）
         oneClassesMinuteTime.click();
+        //选择老师页面-课时数
         oneClassesPlanHours.clear();
+        //选择老师页面-课时数
         oneClassesPlanHours.sendKeys(oneClassesplanhours);
+        //选择老师页面-课时时长
         oneClassesTimeLong.clear();
+        //选择老师页面-课时时长
         oneClassesTimeLong.sendKeys(oneClassestimelong);
+        //选择老师页面-保存按钮
         chooseSave.click();
         ClassAll.sleep(10000);
+        //教务-一对一排课-保存排课
         oneClassesSave.click();
+        ClassAll.sleep(10000);
+        oneClassesSave1.click();
 
     }
 
