@@ -1,10 +1,14 @@
 package com.platfrom.test001.FindBy;
 
 import TestOne.ClassAll;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+
+
 
 /**
  * Created by Administrator on 2019/6/14 0014.
@@ -67,13 +71,40 @@ public class Cont {
 
     //前台-新生报名-选择第一个课程产品
     @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='已报'])[1]/preceding::button[1]")
-    public static WebElement productfirst;
+    public static WebElement productFirst;
     //前台-新生报名-选择第二个课程产品
     @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='自动化1对N01'])[1]/following::button[1]")
     public static WebElement productSecond;
     //前台-新生报名-选择第三个课程产品
     @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='自动化一对一01'])[1]/following::button[1]")
     public static WebElement productThird;
+    //前台-新生报名-选择第四个课程产品
+    @FindBy(xpath = "//div[contains(@class,'productPanelItem col-md-12 border-bottom')]//div[2]//button[1]")
+    public static WebElement productFourth;
+    //前台-新生报名-第一个课程产品优惠选择框
+    @FindBy(xpath = "//tbody[@id='contractProductsTbody']//tr[1]/td[@name='promotion']/div[1]")
+    public static WebElement productFirstDisconuts;
+    //前台-新生报名-第一个课程产品优惠选择框-选择优惠
+    @FindBy(xpath = "//tbody[@id='contractProductsTbody']//tr[1]/td[@name='promotion']//div[1]/div[@class='promotionItem']/div[1]")
+    public static WebElement productFirstDisconuts1;
+    //前台-新生报名-第二个课程产品优惠选择框
+    @FindBy(xpath = "//tbody[@id='contractProductsTbody']//tr[2]/td[@name='promotion']/div[1]")
+    public static WebElement productSecondDisconuts;
+    //前台-新生报名-第二个课程产品优惠选择框
+    @FindBy(xpath = "//tbody[@id='contractProductsTbody']//tr[2]/td[@name='promotion']//div[1]/div[@class='promotionItem']/div[1]")
+    public static WebElement productSecondDisconuts1;
+    //前台-新生报名-第三个课程产品优惠选择框
+    @FindBy(xpath = "//tbody[@id='contractProductsTbody']//tr[3]/td[@name='promotion']/div[1]")
+    public static WebElement productThirdDisconuts;
+    //前台-新生报名-第三个课程产品优惠选择框
+    @FindBy(xpath = "//tbody[@id='contractProductsTbody']//tr[3]/td[@name='promotion']//div[1]/div[@class='promotionItem']/div[1]")
+    public static WebElement productThirdDisconuts1;
+    //前台-新生报名-第四个课程产品优惠选择框
+    @FindBy(xpath = "//tbody[@id='contractProductsTbody']//tr[4]/td[@name='promotion']/div[1]")
+    public static WebElement productFourthDisconuts;
+    //前台-新生报名-第四个课程产品优惠选择框
+    @FindBy(xpath = "//tbody[@id='contractProductsTbody']//tr[4]/td[@name='promotion']//div[1]/div[@class='promotionItem']/div[1]")
+    public static WebElement productFourthDisconuts1;
 
     //前台-新生报名-保存按钮
     @FindBy(id = "submitBtnAndRefresh")
@@ -82,6 +113,10 @@ public class Cont {
     //前台-新生报名-保存成功页面-去收款按钮
     @FindBy(id = "chargeBtn")
     public static WebElement receipt;
+
+    //修改合同-保存-修改确认页面-确定
+    @FindBy(xpath = "//button[@id='confirm-yes']")
+    public static WebElement contsave2;
 
     //新生报名的合同收款页面
     //前台-新生报名-保存成功页面-去收款-合同收款页面-选择收款校区
@@ -108,62 +143,34 @@ public class Cont {
     @FindBy(xpath = "//button[@class='close']")
     public static WebElement contsaveclose;
 
+    //财务-合同管理-查询栏-日期
+    @FindBy(xpath = "//label[@class='timeRangeWidth']")
+    public static WebElement ContDate;
 
-    /**
-     * 封装方法
-     * 新增合同
-     * //新增合同页面
-     *         ClassAll.sleep(10000);
-     *         driver.findElement(By.xpath("//select[@id='campusEl']")).sendKeys("伯纳乌");
-     *         driver.findElement(By.xpath("//button[@class='btn btn-primary submit']")).click();
-     *         ClassAll.sleep(10000);
-     *     //选择校区
-     *         driver.findElement(By.id("showAddStudentLayoutEl")).click();
-     *         ClassAll.sleep(10000);
-     *     //新增学员页面数据填写
-     *         driver.findElement(By.xpath("//div[@class='col-md-8']//input[@name='name']")).sendKeys("1903080011");
-     *         driver.findElement(By.name("contact")).sendKeys("13411164100");
-     *         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='学员年级'])[2]/following::select[1]")).sendKeys("六年级");
-     *         driver.findElement(By.id("cusOrg")).sendKeys("短息");
-     *         driver.findElement(By.id("cusType")).sendKeys("地推电话");
-     *         driver.findElement(By.id("campusId")).sendKeys("伯纳乌");
-     *         driver.findElement(By.id("submitBtn")).click();
-     *         ClassAll.sleep(10000);
-     *     //相同学生页面的保存
-     *     //driver.findElement(By.xpath("//div[@id='showMiniClassStudentModal']//div[@class='modal-footer']//button[contains(text(),'继续保存')]")).click();
-     *     //选择课程
-     *         driver.findElement(By.xpath("//div[@id='productFilterPanelInputContainer']")).click();
-     *         ClassAll.sleep(10000);
-     *         driver.findElement(By.xpath("//div[@class='items col-md-12 no-padding border-top productItems']//div[1]//div[3]//button[1]")).click();
-     *         ClassAll.sleep(10000);
-     *         driver.findElement(By.xpath("//a[@class='btn btn-primary']")).click();
-     *         ClassAll.sleep(10000);
-     *     //
-     *         driver.findElement(By.id("chargeBtn")).click();
-     *         driver.findElement(By.xpath("//div[@id='campusInfo']//div//select[@id='blCampusId']")).sendKeys("伯纳乌");
-     *         driver.findElement(By.name("transactionAmount")).sendKeys("300");
-     *         driver.findElement(By.name("posid")).sendKeys("22231");
-     *         driver.findElement(By.id("submitBtn")).click();
-     *
-     *         ClassAll.sleep(10000);
-     *         driver.findElement(By.xpath("//div[@id='afterTransaction']//button[@class='close'][contains(text(),'×')]")).click();
-     *         ClassAll.sleep(10000);
-     *         driver.findElement(By.xpath("//button[@class='close']")).click();
-     */
-    /**
-     *
-     * @param Selectcampus
-     * @param Studentname
-     * @param Phone
-     * @param StudentClass
-     * @param Campus
-     * @param CusOrg
-     * @param CusType
-     * @param productClik
-     * @param Receiptampus
-     * @param Receiptamount
-     * @param Receiptnumber
-     */
+    //财务-合同管理-查询栏-日期-清空
+    @FindBy(xpath = "//input[@class='clear-btn']")
+    public static WebElement ContDateClear;
+
+    //财务-合同管理-查询栏-学生名字
+    @FindBy(xpath = "//input[@id='stuName']")
+    public static WebElement ContStudentName;
+
+    //财务-合同管理-查询栏-查询按钮
+    @FindBy(xpath = "//button[@id='searchbtn']")
+    public static WebElement ContSearch;
+
+    //财务-合同管理-第一个更多
+    @FindBy(xpath = "//button[@id='showMoreOption']")
+    public static WebElement ContMore;
+
+    //财务-合同管理-第一个更多-修改合同
+    @FindBy(xpath = "//div[@id='operationDropdownMenu']//li[3]//a[1]")
+    public static WebElement ContReviseCont;
+
+
+
+
+
     public void addCont(String Selectcampus, String Studentname, String Phone, String StudentClass, String Campus, String CusOrg, String CusType,String productClik, String Receiptampus, String Receiptamount, String Receiptnumber) {
         ClassAll.sleep(10000);
         selectcampus.sendKeys(Selectcampus);
@@ -183,11 +190,29 @@ public class Cont {
         productclik.sendKeys(productClik);
         ClassAll.sleep(10000);
         //这里为了配合之后新增三种类型的排课新增了三种类型的产品
-        productfirst.click();
+        productFirst.click();
         ClassAll.sleep(10000);
         productSecond.click();
         ClassAll.sleep(10000);
         productThird.click();
+        ClassAll.sleep(10000);
+        productFourth.click();
+        ClassAll.sleep(10000);
+        productFirstDisconuts.click();
+        ClassAll.sleep(10000);
+        productFirstDisconuts1.click();
+        ClassAll.sleep(10000);
+        productSecondDisconuts.click();
+        ClassAll.sleep(10000);
+        productSecondDisconuts1.click();
+        ClassAll.sleep(10000);
+        productThirdDisconuts.click();
+        ClassAll.sleep(10000);
+        productThirdDisconuts1.click();
+        ClassAll.sleep(10000);
+        productFourthDisconuts.click();
+        ClassAll.sleep(10000);
+        productFourthDisconuts1.click();
         ClassAll.sleep(10000);
         contsave.click();
         ClassAll.sleep(10000);
@@ -203,7 +228,30 @@ public class Cont {
         contsaveclose.click();
 
     }
+    //修改合同
 
+    public static PageManage pm;
 
+    public void reviseCont(String contStudentName) {
+        ContDate.click();
+        ClassAll.sleep(10000);
+        ContDateClear.click();
+        ClassAll.sleep(10000);
+        ContStudentName.sendKeys(contStudentName);
+        ClassAll.sleep(10000);
+        ContSearch.click();
+        ClassAll.sleep(10000);
+        ContMore.click();
+        ClassAll.sleep(10000);
+        ContReviseCont.click();
+    }
+    public void reviseCont2(){
+        ClassAll.sleep(10000);
+        contsave.click();
+        ClassAll.sleep(10000);
+        contsave2.click();
+        ClassAll.sleep(10000);
+        contsaveclose.click();
+    }
 
 }

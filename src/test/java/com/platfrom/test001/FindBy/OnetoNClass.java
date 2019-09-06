@@ -1,6 +1,7 @@
 package com.platfrom.test001.FindBy;
 
 import com.platfrom.test001.TestOne.ClassAll;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -158,35 +159,8 @@ public class OnetoNClass {
 
 
 
-    /*driver.findElement(By.id("date_range")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[1]/following::input[1]")).click();
-    driver.findElement(By.id("groupName")).click();
-    driver.findElement(By.id("groupName")).clear();
-    driver.findElement(By.id("groupName")).sendKeys("自动化");
-    driver.findElement(By.id("searchBtn")).click();
-    driver.findElement(By.id("showAttendanceCourse")).click();
-    driver.findElement(By.id("jqg_jqgrid_1437739")).click();
-    driver.findElement(By.linkText("删除")).click();
-    driver.findElement(By.id("confirm-cancel")).click();*/
 
-
-    /*//添加1对N学员进班
-    //1对N小组页面，查询缩小小组数据范围
-    driver.findElement(By.name("name")).clear();
-    driver.findElement(By.name("name")).sendKeys("自动化");
-    driver.findElement(By.id("searchbtn")).click();
-    ClassAll.sleep(10000);
-    driver.findElement(By.linkText("添加组员")).click();
-    ClassAll.sleep(10000);
-    //输入学生姓名缩小查询范围
-    driver.findElement(By.xpath("//div[@id='leftContainer']//input[@placeholder='学员姓名']")).sendKeys("test601003");
-    //点击查询
-    driver.findElement(By.xpath("//button[@id='searchBtn']")).click();
-    ClassAll.sleep(10000);
-    //勾选查询出来的第一个学生
-    driver.findElement(By.xpath("//span[@class='inline-block chooseFlag']")).click();
-    //点击保存
-    driver.findElement(By.xpath("//button[@class='btn btn-primary submit']")).click();*/
+    //添加1对N学员进班
     public void addOneToNClassStudent(String OneToNClassName, String OneToNClassAddStudentName) {
         oneToNClassName.clear();
         oneToNClassName.sendKeys(OneToNClassName);
@@ -210,29 +184,7 @@ public class OnetoNClass {
     }
 
 
-    /*//1对N排课
-    //点击清空查询项
-    driver.findElement(By.xpath("//button[@id='resetBut']")).click();
-    ClassAll.sleep(10000);
-    //查询项搜索test601003这个1对N课程
-    driver.findElement(By.xpath("//input[@placeholder='小组名称']")).sendKeys("test601003");
-    driver.findElement(By.xpath("//button[@id='searchbtn']")).click();
-    ClassAll.sleep(10000);
-    //打开排课页面
-    driver.findElement(By.xpath("//a[@class='margin-right-5 courseAct enableRes']")).click();
-    ClassAll.sleep(10000);
-    //时间输入框（时间设置10点10分）
-    driver.findElement(By.id("courseTimeEl")).click();
-    ClassAll.sleep(10000);
-    driver.findElement(By.xpath("//div[@class='clockpicker-dial clockpicker-hours']//div[@class='clockpicker-tick'][contains(text(),'10')]")).click();
-    driver.findElement(By.xpath("//div[@class='clockpicker-dial clockpicker-minutes']//div[@class='clockpicker-tick'][contains(text(),'10')]")).click();
-    ClassAll.sleep(10000);
-    driver.findElement(By.xpath("//input[@id='planHoursEl']")).sendKeys("1");
-    driver.findElement(By.xpath("//input[@id='timeLongEl']")).sendKeys("5");
-    ClassAll.sleep(10000);
-    //日期栏里选择每月一号(第一行包含1开头的日期)
-    driver.findElement(By.xpath("//div[@id='remoteModalgroupArrange']//tr[2]//div[contains(@class,'fc-day-number pull-left')][starts-with(text(),'1')]")).click();
-    driver.findElement(By.xpath("//button[contains(@class,'btn btn-primary submit')]")).click();*/
+    //1对N排课
     public void addOneToNClass(String OneToNClassName, String OneToNClassAddCourseCourse, String OneToNClassAddCourseTime1) {
         oneToNClassClear.click();
         ClassAll.sleep(10000);
@@ -254,21 +206,7 @@ public class OnetoNClass {
     }
 
 
-    /*//1对N考勤
-    driver.findElement(By.xpath("//a[@class='margin-right-5 attendanceAct enableRes']")).click();
-    ClassAll.sleep(10000);
-    //点击未考勤触发考勤按钮
-    driver.findElement(By.xpath("//td[@class='bootstrap-popover']")).click();
-    //点击考勤弹框
-    driver.findElement(By.xpath("//button[@id='miniClassAttendanceBtn']")).click();
-    ClassAll.sleep(10000);
-    //勾选第一个待考勤课程
-    driver.findElement(By.xpath("//div[@id='remoteModaloneOnNCourseAttendance']//td[1]//input[1]")).click();
-    //点击考勤
-    driver.findElement(By.xpath("//button[@id='oneOnNAttendanceModalSubmitBtn']")).click();
-    ClassAll.sleep(10000);
-    //点击关闭考勤页面
-    driver.findElement(By.xpath("//button[@class='close']")).click();*/
+    //1对N考勤
     public void oneToNClassConsume() {
         oneToNClassConsumeBtn.click();
         ClassAll.sleep(10000);
@@ -303,16 +241,6 @@ public class OnetoNClass {
     }
 
     //删除1对N排课
-    /*driver.findElement(By.id("date_range")).click();
-    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[1]/following::input[1]")).click();
-    driver.findElement(By.id("groupName")).click();
-    driver.findElement(By.id("groupName")).clear();
-    driver.findElement(By.id("groupName")).sendKeys("自动化");
-    driver.findElement(By.id("searchBtn")).click();
-    driver.findElement(By.id("showAttendanceCourse")).click();
-    driver.findElement(By.id("jqg_jqgrid_1437739")).click();
-    driver.findElement(By.linkText("删除")).click();
-    driver.findElement(By.id("confirm-cancel")).click();*/
     public void oneToNClassCancelClass(String OneToNClassGroupName){
         oneToNClassData.click();
         ClassAll.sleep(10000);

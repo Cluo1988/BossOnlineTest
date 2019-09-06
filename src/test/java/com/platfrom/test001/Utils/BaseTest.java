@@ -3,7 +3,9 @@ package com.platfrom.test001.Utils;
 
 import com.platfrom.test001.FindBy.LogIn;
 import com.platfrom.test001.FindBy.PageManage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.*;
@@ -33,6 +35,7 @@ public class BaseTest {
         driver = new RemoteLogWebDriver(service.getUrl(), DesiredCapabilities.chrome(), BaseTest.class);
 
         pm = new PageManage(driver);
+
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.xuebangsoft.net/eduboss/login.jsp");

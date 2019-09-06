@@ -245,56 +245,7 @@ public class ClassGrade {
     public static WebElement classCancelCloseBtn;
 
 
-    /*//新建班课
-            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='报名'])[1]/following::button[1]")).click();
-            driver.findElement(By.linkText("手动开班")).click();
-            ClassAll.sleep(10000);
-            driver.findElement(By.xpath("//select[@id='campusEl']//option[contains(text(),'伯纳乌')]")).click();
-        //校区确定按钮
-            driver.findElement(By.xpath("//button[@class='btn btn-primary submit']")).click();
-            ClassAll.sleep(10000);
-        //新建课程按钮
-            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='+ 新建课程'])[1]/following::div[2]")).click();
-            ClassAll.sleep(10000);
-        //选择班课产品（筛选自动化名字的班课然后选择第一个）
-            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='选择关联的班课产品'])[1]/following::input[1]")).sendKeys("自动化");
-            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='选择关联的班课产品'])[1]/following::input[1]")).sendKeys(Keys.ENTER);
-            ClassAll.sleep(10000);
-            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='冬季'])[4]/following::a[1]")).click();
-            ClassAll.sleep(10000);
-        //选择班课档期（2019年）
-            driver.findElement(By.xpath("//select[@id='miniClassSchedule']//option[contains(text(),'2019年暑假')]")).click();
-        //选择开课时间
-        //点开日期控件
-            driver.findElement(By.id("startDateFrom")).click();
-        //选择年份（2019年）
-            driver.findElement(By.xpath("//select[contains(@class,'ui-datepicker-year')]//option[contains(text(),'2019')]")).click();
-        //选择月份（6月）
-            driver.findElement(By.xpath("//select[contains(@class,'ui-datepicker-month')]//option[contains(text(),'六')]")).click();
-        //选择天（24日）
-            driver.findElement(By.xpath("//div[@id='ui-datepicker-div']//tr[5]//td[1]")).click();
-        //预招生人数（50）
-            driver.findElement(By.id("peopleQuantity")).sendKeys("50");
-        //选择班主任（二狗子）
-            driver.findElement(By.xpath("//select[@id='studyManegerId']//option[contains(text(),'二狗子')]")).click();
-        //选择班课科目
-            driver.findElement(By.xpath("//div[@class='col-md-8']//option[contains(text(),'物理')]")).click();
-        //选择授课老师
-            driver.findElement(By.id("showTeacherModalBtn")).click();
-            ClassAll.sleep(10000);
-            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='（周日）'])[1]/following::td[18]")).click();
-            ClassAll.sleep(10000);
-        //上课日期（24号）
-            driver.findElement(By.id("courseDate_range")).click();
-            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='日'])[5]/following::div[29]")).click();
-            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='日'])[5]/following::div[29]")).click();
-        //上课时间
-            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='操作'])[2]/following::input[1]")).click();
-            ClassAll.sleep(10000);
-            driver.findElement(By.xpath("//div[@class='clockpicker-dial clockpicker-hours']//div[9]")).click();
-            driver.findElement(By.xpath("//div[@class='clockpicker-tick'][contains(text(),'05')]")).click();
-            ClassAll.sleep(10000);
-            driver.findElement(By.id("appointmentDateSubmit")).click();*/
+    //新建班课
     public void addClass(String NewClassProductSearch,String NewClassPeople) {
         newClass.click();
         newClassHand.click();
@@ -338,19 +289,7 @@ public class ClassGrade {
 
 
 
-    /*//学员进班
-        driver.findElement(By.id("showMoreOption")).click();
-        driver.findElement(By.linkText("成员")).click();
-        ClassAll.sleep(10000);
-        driver.findElement(By.id("studentName")).sendKeys("test619001");
-        ClassAll.sleep(10000);
-        driver.findElement(By.id("searchBtn")).click();
-        ClassAll.sleep(10000);
-        driver.findElement(By.linkText("报班")).click();
-        ClassAll.sleep(10000);
-        driver.findElement(By.id("firstSchoolTime")).click();
-        driver.findElement(By.linkText("24")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='取消'])[3]/following::button[1]")).click();*/
+    //学员进班
     public void addClassStudent(String NewClassMoreStudentName ) {
         newClassMore.click();
         newClassMoreStudent.click();
@@ -374,28 +313,7 @@ public class ClassGrade {
     }
 
 
-    /*//班课管理查询缩小范围，校区和班课名称搜索
-        driver.findElement(By.xpath("//select[@id='blCampusEl']//option[contains(text(),'伯纳乌')]")).click();
-        driver.findElement(By.id("search-mini-class-name")).clear();
-        driver.findElement(By.id("search-mini-class-name")).sendKeys("自动化");
-        ClassAll.sleep(10000);
-        driver.findElement(By.id("searchbtn")).click();
-        ClassAll.sleep(10000);
-        //点击考勤按钮
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='报名'])[2]/following::button[1]")).click();
-        ClassAll.sleep(10000);
-        //点击未考勤页面元素，触发考勤弹框
-        driver.findElement(By.xpath("//td[contains(text(),'未考勤')]")).click();
-        //点击考勤按钮
-        driver.findElement(By.id("miniClassAttendanceBtn")).click();
-        ClassAll.sleep(10000);
-        //勾选班课排课
-        driver.findElement(By.xpath("//input[@id='cb_jqgrid-attd']")).click();
-        //点击班主任扣费按钮
-        driver.findElement(By.id("minicourse-submit-charge")).click();
-        ClassAll.sleep(10000);
-        //点击扣费确认按钮
-        driver.findElement(By.id("confirm-yes")).click();*/
+
     //班课管理页面的班课考勤扣费
     public void classConsume(String ClassName){
         classSchool.click();
@@ -417,36 +335,7 @@ public class ClassGrade {
     }
 
 
-    /*//取消班课考勤扣费
-        //点击日期框
-        driver.findElement(By.id("date_range")).click();
-        //去掉日期范围
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[1]/following::input[1]")).click();
-        //输入班课名称确认范围
-        driver.findElement(By.id("miniClassName")).sendKeys("自动化");
-        //点击查询按钮
-        driver.findElement(By.id("searchBtn")).click();
-        ClassAll.sleep(10000);
-        //选择课程扣费切页
-        driver.findElement(By.id("classTeacherDeduction")).click();
-        ClassAll.sleep(10000);
-        //勾选已扣费勾选框
-        driver.findElement(By.id("showChargedMcCourses")).click();
-        //去掉待扣费勾选框
-        driver.findElement(By.id("showUnchargedMcCourses")).click();
-        ClassAll.sleep(10000);
-        //点击取消扣费按钮
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='无'])[1]/following::button[1]")).click();
-        ClassAll.sleep(10000);
-        //选择已扣费课程
-        driver.findElement(By.xpath("//input[@id='cb_jqgrid-attd']")).click();
-        //点击取消扣费按钮
-        driver.findElement(By.id("minicourse-submit-roll")).click();
-        ClassAll.sleep(10000);
-        //取消扣费确认按钮
-        driver.findElement(By.id("confirm-yes")).click();
-        //关闭取消扣费弹框
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[1]/following::button[1]")).click();*/
+    //取消班课考勤扣费
     public void cancelClass(String ClassName1){
         classData.click();
         classDataClear.click();
@@ -471,17 +360,7 @@ public class ClassGrade {
     }
 
 
-    /*//班课管理页面学员退班
-        driver.findElement(By.id("search-mini-class-name")).sendKeys("自动化");
-        driver.findElement(By.id("searchbtn")).click();
-        ClassAll.sleep(10000);
-        driver.findElement(By.linkText("成员")).click();
-        ClassAll.sleep(10000);
-        driver.findElement(By.linkText("退班")).click();
-        ClassAll.sleep(10000);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='取消'])[3]/following::button[1]")).click();
-        ClassAll.sleep(10000);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[2]/following::button[1]")).click();*/
+    //班课管理页面学员退班
     public void studentQuitClass(String ClassName){
         className.sendKeys(ClassName);
         classSearch.click();
@@ -500,11 +379,8 @@ public class ClassGrade {
 
 
     //删除班课
-    /*ClassAll.sleep(10000);
-      driver.findElement(By.linkText("删除此班")).click();
-      ClassAll.sleep(10000);
-      driver.findElement(By.id("confirm-yes")).click();*/
     public void deleteClass(){
+        ClassAll.sleep(10000);
         classParticularQuitClass.click();
         ClassAll.sleep(10000);
         classParticularQuitClassSave.click();

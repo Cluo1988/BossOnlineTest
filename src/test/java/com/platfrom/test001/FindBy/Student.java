@@ -84,20 +84,8 @@ public class Student {
 
 
 
-    /**
-     * 封装方法
-     * 修改学员信息
-     *driver.findElement(By.xpath("/html[1]/body[1]/div[6]/div[1]/section[2]/div[2]/div[1]/div[3]/div[3]/div[1]/table[1]/tbody[1]/tr[2]/td[last()]/button[1]")).click();
-     * driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='姓名'])[2]/following::input[1]")).clear();
-     * driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='姓名'])[2]/following::input[1]")).sendKeys("牙牙乐888");
-     * driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='手机(学讯通)'])[1]/following::input[1]")).clear();
-     * driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='手机(学讯通)'])[1]/following::input[1]")).sendKeys("13411164100");
-     * driver.findElement(By.id("gradeId")).sendKeys("二年级");
-     * driver.findElement(By.id("status")).sendKeys("上课中");
-     * driver.findElement(By.id("latestCustomerContact")).clear();
-     * driver.findElement(By.id("latestCustomerContact")).sendKeys("13411164100");
-     * driver.findElement(By.id("appointmentDateSubmit")).click();
-     */
+
+     // 修改学员信息
     public void modificationStudent(String StudentName,String studentname, String studentphone, String studentgrade, String studentstatus, String studentcustomerphone) {
         ClassAll.sleep(10000);
         studentName.sendKeys(StudentName);

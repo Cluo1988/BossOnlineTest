@@ -260,24 +260,7 @@ public class Product {
 
     }
 
-    //封装方法
     //新增班课产品
-    //driver.findElement(By.id("addProduct")).click();
-    //ClassAll.sleep(10000);
-    //driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='新增课程'])[1]/following::li[2]")).click();
-    //ClassAll.sleep(10000);
-    //driver.findElement(By.xpath("//select[@id='organization']//option[contains(text(),'伯纳乌')]")).click();
-    //driver.findElement(By.id("productVersion")).sendKeys("2019");
-    //driver.findElement(By.id("productQuarter")).sendKeys("冬季");
-    //driver.findElement(By.id("grade")).sendKeys("一年级");
-    //driver.findElement(By.id("productName")).clear();
-    //driver.findElement(By.id("productName")).sendKeys("自动化班课1");
-    //driver.findElement(By.id("paymentEl")).sendKeys("4000");
-    //driver.findElement(By.id("miniClassTotalhours")).sendKeys("10");
-    //driver.findElement(By.id("classTimeLength")).sendKeys("40");
-    //driver.findElement(By.id("everyCourseClassNum")).sendKeys("1");
-    //driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='适用科目'])[1]/following::input[1]")).click();
-    //driver.findElement(By.id("appointmentDateSubmit")).click();
     public void addClassProduct(String ClassProductYear,String ClassProductQuarter,String ClassProductGrade,String ClassProductName,String ClassProductPrice,String ClassProductHour,String ClassProductTime,String ClassProductOneHour){
         addproduct.click();
         ClassAll.sleep(10000);
@@ -299,23 +282,8 @@ public class Product {
 
     }
 
-    //封装方法
+
     //新增一对N产品
-    //driver.findElement(By.id("addProduct")).click();
-    //ClassAll.sleep(10000);
-    //driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='按期'])[2]/following::li[1]")).click();
-    //ClassAll.sleep(10000);
-    //driver.findElement(By.xpath("//select[@id='organization']//option[contains(text(),'伯纳乌')]")).click();
-    //driver.findElement(By.id("productVersion")).sendKeys("2019");
-    //driver.findElement(By.id("grade")).sendKeys("一年级");
-    //driver.findElement(By.id("productName")).clear();
-    //driver.findElement(By.id("productName")).sendKeys("自动化1对N01");
-    //driver.findElement(By.id("miniClassTotalhours")).clear();
-    //driver.findElement(By.id("miniClassTotalhours")).sendKeys("10");
-    //driver.findElement(By.id("priceEl")).sendKeys("200");
-    //driver.findElement(By.id("classTimeLength")).sendKeys("40");
-    //driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='适用科目'])[1]/following::input[1]")).click();
-    //driver.findElement(By.id("appointmentDateSubmit")).click();
     public void addoneToNProduct(String OneToNProductYear,String OneToNProductGrade,String OneToNProductName,String OneToNProductHour,String OneToNProductPrice,String OneToNProductTime){
         addproduct.click();
         ClassAll.sleep(10000);

@@ -27,12 +27,27 @@ public class TestCont extends BaseTest {
         //点击新生报名按钮
         pm.getHomePage().cont.click();
         //iframe页面跳转
-        WebElement iframe = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
-        driver.switchTo().frame(iframe);
+        pm.IframeIn();
         ClassAll.sleep(10000);
         //新增合同页面
-        pm.getCont().addCont("伯纳乌","test601001","13411164100","六年级","伯纳乌","短息","地推电话","自动化","伯纳乌","10000","22231");
+        pm.getCont().addCont("伯纳乌","test601001","13411164100","六年级","伯纳乌","短息","地推电话","自动化","伯纳乌","9800","22231");
         System.out.println("合同新增完成");
+        ClassAll.sleep(10000);
+        pm.IframeIn();
+        ClassAll.sleep(10000);
+        //修改合同
+        pm.getCont().reviseCont("test601001");
+        ClassAll.sleep(10000);
+        pm.IframeOut();
+        ClassAll.sleep(10000);
+        pm.ClosePage();
+        ClassAll.sleep(10000);
+        pm.IframeIn();
+        ClassAll.sleep(10000);
+        pm.getCont().reviseCont2();
+        System.out.println("合同修改完成");
+
+
 
     }
 }

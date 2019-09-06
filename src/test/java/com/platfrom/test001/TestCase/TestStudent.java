@@ -1,13 +1,7 @@
 package com.platfrom.test001.TestCase;
 
-
-
-import com.platfrom.test001.FindBy.HomePage;
-import com.platfrom.test001.FindBy.Student;
 import com.platfrom.test001.TestOne.ClassAll;
 import com.platfrom.test001.Utils.BaseTest;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 
@@ -26,8 +20,7 @@ public class TestStudent extends BaseTest {
         //点击学员列表按钮
         pm.getHomePage().student_management.click();
         //iframe页面跳转
-        WebElement iframe = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
-        driver.switchTo().frame(iframe);
+        pm.IframeIn();
         ClassAll.sleep(10000);
         //修改学员信息
         //Student student = new Student(driver);

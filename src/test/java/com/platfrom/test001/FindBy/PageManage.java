@@ -1,6 +1,8 @@
 package com.platfrom.test001.FindBy;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class PageManage {
     private WebDriver driver;
@@ -15,6 +17,7 @@ public class PageManage {
 	private OnetoNClass onetoNClass;
 	private Cont cont;
 	private Customer customer;
+
 
 	
 	public PageManage(WebDriver driver){
@@ -101,4 +104,30 @@ public class PageManage {
 		}
 		return classGrade;
 	}
+
+	//这里要注意，ifrema框跳转，如果只打开一个切页，就用第一个切页跳入，如果有多个切页就用最后一个切页跳入。注意看浏览器的元素定位。
+	//ifrema框第一个切页跳入
+	public void IframeIn() {
+		WebElement iframe = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
+		driver.switchTo().frame(iframe);
+	}
+
+	//ifrema框最后一个切页跳入
+	public void IframeInLast() {
+		WebElement iframe = driver.findElement(By.xpath("//li[@class='tabs-last tabs-selected']//a[@class='tabs-inner']"));
+		driver.switchTo().frame(iframe);
+	}
+
+	//ifrema框跳出
+	public void IframeOut() {
+		driver.switchTo().defaultContent();
+	}
+
+	//关闭切页
+	public void ClosePage() {
+		driver.findElement(By.xpath("//a[contains(@class,'tabs-close fa fa-remove')]")).click();
+	}
+
+
+
 }

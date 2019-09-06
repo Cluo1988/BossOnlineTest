@@ -188,41 +188,8 @@ public class OnetoOneClasses {
     @FindBy(xpath = "//button[@id='confirm-yes']")
     public static WebElement oneClassesUseThirdChangeDeleteSave;
 
-    /**
-     * 封装方法
-     * 一对一考勤
-     * //点击日期控件选择上面新增排课的同一天
-     *         //driver.findElement(By.id("date_range")).click();
-     *         //driver.findElement(By.xpath("//table[contains(@class,'month1')]//tr[5]//td[1]")).click();
-     *         //driver.findElement(By.xpath("//table[contains(@class,'month1')]//tr[5]//td[1]")).click();
-     *         //点击查询按钮
-     *         //driver.findElement(By.id("searchbtn")).click();
-     *        // ClassAll.sleep(10000);
-     *         //勾选第一条数据
-     *        // driver.findElement(By.id("jqg_jqgrid_1")).click();
-     *         //点击考勤按钮
-     *        // driver.findElement(By.xpath("//tr[@id='1']//button[contains(@class,'btn attendBtn')][contains(text(),'考勤')]")).click();
-     *        // ClassAll.sleep(10000);
-     *         //点击课程考勤切页
-     *        // driver.findElement(By.id("studyManegerVerifyHref")).click();
-     *        // ClassAll.sleep(10000);
-     *         //勾选第一条数据
-     *        // driver.findElement(By.id("jqg_jqgrid_1")).click();
-     *         //点击考勤按钮
-     *        // driver.findElement(By.xpath("//tr[@id='1']//button[contains(@class,'btn attendBtn')][contains(text(),'考勤')]")).click();
-     *        // ClassAll.sleep(10000);
-     *         //点击课程扣费切页
-     *        // driver.findElement(By.id("classTeacherDeductionHref")).click();
-     *        // ClassAll.sleep(10000);
-     *         //勾选第一条数据
-     *        // driver.findElement(By.id("jqg_jqgrid_1")).click();
-     *         //点击扣费按钮
-     *        // driver.findElement(By.xpath("//tr[@id='1']//button[contains(@class,'btn chargeRecordBtn')][contains(text(),'扣费')]")).click();
-     *         //点击扣费确认按钮
-     *        // driver.findElement(By.id("confirm-yes")).click();
-     *         //ClassAll.sleep(10000);
-     *
-     */
+
+     //一对一考勤
     public void useonetoOneClasses(String OneClassesStudent){
         oneClassesUseData.click();
         oneClassesUseDataBegin.click();
@@ -242,22 +209,8 @@ public class OnetoOneClasses {
         oneClassesUseThirdPagekoufeiSave.click();
     }
 
-    /**
-     * 封装方法
-     * 重置考勤
-     *点击取消（查看未扣费课程勾选框）
-     *         //driver.findElement(By.xpath("//input[@id='showUnchargedCourses']")).click();
-     *         //ClassAll.sleep(10000);
-     *         //点击勾选（查看已扣费课程勾选框）
-     *         //driver.findElement(By.xpath("//input[@id='showChargedCourses']")).click();
-     *         //ClassAll.sleep(10000);
-     *         //点击第一条数据的重置按钮
-     *         //driver.findElement(By.xpath("//tr[@id='2']//button[@class='btn rollbackChargeRecord'][contains(text(),'重置')]")).click();
-     *        // ClassAll.sleep(10000);
-     *         //点击重置按钮-确认按钮
-     *         //driver.findElement(By.xpath("//button[@id='confirm-yes']")).click();
-     *        // ClassAll.sleep(10000);
-     */
+
+    //重置考勤
     public void cancelonetoOneClasses(){
         oneClassesUseNotkoufei.click();
         ClassAll.sleep(10000);
@@ -268,21 +221,8 @@ public class OnetoOneClasses {
         oneClassesUseResetSave.click();
     }
 
-    /**
-     * 封装方法
-     * 一对一考勤页面-删除排课
-     *点击勾选（查看未扣费课程勾选框）
-     *         //driver.findElement(By.xpath("//input[@id='showUnchargedCourses']")).click();
-     *         //ClassAll.sleep(10000);
-     *         //选择第一条数据的修改
-     *         //driver.findElement(By.xpath("//tr[@id='1']//button[@class='btn changeBtn'][contains(text(),'修改')]")).click();
-     *         //ClassAll.sleep(10000);
-     *         //修改页面选择删除
-     *        //driver.findElement(By.xpath("//button[@id='deleteBtn']")).click();
-     *         //ClassAll.sleep(10000);
-     *         //修改页面选择删除-确认按钮
-     *         //driver.findElement(By.xpath("//button[@id='confirm-yes']")).click();
-     */
+
+     //一对一考勤页面-删除排课
     public void deleteonetoOneClasses(){
         oneClassesUseNotkoufei.click();
         ClassAll.sleep(10000);
@@ -297,48 +237,8 @@ public class OnetoOneClasses {
 
 
 
-    /**
-     * 封装方法
-     * 新增一对一排课
-     *选择校区
-     *         driver.findElement(By.xpath("//select[@id='campusEl']")).sendKeys("伯纳乌");
-     *         选择校区确认按钮
-     *         driver.findElement(By.xpath("//button[@class='btn btn-primary submit']")).click();
-     *         给学员姓名输入框塞值
-     *         driver.findElement(By.id("findStudentAutoComplate")).sendKeys("test619001");
-     *         选择输入值对应的学员，这时显示右边页面详细信息
-     *         driver.findElement(By.xpath("/html[1]/body[1]/ul[1]/li[1]")).click();
-     *         选择排课处的科目，产品使用默认值
-     *         driver.findElement(By.xpath("//select[@name='subject']")).sendKeys("英语");
-     *         日期选择框,日期选择框是两个矩阵，本月定位永远是month1，下月定位永远是month2，再通过tr（X轴），td（Y轴）来定位具体日
-     *         driver.findElement(By.xpath("//span[@class='form-control date_range_input date_range curcor-pointer']")).click();
-     *         选择时间段开始日期和结束日期
-     *         driver.findElement(By.xpath("//table[contains(@class,'month1')]//tr[5]//td[1]")).click();
-     *         driver.findElement(By.xpath("//table[contains(@class,'month1')]//tr[5]//td[1]")).click();
-     *         这里是选择上课星期，要根据你选的时间段来修改结果，例如你日期段选择的是6月24到6月25，但是你这里勾选星期四，则会报错，24和25号是星期一和星期二
-     *         driver.findElement(By.xpath("//b[contains(@class,'caret')]")).click();
-     *         ClassAll.sleep(10000);
-     *         driver.findElement(By.xpath("//label[contains(text(),'星期一')]")).click();
-     *         点击选择老师按钮
-     *         driver.findElement(By.linkText("选择老师")).click();
-     *         ClassAll.sleep(10000);
-     *         选择第二个老师
-     *         driver.findElement(By.xpath("//table[@id='dayChooseTable']//tbody//tr[2]")).click();
-     *         点击上课时间日期控件(14:05分)
-     *         driver.findElement(By.id("chooseCourseTime")).click();
-     *         ClassAll.sleep(10000);
-     *         driver.findElement(By.xpath("//div[contains(@class,'clockpicker-tick')][contains(text(),'14')]")).click();
-     *         driver.findElement(By.xpath("//div[contains(text(),'05')]")).click();
-     *         课时数
-     *         driver.findElement(By.xpath("//input[@id='choosePlanHours']")).clear();
-     *         driver.findElement(By.xpath("//input[@id='choosePlanHours']")).sendKeys("1");
-     *         课时时长
-     *         driver.findElement(By.xpath("//input[@id='chooseTimeLong']")).clear();
-     *         driver.findElement(By.xpath("//input[@id='chooseTimeLong']")).sendKeys("5");
-     *         driver.findElement(By.id("chooseSave")).click();
-     *         ClassAll.sleep(10000);
-     *         driver.findElement(By.linkText("保存")).click();
-     */
+
+     //新增一对一排课
     public void addonetoOneClasses(String oneclassescampus,String oneClassesstuname,String oneClassessubject,String oneClassesplanhours,String oneClassestimelong){
         //教务-一对一排课-校区选择框
         oneClassescampus.sendKeys(oneclassescampus);
@@ -403,11 +303,8 @@ public class OnetoOneClasses {
 
     }
 
-    /**
-     * 封装方法
-     * 删除一对一排课
-     *选择校区
-     * */
+
+     // 删除一对一排课
     public void onetoOneClassesClear(){
         oneClassesClear.click();
         oneClassesClearSave.click();

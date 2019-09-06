@@ -4,8 +4,6 @@ package com.platfrom.test001.TestCase;
 import com.platfrom.test001.TestOne.ClassAll;
 import com.platfrom.test001.Utils.BaseTest;
 import com.platfrom.test001.Utils.TestListener;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -21,8 +19,7 @@ public class TestCustomer extends BaseTest {
         //点击客户管理按钮
         pm.getHomePage().customer_management.click();
         //iframe页面跳转
-        WebElement iframe = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
-        driver.switchTo().frame(iframe);
+        pm.IframeIn();
         ClassAll.sleep(10000);
         //点击招生-客户管理-登记客户按钮
         pm.getCustomer().customer_add.click();

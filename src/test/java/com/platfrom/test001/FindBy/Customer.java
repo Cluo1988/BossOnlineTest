@@ -90,15 +90,8 @@ public class Customer {
     @FindBy(xpath ="//button[@class='close']")
     public static WebElement close;
 
-    /**
-     * 封装方法
-     * 新增客户
-     *
-     * @param cusname
-     * @param cuscontact
-     * @param Soutype
-     * @param source
-     */
+
+     //新增客户
     public void addCustomer(String cusname, String cuscontact, String Soutype, String source) {
 
         customer_name.sendKeys(cusname);
@@ -111,19 +104,9 @@ public class Customer {
         submit.click();
     }
 
-   /* 封装方法
-    修改客户
-    driver.findElement(By.xpath("/html[1]/body[1]/div[6]/section[2]/div[2]/div[1]/div[3]/div[3]/div[1]/table[1]/tbody[1]/tr[2]/td[32]/a[1]")).click();
-     driver.findElement(By.linkText("编辑")).click();
-     driver.findElement(By.name("name")).clear();
-     driver.findElement(By.name("name")).sendKeys("test1");
-     driver.findElement(By.name("contact")).clear();
-     driver.findElement(By.name("contact")).sendKeys("13411164112");
-     driver.findElement(By.id("cusOrg")).sendKeys("学生转介绍");
-     driver.findElement(By.xpath("//div[@id='cusTypeContainer']//div//select[@name='cusType']")).sendKeys("地推电话");
-     driver.findElement(By.linkText("保存")).click();
-     ClassAll.sleep(10000);
-     driver.findElement(By.xpath("//button[@class='close']")).click();*/
+
+    //修改客户
+
     public void modificationCustomer(String customer_name,String phone,String Source_type,String Source){
         particulars.click();
         ClassAll.sleep(10000);
@@ -139,8 +122,8 @@ public class Customer {
         close.click();
     }
 
-    /*封装方法
-    * 删除客户*/
+
+    // 删除客户
     public void deleteCustomer(){
         ClassAll.sleep(10000);
         CustomerList.click();

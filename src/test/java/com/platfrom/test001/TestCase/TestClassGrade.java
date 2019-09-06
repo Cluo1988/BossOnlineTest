@@ -21,8 +21,7 @@ public class TestClassGrade extends BaseTest {
         //点击教务-班课管理按钮
         pm.getHomePage().classes.click();
         //iframe页面跳转
-        WebElement iframe = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
-        driver.switchTo().frame(iframe);
+        pm.IframeIn();
         ClassAll.sleep(10000);
         //新增班课（新增了班级并且排了一节6月24号的课）
         pm.getClassGrade().addClass("自动化","50");
@@ -36,10 +35,10 @@ public class TestClassGrade extends BaseTest {
         System.out.println("班课考勤扣费完成");
         ClassAll.sleep(10000);
         //跳出iframe框
-        driver.switchTo().defaultContent();
+        pm.IframeOut();
         ClassAll.sleep(10000);
         //关闭班课管理切页
-        driver.findElement(By.xpath("//a[contains(@class,'tabs-close fa fa-remove')]")).click();
+        pm.ClosePage();
         ClassAll.sleep(10000);
         //点击教务按钮
         pm.getHomePage().education.click();
@@ -47,17 +46,16 @@ public class TestClassGrade extends BaseTest {
         //点击教务-班课考勤按钮
         pm.getHomePage().classAttendClass.click();
         //iframe页面跳转
-        WebElement iframe1 = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
-        driver.switchTo().frame(iframe1);
+        pm.IframeIn();
         ClassAll.sleep(10000);
         //取消班课考勤扣费
         pm.getClassGrade().cancelClass("自动化");
         System.out.println("取消班课考勤扣费完成");
         ClassAll.sleep(10000);
         //跳出iframe框
-        driver.switchTo().defaultContent();
+        pm.IframeOut();
         //关闭班课考勤切页
-        driver.findElement(By.xpath("//a[contains(@class,'tabs-close fa fa-remove')]")).click();
+        pm.ClosePage();
         ClassAll.sleep(10000);
         //点击教务按钮
         pm.getHomePage().education.click();
@@ -66,8 +64,7 @@ public class TestClassGrade extends BaseTest {
         pm.getHomePage().classes.click();
         ClassAll.sleep(10000);
         //iframe页面跳转
-        WebElement iframe2 = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
-        driver.switchTo().frame(iframe2);
+        pm.IframeIn();
         ClassAll.sleep(10000);
         //班课管理页面学员退班
         pm.getClassGrade().studentQuitClass("自动化");
@@ -78,12 +75,13 @@ public class TestClassGrade extends BaseTest {
         pm.getClassGrade().classParticular.click();
         ClassAll.sleep(10000);
         //跳出iframe框
-        driver.switchTo().defaultContent();
+        pm.IframeOut();
+        ClassAll.sleep(10000);
+        pm.ClosePage();
         ClassAll.sleep(10000);
         //跳转进入班课详情切页
         //iframe页面跳转
-        WebElement iframe3 = driver.findElement(By.xpath("//div[3]//div[1]//iframe[1]"));
-        driver.switchTo().frame(iframe3);
+        pm.IframeIn();
         ClassAll.sleep(10000);
         pm.getClassGrade().deleteClass();
         System.out.println("班课删除成功");

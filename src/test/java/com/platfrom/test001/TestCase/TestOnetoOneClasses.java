@@ -1,7 +1,5 @@
 package com.platfrom.test001.TestCase;
 
-import com.platfrom.test001.FindBy.HomePage;
-import com.platfrom.test001.FindBy.OnetoOneClasses;
 import com.platfrom.test001.TestOne.ClassAll;
 import com.platfrom.test001.Utils.BaseTest;
 import org.openqa.selenium.By;
@@ -24,17 +22,16 @@ public class TestOnetoOneClasses extends BaseTest {
         //点击教务-1对1排课按钮
         pm.getHomePage().onetoOneClasses.click();
         //iframe页面跳转
-        WebElement iframe = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
-        driver.switchTo().frame(iframe);
+        pm.IframeIn();
         ClassAll.sleep(10000);
         //新增一对一排课
         pm.getOnetoOneClasses().addonetoOneClasses("伯纳乌","test601001","英语","1","5");
         System.out.println("一对一排课完成");
         //跳出iframe框
-        driver.switchTo().defaultContent();
+        pm.IframeOut();
         ClassAll.sleep(10000);
         //关闭排课切页
-        driver.findElement(By.xpath("//a[contains(@class,'tabs-close fa fa-remove')]")).click();
+        pm.ClosePage();
         ClassAll.sleep(10000);
         //考勤操作
         //点击教务按钮

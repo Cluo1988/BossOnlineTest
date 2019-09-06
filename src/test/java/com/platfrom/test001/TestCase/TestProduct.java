@@ -1,12 +1,8 @@
 package com.platfrom.test001.TestCase;
 
 
-import com.platfrom.test001.FindBy.HomePage;
-import com.platfrom.test001.FindBy.Product;
 import com.platfrom.test001.TestOne.ClassAll;
 import com.platfrom.test001.Utils.BaseTest;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -26,8 +22,7 @@ public class TestProduct extends BaseTest {
         pm.getHomePage().options_product.click();
         ClassAll.sleep(10000);
         //iframe页面跳转
-        WebElement iframe = driver.findElement(By.xpath("//div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]"));
-        driver.switchTo().frame(iframe);
+        pm.IframeIn();
         ClassAll.sleep(10000);
         //新增一对一产品
         pm.getProduct().addoneToOneProduct("2019","二年级","自动化1对102","1","150","60");
