@@ -92,10 +92,10 @@ public class ClassGrade {
     @FindBy(id = "courseDate_range")
     public static WebElement newClassOpenDatabtn;
     //点击上课日期-开始日期
-    @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='日'])[5]/following::div[29]")
+    @FindBy(xpath = "//div[@id='remoteModaleditMiniClassModal']//table[contains(@class,'month1')]//tr[5]//td[1]")
     public static WebElement newClassOpenDataBegin;
     //点击上课日期-结束日期
-    @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='日'])[5]/following::div[29]")
+    @FindBy(xpath = "//div[@id='remoteModaleditMiniClassModal']//table[contains(@class,'month1')]//tr[5]//td[1]")
     public static WebElement newClassOpenDataEnd;
     //上课时间（9点05）
     //点击上课时间选择框
@@ -113,52 +113,50 @@ public class ClassGrade {
 
 
     //学员进班
-    //教务-班课管理-点击第一行数据的更多
-    @FindBy(xpath = "//tr[@id='1']//button[@id='showMoreOption']")
-    public static WebElement newClassMore;
-    //教务-班课管理-更多-成员
-    @FindBy(linkText = "成员")
+
+    //教务-班课管理-第一行数据的分班
+    @FindBy(xpath = "//tr[@id='1']//button[@class='btn btn-xs btn-default miniClasStuSigUpModal enableRes']")
     public static WebElement newClassMoreStudent;
 
-    //教务-班课管理-更多-成员-输入搜索学员名字
+    //教务-班课管理-分班-输入搜索学员名字
     @FindBy(id = "studentName")
     public static WebElement newClassMoreStudentName;
 
-    //教务-班课管理-更多-成员-点击查询
+    //教务-班课管理-分班-点击查询
     @FindBy(id = "searchBtn")
     public static WebElement newClassMoreStudentSearchBtn;
 
-    //教务-班课管理-更多-成员-点击报班按钮
+    //教务-班课管理-分班-点击报班按钮
     @FindBy(xpath = "//tr[@id='1']//a[@class='link addStudent enableRes'][contains(text(),'报班')]")
     public static WebElement newClassMoreStudentInto;
 
-    //教务-班课管理-更多-成员-点击报班-点击第一次上课时间
+    //教务-班课管理-分班-点击报班-点击第一次上课时间
     @FindBy(id = "firstSchoolTime")
     public static WebElement newClassMoreStudentFirstTimeClick;
-    //教务-班课管理-更多-成员-点击报班-第一次上课时间-年2019
+    //教务-班课管理-分班-点击报班-第一次上课时间-年2019
     @FindBy(xpath = "//select[contains(@class,'ui-datepicker-year')]//option[contains(text(),'2019')]")
     public static WebElement newClassMoreStudentFirstTimeClickYear;
-    //教务-班课管理-更多-成员-点击报班-第一次上课时间-月6
+    //教务-班课管理-分班-点击报班-第一次上课时间-月6
     @FindBy(xpath = "//select[contains(@class,'ui-datepicker-month')]//option[contains(text(),'六')]")
     public static WebElement newClassMoreStudentFirstTimeClickMonth;
-    //教务-班课管理-更多-成员-点击报班-第一次上课时间-日24
+    //教务-班课管理-分班-点击报班-第一次上课时间-日24
     @FindBy(xpath = "//div[@id='ui-datepicker-div']//tr[5]//td[1]")
     public static WebElement newClassMoreStudentFirstTimeClickDay;
 
-    //教务-班课管理-更多-成员-点击报班-第一次上课时间-保存
+    //教务-班课管理-分班-点击报班-第一次上课时间-保存
     @FindBy(xpath = "//button[@class='btn btn-primary submit']")
     public static WebElement newClassMoreStudentFirstTimeSave;
 
 
 
 
-    //教务-班课管理-更多-成员-退班按钮
+    //教务-班课管理-分班-退班按钮
     @FindBy(linkText = "退班")
     public static WebElement newClassMoreStudentQuitClass;
-    //教务-班课管理-更多-成员-退班-确认按钮
+    //教务-班课管理-分班-退班-确认按钮
     @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='取消'])[3]/following::button[1]")
     public static WebElement newClassMoreStudentQuitClassSave;
-    //教务-班课管理-更多-成员页面-关闭页面
+    //教务-班课管理-分班-关闭页面
     @FindBy(xpath = "//div[@id='remoteModalminiClassStudentSignupModal']//button[@class='close'][contains(text(),'×')]")
     public static WebElement newClassMoreStudentClose;
 
@@ -291,7 +289,6 @@ public class ClassGrade {
 
     //学员进班
     public void addClassStudent(String NewClassMoreStudentName ) {
-        newClassMore.click();
         newClassMoreStudent.click();
         ClassAll.sleep(10000);
         newClassMoreStudentName.sendKeys(NewClassMoreStudentName);
@@ -364,8 +361,6 @@ public class ClassGrade {
     public void studentQuitClass(String ClassName){
         className.sendKeys(ClassName);
         classSearch.click();
-        ClassAll.sleep(10000);
-        newClassMore.click();
         ClassAll.sleep(10000);
         newClassMoreStudent.click();
         ClassAll.sleep(10000);

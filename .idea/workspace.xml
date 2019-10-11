@@ -4,31 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestProduct.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="502dc8fc-666d-4fb8-948c-bdf3bf1a2a69" name="Default Changelist" comment="666">
+    <list default="true" id="502dc8fc-666d-4fb8-948c-bdf3bf1a2a69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/testlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/testlog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_08_12_15_41_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_08_14_10_32_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestCont.testCont_2019_08_14_10_33_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestOnetoOneClasses.testOnetoOneClasses_2019_08_12_15_34_38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.test.test1_2019_08_09_23_01_15.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Cont.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Cont.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/OnetoNClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/OnetoNClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/OnetoOneClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/OnetoOneClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/PageManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/PageManage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestClassGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestClassGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCont.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCont.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoNClassGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoNClassGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoOneClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoOneClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestOne/ClassAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestOne/ClassAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/BaseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,10 +40,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/PageManage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCont.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2090">
-              <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+            <state relative-caret-position="-36">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoNClassGrade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng_demo001.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestClassGrade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,10 +85,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCont.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state relative-caret-position="209">
+              <caret line="189" column="21" lean-forward="true" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="129" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,10 +97,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/RemoteLogWebDriver.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/OnetoNClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="3952">
+              <caret line="210" selection-start-line="210" selection-end-line="210" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,10 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoOneClasses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="127">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,31 +121,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Product.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5282">
-              <caret line="285" column="13" selection-start-line="285" selection-start-column="13" selection-end-line="285" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1539">
-              <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Cont.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4598">
-              <caret line="249" column="8" selection-start-line="249" selection-start-column="8" selection-end-line="249" selection-end-column="8" />
+            <state relative-caret-position="135">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,7 +198,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestOne/ClassAll.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestClassGrade.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCustomer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoNClassGrade.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoOneClasses.java" />
@@ -221,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/PageManage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Cont.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCont.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java" />
       </list>
     </option>
   </component>
@@ -265,6 +256,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,14 +287,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BossOnlineTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BossOnlineTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BossOnlineTest" type="b2602c69:ProjectViewProjectNode" />
@@ -364,8 +349,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,9 +408,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/auto/BossOnlineTest/testng_demo001.xml">
-    <configuration name="linshigong1" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.platfrom.test001.TestCase.linshigong1" />
+  <component name="RunManager" selected="TestNG.TestOnetoNClassGrade">
+    <configuration name="D:/auto/BossOnlineTest/testng_demo001.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testwanwan1" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_demo001.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClassGrade" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testwanwan1" />
       <extension name="coverage">
         <pattern>
@@ -435,14 +427,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/auto/BossOnlineTest/testng_demo001.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testwanwan1" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_demo001.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PACKAGE_NAME" value="com.platfrom.test001.TestCase" />
+      <option name="MAIN_CLASS_NAME" value="com.platfrom.test001.TestCase.TestClassGrade" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -466,24 +453,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOnetoOneClasses" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testwanwan1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platfrom.test001.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platfrom.test001.TestCase" />
-      <option name="MAIN_CLASS_NAME" value="com.platfrom.test001.TestCase.TestOnetoOneClasses" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="linshigong1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestOnetoNClassGrade" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testwanwan1" />
       <extension name="coverage">
         <pattern>
@@ -492,7 +462,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.platfrom.test001.TestCase" />
-      <option name="MAIN_CLASS_NAME" value="com.platfrom.test001.TestCase.linshigong1" />
+      <option name="MAIN_CLASS_NAME" value="com.platfrom.test001.TestCase.TestOnetoNClassGrade" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStudent" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testwanwan1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platfrom.test001.TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platfrom.test001.TestCase" />
+      <option name="MAIN_CLASS_NAME" value="com.platfrom.test001.TestCase.TestStudent" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -502,11 +489,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/auto/BossOnlineTest/testng_demo001.xml" />
+        <item itemvalue="TestNG.TestOnetoNClassGrade" />
+        <item itemvalue="TestNG.TestClassGrade" />
         <item itemvalue="TestNG.TestCont" />
-        <item itemvalue="TestNG.TestOnetoOneClasses" />
-        <item itemvalue="TestNG.linshigong1" />
-        <item itemvalue="应用程序.linshigong1" />
+        <item itemvalue="TestNG.TestStudent" />
+        <item itemvalue="TestNG.D:/auto/BossOnlineTest/testng_demo001.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -634,14 +621,10 @@
       <workItem from="1567563430516" duration="15127000" />
       <workItem from="1567650550301" duration="13427000" />
       <workItem from="1567703325278" duration="268000" />
-      <workItem from="1567738620472" duration="609000" />
-    </task>
-    <task id="LOCAL-00019" summary="666">
-      <created>1563346474205</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1563346474205</updated>
+      <workItem from="1567738620472" duration="1889000" />
+      <workItem from="1568624092172" duration="2351000" />
+      <workItem from="1568905468931" duration="1728000" />
+      <workItem from="1570776463935" duration="5047000" />
     </task>
     <task id="LOCAL-00020" summary="666">
       <created>1563417068123</created>
@@ -979,43 +962,50 @@
       <option name="project" value="LOCAL" />
       <updated>1566813976984</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="666">
+      <created>1567739471223</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1567739471223</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCont - 2019.09.05 at 11h 44m 38s.xml">
-      <configuration name="TestCont" configurationId="TestNG" />
+    <history-entry file="TestCustomer - 2019.09.19 at 23h 10m 22s.xml">
+      <configuration name="TestCustomer" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCont - 2019.09.05 at 12h 01m 39s.xml">
-      <configuration name="TestCont" configurationId="TestNG" />
+    <history-entry file="TestOnetoNClassGrade - 2019.09.19 at 23h 12m 27s.xml">
+      <configuration name="TestOnetoNClassGrade" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCont - 2019.09.05 at 16h 43m 23s.xml">
-      <configuration name="TestCont" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCont - 2019.09.05 at 17h 03m 18s.xml">
-      <configuration name="TestCont" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCont - 2019.09.05 at 17h 23m 22s.xml">
-      <configuration name="TestCont" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCont - 2019.09.05 at 18h 05m 31s.xml">
-      <configuration name="TestCont" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCont - 2019.09.05 at 18h 17m 29s.xml">
-      <configuration name="TestCont" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCont - 2019.09.05 at 18h 24m 22s.xml">
-      <configuration name="TestCont" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCont - 2019.09.05 at 18h 39m 34s.xml">
-      <configuration name="TestCont" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__auto_BossOnlineTest_testng_demo001_xml - 2019.09.05 at 20h 21m 37s.xml">
+    <history-entry file="D__auto_BossOnlineTest_testng_demo001_xml - 2019.10.11 at 15h 16m 57s.xml">
       <configuration name="D:/auto/BossOnlineTest/testng_demo001.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestStudent - 2019.10.11 at 15h 29m 47s.xml">
+      <configuration name="TestStudent" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCont - 2019.10.11 at 15h 34m 56s.xml">
+      <configuration name="TestCont" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClassGrade - 2019.10.11 at 15h 38m 16s.xml">
+      <configuration name="TestClassGrade" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClassGrade - 2019.10.11 at 15h 56m 41s.xml">
+      <configuration name="TestClassGrade" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClassGrade - 2019.10.11 at 16h 04m 33s.xml">
+      <configuration name="TestClassGrade" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestOnetoNClassGrade - 2019.10.11 at 16h 09m 17s.xml">
+      <configuration name="TestOnetoNClassGrade" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestOnetoNClassGrade - 2019.10.11 at 16h 17m 25s.xml">
+      <configuration name="TestOnetoNClassGrade" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="573085000" />
+    <option name="totallyTimeSpent" value="583491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1029,7 +1019,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25453576" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1039,7 +1029,7 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3900135" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49876544" weight="0.47480404" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49876544" visible="true" weight="0.17581187" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1105,10 +1095,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_08_12_15_41_11.png" />
-    <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.test.test1_2019_08_09_23_01_15.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Public.java" />
-    <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestOnetoOneClasses.testOnetoOneClasses_2019_08_12_15_34_38.png" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/BossTestListener.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/demo/test.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1181,53 +1167,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_09_04_18_46_44.png" />
-    <entry file="file://$PROJECT_DIR$/testng_demo001.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestClassGrade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoNClassGrade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoOneClasses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1258,13 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/ExtentTestNGIReportListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/ReRunListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1286,16 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="247" column="10" lean-forward="true" selection-start-line="247" selection-start-column="10" selection-end-line="247" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1303,13 +1225,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>
@@ -1344,16 +1259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/OnetoNClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="242" column="13" selection-start-line="242" selection-start-column="13" selection-end-line="242" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/OnetoOneClasses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1367,6 +1272,13 @@
     <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestOnetoOneClasses.testOnetoOneClasses_2019_09_04_18_37_16.png" />
     <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestCont.testCont_2019_09_05_11_44_37.png" />
     <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestCont.testCont_2019_09_05_12_01_38.png" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/ITestNGListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/PageManage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2090">
@@ -1374,6 +1286,30 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/ExtentTestNGIReportListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/IReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1424,10 +1360,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoNClassGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng_demo001.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoOneClasses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCont.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        <state relative-caret-position="-36">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_10_11_15_09_07.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestOnetoNClassGrade.testOnetoNClass_2019_10_11_15_12_30.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/OnetoNClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3952">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestClassGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="189" column="21" lean-forward="true" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="129" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
