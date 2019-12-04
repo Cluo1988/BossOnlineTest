@@ -72,6 +72,14 @@ public  class HomePage {
 	@FindBy(xpath="//a[contains(text(),'1对N课程')]")
 	public static WebElement onetoNClass;
 
+	//首页-财务
+	@FindBy(xpath="//a[@title='财务']")
+	public static WebElement Finance;
+
+	//首页-财务-合同管理
+	@FindBy(xpath="//a[contains(text(),'合同管理')]")
+	public static WebElement financeCont;
+
 
 
 	//首页-设置按钮

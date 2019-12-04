@@ -20,6 +20,9 @@
             <class name="com.platfrom.test001.TestCase.TestOnetoNClassGrade"></class>
             <class name="com.platfrom.test001.TestCase.TestStudent"></class>
             <class name="com.platfrom.test001.TestCase.TestCustomer"></class>
+            <class name="com.platfrom.test001.TestCase.TestUploadCustomer"></class>
+            <class name="com.platfrom.test001.TestCase.TestUploadStudent"></class>
+            <class name="com.platfrom.test001.TestCase.TestUploadCont"></class>
         </classes>
     </test>
 </suite>

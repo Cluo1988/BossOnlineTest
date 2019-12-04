@@ -4,9 +4,19 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestProduct.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="502dc8fc-666d-4fb8-948c-bdf3bf1a2a69" name="Default Changelist" comment="666">
+    <list default="true" id="502dc8fc-666d-4fb8-948c-bdf3bf1a2a69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadCont.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/updown/ht001.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/updown/kh001.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/updown/xs001.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/updown/xs001.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/updown/客户导入001.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/testlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/testlog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng_demo001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_demo001.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,10 +49,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCont.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadCustomer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state>
+              <caret selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,10 +61,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoNClassGrade.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+            <state relative-caret-position="361">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,67 +73,86 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadCont.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="37" column="70" lean-forward="true" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/PageManage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/SuiteRunnerWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+              <folding>
+                <element signature="e#2713#2714#0" expanded="true" />
+                <element signature="e#2778#2779#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="80" column="40" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/LogIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1539">
+              <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng_demo001.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="348">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestClassGrade.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3458">
-              <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="129" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/OnetoNClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3857">
-              <caret line="210" selection-start-line="210" selection-end-line="210" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoOneClasses.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestProduct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="230">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,24 +181,20 @@
     </replaceStrings>
     <dirStrings>
       <dir>F:\Users\Administrator\eclipse\testwanwan1\src\main\java\Customer</dir>
+      <dir>D:\auto\BossOnlineTest\sceenshot</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCont.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestOnetoOneClasses.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Public.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/IndexPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/EcshopTestListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/Data/ReadExcelUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/LogTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/BeforeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/BossTestListener.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/testX.html" />
         <option value="$PROJECT_DIR$/src/main/java/testX2.html" />
         <option value="$PROJECT_DIR$/1111" />
@@ -189,7 +214,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/testDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/FileUpload.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/ExtentTestNGIReportListener.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/log4j2-test.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/linshigong1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/linshigong1.java" />
@@ -210,7 +234,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Cont.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCont.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/log4j2-test.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/TestOne/zaji.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadAndDownload.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadCustomer.java" />
         <option value="$PROJECT_DIR$/testng_demo001.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadStudent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadCont.java" />
       </list>
     </option>
   </component>
@@ -243,11 +274,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="264" />
-    <option name="y" value="60" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="117" />
+    <option name="y" value="56" />
     <option name="width" value="1539" />
-    <option name="height" value="904" />
+    <option name="height" value="889" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,25 +296,7 @@
             <path>
               <item name="BossOnlineTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="BossOnlineTest" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BossOnlineTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BossOnlineTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BossOnlineTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BossOnlineTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BossOnlineTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BossOnlineTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BossOnlineTest" type="b2602c69:ProjectViewProjectNode" />
@@ -331,16 +344,12 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test001" type="462c0819:PsiDirectoryNode" />
-              <item name="TestOne" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BossOnlineTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="BossOnlineTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test001" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="updown" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -373,12 +382,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\auto\BossOnlineTest" />
-      <recent name="D:\auto\BossOnlineTest\src\test" />
-      <recent name="D:\auto\BossOnlineTest\src\resource" />
-      <recent name="D:\auto\BossOnlineTest\src" />
-      <recent name="D:\自动化\BossOnlineTest\driver" />
+      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001\Data" />
+      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001\Utils" />
+      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001\FindBy" />
+      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.platfrom.test001.Utils" />
@@ -387,12 +396,12 @@
       <recent name="com.platfrom.test001.TestOne" />
       <recent name="com.platfrom.test001" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\auto\BossOnlineTest\updown" />
       <recent name="D:\auto\BossOnlineTest" />
-      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001\Data" />
-      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001\Utils" />
-      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001\FindBy" />
-      <recent name="F:\Users\Administrator\eclipse\testwanwan1\src\test\java\com\platfrom\test001" />
+      <recent name="D:\auto\BossOnlineTest\src\test" />
+      <recent name="D:\auto\BossOnlineTest\src\resource" />
+      <recent name="D:\auto\BossOnlineTest\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -407,7 +416,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/auto/BossOnlineTest/testng_demo001.xml">
+  <component name="RunManager" selected="TestNG.TestUploadCont">
+    <configuration name="zaji" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestOne.zaji" />
+      <module name="testwanwan1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/auto/BossOnlineTest/testng_demo001.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testwanwan1" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_demo001.xml" />
@@ -418,7 +440,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClassGrade" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUploadCont" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testwanwan1" />
       <extension name="coverage">
         <pattern>
@@ -427,7 +449,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.platfrom.test001.TestCase" />
-      <option name="MAIN_CLASS_NAME" value="com.platfrom.test001.TestCase.TestClassGrade" />
+      <option name="MAIN_CLASS_NAME" value="com.platfrom.test001.TestCase.TestUploadCont" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -435,24 +457,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCont" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testwanwan1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platfrom.test001.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platfrom.test001.TestCase" />
-      <option name="MAIN_CLASS_NAME" value="com.platfrom.test001.TestCase.TestCont" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestOnetoNClassGrade" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUploadCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testwanwan1" />
       <extension name="coverage">
         <pattern>
@@ -461,7 +466,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.platfrom.test001.TestCase" />
-      <option name="MAIN_CLASS_NAME" value="com.platfrom.test001.TestCase.TestOnetoNClassGrade" />
+      <option name="MAIN_CLASS_NAME" value="com.platfrom.test001.TestCase.TestUploadCustomer" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -469,16 +474,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStudent" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUploadStudent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testwanwan1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platfrom.test001.TestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="com.platfrom.test001.TestCase" />
-      <option name="MAIN_CLASS_NAME" value="com.platfrom.test001.TestCase.TestStudent" />
+      <option name="MAIN_CLASS_NAME" value="TestUploadStudent" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -488,11 +487,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestUploadCont" />
         <item itemvalue="TestNG.D:/auto/BossOnlineTest/testng_demo001.xml" />
-        <item itemvalue="TestNG.TestClassGrade" />
-        <item itemvalue="TestNG.TestCont" />
-        <item itemvalue="TestNG.TestOnetoNClassGrade" />
-        <item itemvalue="TestNG.TestStudent" />
+        <item itemvalue="TestNG.TestUploadStudent" />
+        <item itemvalue="TestNG.TestUploadCustomer" />
+        <item itemvalue="应用程序.zaji" />
       </list>
     </recent_temporary>
   </component>
@@ -630,21 +629,14 @@
       <workItem from="1572535599352" duration="1597000" />
       <workItem from="1572835093534" duration="1283000" />
       <workItem from="1572837031763" duration="604000" />
-      <workItem from="1572849258400" duration="621000" />
-    </task>
-    <task id="LOCAL-00022" summary="666">
-      <created>1563967624675</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1563967624675</updated>
-    </task>
-    <task id="LOCAL-00023" summary="666">
-      <created>1564020628143</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1564020628159</updated>
+      <workItem from="1572849258400" duration="1511000" />
+      <workItem from="1573184324883" duration="3427000" />
+      <workItem from="1573453914741" duration="777000" />
+      <workItem from="1574070282157" duration="4150000" />
+      <workItem from="1574350102370" duration="923000" />
+      <workItem from="1574390528786" duration="973000" />
+      <workItem from="1575274801009" duration="7247000" />
+      <workItem from="1575425728308" duration="14150000" />
     </task>
     <task id="LOCAL-00024" summary="666">
       <created>1564504036635</created>
@@ -975,43 +967,57 @@
       <option name="project" value="LOCAL" />
       <updated>1571037549222</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="666">
+      <created>1572851836171</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1572851836172</updated>
+    </task>
+    <task id="LOCAL-00072" summary="666">
+      <created>1573193672538</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1573193672539</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestClassGrade - 2019.10.11 at 15h 56m 41s.xml">
-      <configuration name="TestClassGrade" configurationId="TestNG" />
+    <history-entry file="TestUploadStudent - 2019.12.04 at 17h 24m 39s.xml">
+      <configuration name="TestUploadStudent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClassGrade - 2019.10.11 at 16h 04m 33s.xml">
-      <configuration name="TestClassGrade" configurationId="TestNG" />
+    <history-entry file="TestUploadStudent - 2019.12.04 at 17h 28m 22s.xml">
+      <configuration name="TestUploadStudent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestOnetoNClassGrade - 2019.10.11 at 16h 09m 17s.xml">
-      <configuration name="TestOnetoNClassGrade" configurationId="TestNG" />
+    <history-entry file="TestUploadStudent - 2019.12.04 at 17h 30m 34s.xml">
+      <configuration name="TestUploadStudent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestOnetoNClassGrade - 2019.10.11 at 16h 17m 25s.xml">
-      <configuration name="TestOnetoNClassGrade" configurationId="TestNG" />
+    <history-entry file="TestUploadStudent - 2019.12.04 at 17h 35m 37s.xml">
+      <configuration name="TestUploadStudent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__auto_BossOnlineTest_testng_demo001_xml - 2019.10.11 at 23h 27m 46s.xml">
+    <history-entry file="TestUploadStudent - 2019.12.04 at 17h 39m 44s.xml">
+      <configuration name="TestUploadStudent" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestUploadStudent - 2019.12.04 at 17h 44m 58s.xml">
+      <configuration name="TestUploadStudent" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestUploadStudent - 2019.12.04 at 17h 49m 05s.xml">
+      <configuration name="TestUploadStudent" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__auto_BossOnlineTest_testng_demo001_xml - 2019.12.04 at 17h 54m 07s.xml">
       <configuration name="D:/auto/BossOnlineTest/testng_demo001.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCont - 2019.10.11 at 23h 33m 20s.xml">
-      <configuration name="TestCont" configurationId="TestNG" />
+    <history-entry file="TestUploadCont - 2019.12.04 at 18h 22m 13s.xml">
+      <configuration name="TestUploadCont" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClassGrade - 2019.10.11 at 23h 43m 29s.xml">
-      <configuration name="TestClassGrade" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__auto_BossOnlineTest_testng_demo001_xml - 2019.10.31 at 23h 18m 05s.xml">
-      <configuration name="D:/auto/BossOnlineTest/testng_demo001.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__auto_BossOnlineTest_testng_demo001_xml - 2019.10.31 at 23h 27m 18s.xml">
-      <configuration name="D:/auto/BossOnlineTest/testng_demo001.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__auto_BossOnlineTest_testng_demo001_xml - 2019.11.01 at 00h 05m 28s.xml">
-      <configuration name="D:/auto/BossOnlineTest/testng_demo001.xml" configurationId="TestNG" />
+    <history-entry file="TestUploadCont - 2019.12.04 at 18h 24m 48s.xml">
+      <configuration name="TestUploadCont" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="592743000" />
+    <option name="totallyTimeSpent" value="625280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1023,9 +1029,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="281" y="65" width="1539" height="904" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36232656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23155044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1034,18 +1041,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.38969764" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49876544" weight="0.4199328" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.38866398" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49830738" visible="true" weight="0.46018893" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39811066" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925262" weight="0.328125" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925262" weight="0.32793522" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925262" weight="0.32954547" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49850523" weight="0.32954547" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012346" side_tool="true" weight="0.37466308" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32362822" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5016926" side_tool="true" weight="0.37651822" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49898443" weight="0.32253712" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24919957" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1101,50 +1108,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j2-test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2337">
-          <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/demo/test0011.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/TestCont.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="43" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testwanwan1.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/linshigong1.java" />
-    <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestCont.testCont_2019_08_30_17_18_33.png" />
-    <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestCont.testCont_2019_08_30_18_35_17.png" />
     <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestCont.testCont_2019_08_30_19_37_24.png" />
     <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_09_04_18_46_45.png" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.9.1/selenium-api-3.9.1-sources.jar!/org/openqa/selenium/WebDriver.java">
@@ -1155,16 +1118,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_09_04_18_46_44.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestOne/ClassAll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -1175,75 +1128,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/FileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/ReRunListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/ReTryCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/TestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/IndexPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-318">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/LogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-812">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1267,33 +1155,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/PageManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/ExtentTestNGIReportListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1843">
-          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/IReporter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1301,65 +1162,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/RemoteLogWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5282">
-          <caret line="285" column="13" selection-start-line="285" selection-start-column="13" selection-end-line="285" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Cont.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4598">
-          <caret line="249" column="8" selection-start-line="249" selection-start-column="8" selection-end-line="249" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_10_11_15_09_07.png" />
     <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestOnetoNClassGrade.testOnetoNClass_2019_10_11_15_12_30.png" />
     <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_10_11_23_17_13.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCont.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_10_31_23_55_05.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_10_31_23_55_04.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestOnetoNClassGrade.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1371,23 +1181,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_10_31_23_55_05.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestClassGrade.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3458">
-          <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="129" />
+        <state relative-caret-position="931">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j2-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/TestCont.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase/TestCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestOne/ClassAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestCont.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Cont.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="110" column="38" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1398,6 +1250,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3857">
           <caret line="210" selection-start-line="210" selection-end-line="210" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestOne/zaji.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestClassGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4085">
+          <caret line="222" column="71" selection-start-line="222" selection-start-column="4" selection-end-line="222" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4104">
+          <caret line="223" column="20" selection-start-line="223" selection-start-column="20" selection-end-line="223" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1424,13 +1317,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sceenshot/com.platfrom.test001.TestCase.TestClassGrade.Class_2019_10_31_23_55_04.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/ReTryCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/ReRunListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/RemoteLogWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/FileUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/ExtentTestNGIReportListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/SuiteRunnerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+          <folding>
+            <element signature="e#2713#2714#0" expanded="true" />
+            <element signature="e#2778#2779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/Utils/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/PageManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testng_demo001.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="348">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="80" column="40" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/TestCase/TestUploadCont.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="37" column="70" lean-forward="true" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
