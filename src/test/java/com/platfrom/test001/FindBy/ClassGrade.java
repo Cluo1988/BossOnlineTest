@@ -65,11 +65,11 @@ public class ClassGrade {
     //选择年份（2019年）
     @FindBy(xpath = "//select[contains(@class,'ui-datepicker-year')]//option[contains(text(),'2019')]")
     public static WebElement newClassYear;
-    //选择月份（6月）
-    @FindBy(xpath = "//select[contains(@class,'ui-datepicker-month')]//option[contains(text(),'六')]")
+    //选择月份（一月）
+    @FindBy(xpath = "//select[contains(@class,'ui-datepicker-month')]//option[contains(text(),'一')]")
     public static WebElement newClassMonth;
-    //选择天（24日）
-    @FindBy(xpath = "//div[@id='ui-datepicker-div']//tr[5]//td[1]")
+    //选择天（第二个星期一）
+    @FindBy(xpath = "//div[@id='ui-datepicker-div']//tr[2]//td[1]")
     public static WebElement newClassDay;
     //预招生人数（50）
     @FindBy(id = "peopleQuantity")
@@ -105,7 +105,7 @@ public class ClassGrade {
     @FindBy(xpath = "//select[@class='ui-datepicker-month']")
     public static WebElement newClassOpenDataMonth1;
     //点击上课日期-开始日期-2号
-    @FindBy(xpath = "//div[@id='ui-datepicker-div']//tr[1]//td[2]")
+    @FindBy(xpath = "//div[@id='ui-datepicker-div']//tr[2]//td[1]")
     public static WebElement newClassOpenDataBegin;
     //点击上课日期-结束日期选择框
     @FindBy(xpath = "//input[@id='course-date-end']")
@@ -114,7 +114,7 @@ public class ClassGrade {
     @FindBy(xpath = "//select[@class='ui-datepicker-month']")
     public static WebElement newClassOpenDataMonth2;
     //点击上课日期-结束日期-2号
-    @FindBy(xpath = "//div[@id='ui-datepicker-div']//tr[1]//td[2]")
+    @FindBy(xpath = "//div[@id='ui-datepicker-div']//tr[2]//td[1]")
     public static WebElement newClassOpenDataEnd;
     //上课时间（9点05）
     //点击上课时间选择框
@@ -152,14 +152,14 @@ public class ClassGrade {
     //教务-班课管理-分班-点击报班-点击第一次上课时间
     @FindBy(id = "firstSchoolTime")
     public static WebElement newClassMoreStudentFirstTimeClick;
-    //教务-班课管理-分班-点击报班-第一次上课时间-年2019
+    //教务-班课管理-分班-点击报班-第一次上课时间-年
     @FindBy(xpath = "//select[contains(@class,'ui-datepicker-year')]//option[contains(text(),'2019')]")
     public static WebElement newClassMoreStudentFirstTimeClickYear;
-    //教务-班课管理-分班-点击报班-第一次上课时间-月6
-    @FindBy(xpath = "//select[contains(@class,'ui-datepicker-month')]//option[contains(text(),'六')]")
+    //教务-班课管理-分班-点击报班-第一次上课时间-月
+    @FindBy(xpath = "//select[contains(@class,'ui-datepicker-month')]//option[contains(text(),'一')]")
     public static WebElement newClassMoreStudentFirstTimeClickMonth;
-    //教务-班课管理-分班-点击报班-第一次上课时间-日24
-    @FindBy(xpath = "//div[@id='ui-datepicker-div']//tr[5]//td[1]")
+    //教务-班课管理-分班-点击报班-第一次上课时间-日
+    @FindBy(xpath = "//div[@id='ui-datepicker-div']//tr[2]//td[1]")
     public static WebElement newClassMoreStudentFirstTimeClickDay;
 
     //教务-班课管理-分班-点击报班-第一次上课时间-保存
