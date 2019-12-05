@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="502dc8fc-666d-4fb8-948c-bdf3bf1a2a69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/testlog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updown/kh001.exe" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="332" selection-start-line="332" selection-end-line="332" />
+            <state relative-caret-position="111">
+              <caret line="186" column="35" lean-forward="true" selection-start-line="186" selection-start-column="35" selection-end-line="186" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -266,8 +265,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="222" />
-    <option name="y" value="78" />
+    <option name="x" value="811" />
+    <option name="y" value="109" />
     <option name="width" value="1539" />
     <option name="height" value="889" />
   </component>
@@ -628,14 +627,7 @@
       <workItem from="1574390528786" duration="973000" />
       <workItem from="1575274801009" duration="7247000" />
       <workItem from="1575425728308" duration="15631000" />
-      <workItem from="1575512747646" duration="8877000" />
-    </task>
-    <task id="LOCAL-00025" summary="666">
-      <created>1564504596470</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1564504596470</updated>
+      <workItem from="1575512747646" duration="10004000" />
     </task>
     <task id="LOCAL-00026" summary="666">
       <created>1564539754980</created>
@@ -973,7 +965,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575455209102</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="666">
+      <created>1575530259195</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1575530259196</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1009,7 +1008,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="635638000" />
+    <option name="totallyTimeSpent" value="636765000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1021,10 +1020,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="222" y="78" width="1539" height="889" extended-state="0" />
-    <editor active="true" />
+    <frame x="811" y="109" width="1539" height="889" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23493569" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23493569" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1033,8 +1031,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.38866398" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49830738" visible="true" weight="0.46969697" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.38842976" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49830738" weight="0.46969697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39811066" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1451,8 +1449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platfrom/test001/FindBy/ClassGrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        <state relative-caret-position="111">
+          <caret line="186" column="35" lean-forward="true" selection-start-line="186" selection-start-column="35" selection-end-line="186" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
