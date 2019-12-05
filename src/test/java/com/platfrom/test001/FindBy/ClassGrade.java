@@ -88,18 +88,37 @@ public class ClassGrade {
     @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='（周日）'])[1]/following::td[18]")
     public static WebElement newClassTeacher;
     //选择上课日期（24号）
+    //点击添加排课下拉展示框
+    @FindBy(xpath = "//a[@class='show-course-setting']")
+    public static WebElement newClassAddData;
+    //切换一下分页到关联班课
+    @FindBy(xpath = "//span[@id='relateMiniClass']")
+    public static WebElement newClassAddData1;
+    //切换一下分页到排课信息
+    @FindBy(xpath = "//span[@id='regularSchedule']")
+    public static WebElement newClassAddData2;
+
     //点击上课日期选择框
-    @FindBy(id = "courseDate_range")
-    public static WebElement newClassOpenDatabtn;
-    //点击上课日期-开始日期
-    @FindBy(xpath = "//div[@id='remoteModaleditMiniClassModal']//table[contains(@class,'month1')]//tr[5]//td[1]")
+    @FindBy(xpath = "//input[@id='course-date-start']")
+    public static WebElement newClassOpenDatabtn1;
+    //点击选择1月
+    @FindBy(xpath = "//select[@class='ui-datepicker-month']")
+    public static WebElement newClassOpenDataMonth1;
+    //点击上课日期-开始日期-2号
+    @FindBy(xpath = "//div[@id='ui-datepicker-div']//tr[1]//td[2]")
     public static WebElement newClassOpenDataBegin;
-    //点击上课日期-结束日期
-    @FindBy(xpath = "//div[@id='remoteModaleditMiniClassModal']//table[contains(@class,'month1')]//tr[5]//td[1]")
+    //点击上课日期-结束日期选择框
+    @FindBy(xpath = "//input[@id='course-date-end']")
+    public static WebElement newClassOpenDatabtn2;
+    //点击选择1月
+    @FindBy(xpath = "//select[@class='ui-datepicker-month']")
+    public static WebElement newClassOpenDataMonth2;
+    //点击上课日期-结束日期-2号
+    @FindBy(xpath = "//div[@id='ui-datepicker-div']//tr[1]//td[2]")
     public static WebElement newClassOpenDataEnd;
     //上课时间（9点05）
     //点击上课时间选择框
-    @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='操作'])[2]/following::input[1]")
+    @FindBy(xpath = "//div[contains(@class,'form-group by-day-show')]//div//input[contains(@placeholder,'请选择')]")
     public static WebElement newClassOpenTimebtn;
     //点击上课时间选择框-小时
     @FindBy(xpath = "//div[@class='clockpicker-dial clockpicker-hours']//div[9]")
@@ -271,8 +290,24 @@ public class ClassGrade {
         ClassAll.sleep(10000);
         newClassTeacher.click();
         ClassAll.sleep(10000);
-        newClassOpenDatabtn.click();
+        newClassAddData.click();
+        ClassAll.sleep(10000);
+        newClassAddData1.click();
+        ClassAll.sleep(10000);
+        newClassAddData2.click();
+        ClassAll.sleep(10000);
+        newClassOpenDatabtn1.click();
+        ClassAll.sleep(10000);
+        newClassOpenDataMonth1.click();
+        ClassAll.sleep(10000);
+        newClassOpenDataMonth1.sendKeys("一");
+        ClassAll.sleep(10000);
         newClassOpenDataBegin.click();
+        ClassAll.sleep(10000);
+        newClassOpenDatabtn2.click();
+        ClassAll.sleep(10000);
+        newClassOpenDataMonth2.sendKeys("一");
+        ClassAll.sleep(10000);
         newClassOpenDataEnd.click();
         ClassAll.sleep(10000);
         newClassOpenTimebtn.click();
