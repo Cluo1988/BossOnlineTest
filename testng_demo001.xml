@@ -13,15 +13,15 @@
 <!--            <package name="com.platfrom.test001.TestCase"></package>-->
 <!--        </packages>-->
         <classes>
-            <class name="com.platfrom.test001.TestCase.TestProduct"></class>
-            <class name="com.platfrom.test001.TestCase.TestCont"></class>
-            <class name="com.platfrom.test001.TestCase.TestOnetoOneClasses"></class>
-            <class name="com.platfrom.test001.TestCase.TestClassGrade"></class>
-            <class name="com.platfrom.test001.TestCase.TestOnetoNClassGrade"></class>
-            <class name="com.platfrom.test001.TestCase.TestStudent"></class>
-            <class name="com.platfrom.test001.TestCase.TestCustomer"></class>
-            <class name="com.platfrom.test001.TestCase.TestUploadCustomer"></class>
-            <class name="com.platfrom.test001.TestCase.TestUploadStudent"></class>
+<!--            <class name="com.platfrom.test001.TestCase.TestProduct"></class>-->
+<!--            <class name="com.platfrom.test001.TestCase.TestCont"></class>-->
+<!--            <class name="com.platfrom.test001.TestCase.TestOnetoOneClasses"></class>-->
+<!--            <class name="com.platfrom.test001.TestCase.TestClassGrade"></class>-->
+<!--            <class name="com.platfrom.test001.TestCase.TestOnetoNClassGrade"></class>-->
+<!--            <class name="com.platfrom.test001.TestCase.TestStudent"></class>-->
+<!--            <class name="com.platfrom.test001.TestCase.TestCustomer"></class>-->
+<!--            <class name="com.platfrom.test001.TestCase.TestUploadCustomer"></class>-->
+<!--            <class name="com.platfrom.test001.TestCase.TestUploadStudent"></class>-->
             <class name="com.platfrom.test001.TestCase.TestUploadCont"></class>
         </classes>
     </test>
