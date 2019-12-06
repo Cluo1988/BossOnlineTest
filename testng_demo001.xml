@@ -13,7 +13,7 @@
 <!--            <package name="com.platfrom.test001.TestCase"></package>-->
 <!--        </packages>-->
         <classes>
-            <class name="com.platfrom.test001.TestCase.TestProduct"></class>
+<!--            <class name="com.platfrom.test001.TestCase.TestProduct"></class>-->
             <class name="com.platfrom.test001.TestCase.TestCont"></class>
             <class name="com.platfrom.test001.TestCase.TestOnetoOneClasses"></class>
             <class name="com.platfrom.test001.TestCase.TestClassGrade"></class>
