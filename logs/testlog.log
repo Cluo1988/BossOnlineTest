@@ -1,89 +1,13 @@
-2019-12-05 17:07:57.579 [main] INFO  com.platfrom.test001.Utils.BaseTest - j_username_face定位已找到元素
-2019-12-05 17:07:57.775 [main] INFO  com.platfrom.test001.Utils.BaseTest - j_password定位已找到元素
-2019-12-05 17:07:57.964 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@type='submit']定位已找到元素
-2019-12-05 17:08:09.234 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[@title='教务']定位已找到元素
-2019-12-05 17:08:19.329 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[contains(text(),'班课管理')]定位已找到元素
-2019-12-05 17:08:19.525 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]定位已找到元素
-2019-12-05 17:08:31.887 [main] INFO  com.platfrom.test001.Utils.BaseTest - (.//*[normalize-space(text()) and normalize-space(.)='报名'])[1]/following::button[1]定位已找到元素
-2019-12-05 17:08:32.124 [main] INFO  com.platfrom.test001.Utils.BaseTest - 手动开班定位已找到元素
-2019-12-05 17:08:42.610 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[@id='campusEl']//option[contains(text(),'伯纳乌')]定位已找到元素
-2019-12-05 17:08:42.704 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@class='btn btn-primary submit']定位已找到元素
-2019-12-05 17:08:52.903 [main] INFO  com.platfrom.test001.Utils.BaseTest - (.//*[normalize-space(text()) and normalize-space(.)='+ 新建课程'])[1]/following::div[2]定位已找到元素
-2019-12-05 17:09:03.331 [main] INFO  com.platfrom.test001.Utils.BaseTest - (.//*[normalize-space(text()) and normalize-space(.)='选择关联的班课产品'])[1]/following::input[1]定位已找到元素
-2019-12-05 17:09:03.550 [main] INFO  com.platfrom.test001.Utils.BaseTest - (.//*[normalize-space(text()) and normalize-space(.)='选择关联的班课产品'])[1]/following::input[1]定位已找到元素
-2019-12-05 17:09:13.604 [main] INFO  com.platfrom.test001.Utils.BaseTest - (.//*[normalize-space(text()) and normalize-space(.)='冬季'])[4]/following::a[1]定位已找到元素
-2019-12-05 17:09:23.804 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[@id='miniClassSchedule']//option[contains(text(),'2019年暑假')]定位已找到元素
-2019-12-05 17:09:23.877 [main] INFO  com.platfrom.test001.Utils.BaseTest - startDateFrom定位已找到元素
-2019-12-05 17:09:24.136 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[contains(@class,'ui-datepicker-year')]//option[contains(text(),'2019')]定位已找到元素
-2019-12-05 17:09:24.309 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[contains(@class,'ui-datepicker-month')]//option[contains(text(),'一')]定位已找到元素
-2019-12-05 17:09:24.458 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@id='ui-datepicker-div']//tr[2]//td[1]定位已找到元素
-2019-12-05 17:09:24.592 [main] INFO  com.platfrom.test001.Utils.BaseTest - peopleQuantity定位已找到元素
-2019-12-05 17:09:24.747 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[@id='studyManegerId']//option[contains(text(),'二狗子')]定位已找到元素
-2019-12-05 17:09:24.843 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@class='col-md-8']//option[contains(text(),'物理')]定位已找到元素
-2019-12-05 17:09:34.973 [main] INFO  com.platfrom.test001.Utils.BaseTest - showTeacherModalBtn定位已找到元素
-2019-12-05 17:09:45.417 [main] INFO  com.platfrom.test001.Utils.BaseTest - (.//*[normalize-space(text()) and normalize-space(.)='（周日）'])[1]/following::td[18]定位已找到元素
-2019-12-05 17:09:55.569 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[@class='show-course-setting']定位已找到元素
-2019-12-05 17:10:05.729 [main] INFO  com.platfrom.test001.Utils.BaseTest - //span[@id='relateMiniClass']定位已找到元素
-2019-12-05 17:10:15.947 [main] INFO  com.platfrom.test001.Utils.BaseTest - //span[@id='regularSchedule']定位已找到元素
-2019-12-05 17:10:26.148 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='course-date-start']定位已找到元素
-2019-12-05 17:10:36.382 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[@class='ui-datepicker-month']定位已找到元素
-2019-12-05 17:10:46.606 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[@class='ui-datepicker-month']定位已找到元素
-2019-12-05 17:10:56.650 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@id='ui-datepicker-div']//tr[2]//td[1]定位已找到元素
-2019-12-05 17:11:06.900 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='course-date-end']定位已找到元素
-2019-12-05 17:11:17.116 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[@class='ui-datepicker-month']定位已找到元素
-2019-12-05 17:11:27.306 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@id='ui-datepicker-div']//tr[2]//td[1]定位已找到元素
-2019-12-05 17:11:37.430 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[contains(@class,'form-group by-day-show')]//div//input[contains(@placeholder,'请选择')]定位已找到元素
-2019-12-05 17:11:47.608 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@class='clockpicker-dial clockpicker-hours']//div[9]定位已找到元素
-2019-12-05 17:11:47.820 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@class='clockpicker-tick'][contains(text(),'05')]定位已找到元素
-2019-12-05 17:11:58.036 [main] INFO  com.platfrom.test001.Utils.BaseTest - appointmentDateSubmit定位已找到元素
-2019-12-05 17:12:08.331 [main] INFO  com.platfrom.test001.Utils.BaseTest - //tr[@id='1']//button[@class='btn btn-xs btn-default miniClasStuSigUpModal enableRes']定位已找到元素
-2019-12-05 17:12:18.775 [main] INFO  com.platfrom.test001.Utils.BaseTest - studentName定位已找到元素
-2019-12-05 17:12:28.957 [main] INFO  com.platfrom.test001.Utils.BaseTest - searchBtn定位已找到元素
-2019-12-05 17:12:39.109 [main] INFO  com.platfrom.test001.Utils.BaseTest - //tr[@id='1']//a[@class='link addStudent enableRes'][contains(text(),'报班')]定位已找到元素
-2019-12-05 17:12:49.449 [main] INFO  com.platfrom.test001.Utils.BaseTest - firstSchoolTime定位已找到元素
-2019-12-05 17:12:49.615 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[contains(@class,'ui-datepicker-year')]//option[contains(text(),'2019')]定位已找到元素
-2019-12-05 17:12:49.795 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[contains(@class,'ui-datepicker-month')]//option[contains(text(),'一')]定位已找到元素
-2019-12-05 17:12:49.971 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@id='ui-datepicker-div']//tr[2]//td[1]定位已找到元素
-2019-12-05 17:13:00.118 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@class='btn btn-primary submit']定位已找到元素
-2019-12-05 17:13:10.289 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@id='remoteModalminiClassStudentSignupModal']//button[@class='close'][contains(text(),'×')]定位已找到元素
-2019-12-05 17:13:20.447 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[@id='blCampusEl']//option[contains(text(),'伯纳乌')]定位已找到元素
-2019-12-05 17:13:20.541 [main] INFO  com.platfrom.test001.Utils.BaseTest - search-mini-class-name定位已找到元素
-2019-12-05 17:13:20.588 [main] INFO  com.platfrom.test001.Utils.BaseTest - search-mini-class-name定位已找到元素
-2019-12-05 17:13:30.742 [main] INFO  com.platfrom.test001.Utils.BaseTest - searchbtn定位已找到元素
-2019-12-05 17:13:40.924 [main] INFO  com.platfrom.test001.Utils.BaseTest - //tr[@id='1']//button[@class='btn btn-xs btn-default miniClassAttendance enableRes'][contains(text(),'考勤')]定位已找到元素
-2019-12-05 17:13:51.098 [main] INFO  com.platfrom.test001.Utils.BaseTest - //td[contains(text(),'未考勤')]定位已找到元素
-2019-12-05 17:13:51.245 [main] INFO  com.platfrom.test001.Utils.BaseTest - miniClassAttendanceBtn定位已找到元素
-2019-12-05 17:14:01.578 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='cb_jqgrid-attd']定位已找到元素
-2019-12-05 17:14:01.758 [main] INFO  com.platfrom.test001.Utils.BaseTest - minicourse-submit-charge定位已找到元素
-2019-12-05 17:14:11.910 [main] INFO  com.platfrom.test001.Utils.BaseTest - confirm-yes定位已找到元素
-2019-12-05 17:14:32.123 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[contains(@class,'tabs-close fa fa-remove')]定位已找到元素
-2019-12-05 17:14:42.292 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[@title='教务']定位已找到元素
-2019-12-05 17:14:52.380 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[contains(text(),'班课考勤')]定位已找到元素
-2019-12-05 17:14:52.542 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]定位已找到元素
-2019-12-05 17:15:03.176 [main] INFO  com.platfrom.test001.Utils.BaseTest - date_range定位已找到元素
-2019-12-05 17:15:03.432 [main] INFO  com.platfrom.test001.Utils.BaseTest - (.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[1]/following::input[1]定位已找到元素
-2019-12-05 17:15:03.711 [main] INFO  com.platfrom.test001.Utils.BaseTest - miniClassName定位已找到元素
-2019-12-05 17:15:03.838 [main] INFO  com.platfrom.test001.Utils.BaseTest - searchBtn定位已找到元素
-2019-12-05 17:15:14.114 [main] INFO  com.platfrom.test001.Utils.BaseTest - classTeacherDeduction定位已找到元素
-2019-12-05 17:15:24.337 [main] INFO  com.platfrom.test001.Utils.BaseTest - showChargedMcCourses定位已找到元素
-2019-12-05 17:15:34.529 [main] INFO  com.platfrom.test001.Utils.BaseTest - showUnchargedMcCourses定位已找到元素
-2019-12-05 17:15:44.731 [main] INFO  com.platfrom.test001.Utils.BaseTest - (.//*[normalize-space(text()) and normalize-space(.)='无'])[1]/following::button[1]定位已找到元素
-2019-12-05 17:15:55.026 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='cb_jqgrid-attd']定位已找到元素
-2019-12-05 17:15:55.232 [main] INFO  com.platfrom.test001.Utils.BaseTest - minicourse-submit-roll定位已找到元素
-2019-12-05 17:16:05.355 [main] INFO  com.platfrom.test001.Utils.BaseTest - confirm-yes定位已找到元素
-2019-12-05 17:16:15.506 [main] INFO  com.platfrom.test001.Utils.BaseTest - (.//*[normalize-space(text()) and normalize-space(.)='请选择一个日期范围'])[1]/following::button[1]定位已找到元素
-2019-12-05 17:16:25.618 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[contains(@class,'tabs-close fa fa-remove')]定位已找到元素
-2019-12-05 17:16:35.759 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[@title='教务']定位已找到元素
-2019-12-05 17:16:45.837 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[contains(text(),'班课管理')]定位已找到元素
-2019-12-05 17:16:55.972 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]定位已找到元素
-2019-12-05 17:17:06.009 [main] INFO  com.platfrom.test001.Utils.BaseTest - search-mini-class-name定位已找到元素
-2019-12-05 17:17:06.178 [main] INFO  com.platfrom.test001.Utils.BaseTest - searchbtn定位已找到元素
-2019-12-05 17:17:16.383 [main] INFO  com.platfrom.test001.Utils.BaseTest - //tr[@id='1']//button[@class='btn btn-xs btn-default miniClasStuSigUpModal enableRes']定位已找到元素
-2019-12-05 17:17:26.792 [main] INFO  com.platfrom.test001.Utils.BaseTest - 退班定位已找到元素
-2019-12-05 17:17:37.078 [main] INFO  com.platfrom.test001.Utils.BaseTest - (.//*[normalize-space(text()) and normalize-space(.)='取消'])[3]/following::button[1]定位已找到元素
-2019-12-05 17:17:47.204 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@id='remoteModalminiClassStudentSignupModal']//button[@class='close'][contains(text(),'×')]定位已找到元素
-2019-12-05 17:17:57.326 [main] INFO  com.platfrom.test001.Utils.BaseTest - //tr[@id='1']//button[@class='btn btn-xs btn-default miniClassDetailModal enableRes'][contains(text(),'详情')]定位已找到元素
-2019-12-05 17:18:17.533 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[contains(@class,'tabs-close fa fa-remove')]定位已找到元素
-2019-12-05 17:18:27.679 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]定位已找到元素
-2019-12-05 17:18:47.717 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[contains(text(),'删除此班')]定位已找到元素
-2019-12-05 17:18:57.850 [main] INFO  com.platfrom.test001.Utils.BaseTest - confirm-yes定位已找到元素
+2019-12-13 00:39:32.283 [main] INFO  com.platfrom.test001.Utils.BaseTest - j_username_face定位已找到元素
+2019-12-13 00:39:32.460 [main] INFO  com.platfrom.test001.Utils.BaseTest - j_password定位已找到元素
+2019-12-13 00:39:32.618 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@type='submit']定位已找到元素
+2019-12-13 00:39:44.024 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[@title='学员']定位已找到元素
+2019-12-13 00:39:54.126 [main] INFO  com.platfrom.test001.Utils.BaseTest - //a[contains(text(),'学员列表')]定位已找到元素
+2019-12-13 00:39:54.368 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@class='tabs-panels tabs-panels-noborder']//div[2]//div[1]//iframe[1]定位已找到元素
+2019-12-13 00:40:05.968 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@id='importInOrOUT']定位已找到元素
+2019-12-13 00:40:16.153 [main] INFO  com.platfrom.test001.Utils.BaseTest - //li[@id='importStudentLink']//a[@class='importExport']定位已找到元素
+2019-12-13 00:40:26.389 [main] INFO  com.platfrom.test001.Utils.BaseTest - //select[@id='importStudentModalBrenchId']定位已找到元素
+2019-12-13 00:40:36.502 [main] INFO  com.platfrom.test001.Utils.BaseTest - //input[@id='createNew']定位已找到元素
+2019-12-13 00:40:46.685 [main] INFO  com.platfrom.test001.Utils.BaseTest - //div[@id='dropArea']定位已找到元素
+2019-12-13 00:41:06.929 [main] INFO  com.platfrom.test001.Utils.BaseTest - //button[@id='startImport']定位已找到元素
+2019-12-13 00:41:17.140 [main] INFO  com.platfrom.test001.Utils.BaseTest - //p[@class='text-center margin-top-20 margin-bottom-20']定位已找到元素
