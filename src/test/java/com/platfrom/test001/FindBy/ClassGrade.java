@@ -118,7 +118,7 @@ public class ClassGrade {
     public static WebElement newClassOpenDataEnd;
     //排课规律
     //点击排课规律-每天
-    @FindBy(xpath = "//div[@class='rowline padding-top-10 rel']//div[5]//div[1]//label[2]//input[1]")
+    @FindBy(xpath = "//div[@class='rowline padding-top-10 rel']//div[5]//div[1]//label[3]//input[1]")
     public static WebElement newClassOpenRule;
     //上课时间（9点05）
     //点击上课时间选择框
